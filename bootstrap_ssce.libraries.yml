@@ -18,7 +18,7 @@ framework:
 #    bootstrap/js/tab.js: {}
 #    bootstrap/js/transition.js: {}
 
-Uncomment for SASS source JavaScript files.
+# Uncomment for SASS source JavaScript files.
  js:
    bootstrap/assets/javascripts/bootstrap/affix.js: {}
    bootstrap/assets/javascripts/bootstrap/alert.js: {}

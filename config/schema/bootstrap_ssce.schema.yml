@@ -2,4 +2,4 @@
 
 bootstrap_ssce.settings:
   type: theme_settings
-  label: 'bootstrap_ssce settings'
+  label: 'Bootstrap SSCE settings'
