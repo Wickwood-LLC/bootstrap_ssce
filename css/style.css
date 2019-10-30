@@ -8398,11 +8398,13 @@ body.toolbar-loading.toolbar {
   color: #fff;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 1.5em;
 }
 
-.popover ol:last-child, .popover ul:last-child {
+.popover ol:last-child, .popover
+ul:last-child {
   margin-bottom: 0;
 }
 
@@ -8444,14 +8446,48 @@ p:last-child,
   overflow: hidden;
 }
 
-.help-block, .control-group .help-inline {
+.help-block,
+.control-group .help-inline {
   color: #777777;
   font-size: 12px;
   margin: 5px 0 10px;
   padding: 0;
 }
 
-.help-block:first-child, .control-group .help-inline:first-child {
+.help-block:first-child,
+.control-group .help-inline:first-child {
   margin-top: 0;
+}
+
+.wt-button {
+  display: inline-block;
+  padding: 14px 7px;
+  border-radius: 3px;
+  transition: all .4s ease;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  border: 1px solid #2479ff;
+  margin: 5px 10px;
+}
+
+.wt-button.wt-primary {
+  background-color: #2479ff;
+  color: white;
+}
+
+.wt-button.wt-primary:hover {
+  background-color: #1b5cc3;
+  color: #fff;
+  letter-spacing: .2px;
+}
+
+.region-footer {
+  text-align: center;
+}
+
+#block-bootstrap-ssce-footer li {
+  display: inline-block;
 }
 /*# sourceMappingURL=style.css.map */

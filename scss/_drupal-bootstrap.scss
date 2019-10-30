@@ -16,8 +16,10 @@
 // jQuery UI style overrides.
 @import "drupal-bootstrap/jquery-ui/autocomplete";
 
-ol, ul {
+ol,
+ul {
   padding-left: 1.5em;
+
   .popover &:last-child {
     margin-bottom: 0;
   }
@@ -56,22 +58,58 @@ p:last-child,
 
 // Help region.
 .region-help {
-  > .glyphicon {
+  >.glyphicon {
     font-size: $font-size-large;
     float: left;
     margin: -0.05em 0.5em 0 0;
   }
+
   .block {
     overflow: hidden;
   }
 }
 
-.help-block, .control-group .help-inline {
+.help-block,
+.control-group .help-inline {
   color: $gray-light;
   font-size: 12px;
   margin: 5px 0 10px;
   padding: 0;
+
   &:first-child {
     margin-top: 0;
+  }
+}
+
+.wt-button {
+  display: inline-block;
+  padding: 14px 7px;
+  border-radius: 3px;
+  transition: all .4s ease;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  border: 1px solid #2479ff;
+  margin: 5px 10px;
+
+  &.wt-primary {
+    background-color: #2479ff;
+    color: white;
+    
+    &:hover {
+      background-color: #1b5cc3;
+      color: #fff;
+      letter-spacing: .2px;
+    }
+  }
+}
+
+.region-footer {
+  text-align: center;
+}
+#block-bootstrap-ssce-footer {
+  li {
+    display: inline-block;
   }
 }
