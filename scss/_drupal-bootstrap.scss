@@ -36,6 +36,20 @@ ul {
   align-items: center;
 }
 
+#block-headerlinks {
+  .phone-link {
+    color: unset;
+    
+    &:hover{
+      color: #23527c;
+      text-decoration: none;
+    }
+  }
+  .btn {
+    margin-left: 1em;
+  }
+}
+
 // Page header.
 .page-header {
   margin-top: 0;

@@ -8419,6 +8419,19 @@ ul:last-child {
   align-items: center;
 }
 
+#block-headerlinks .phone-link {
+  color: unset;
+}
+
+#block-headerlinks .phone-link:hover {
+  color: #23527c;
+  text-decoration: none;
+}
+
+#block-headerlinks .btn {
+  margin-left: 1em;
+}
+
 .page-header {
   margin-top: 0;
 }
