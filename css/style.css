@@ -8410,6 +8410,13 @@ ol, ul {
   display: inline-block;
 }
 
+.region-navigation-collapsible {
+  display: flex;
+  min-height: 50px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .page-header {
   margin-top: 0;
 }
