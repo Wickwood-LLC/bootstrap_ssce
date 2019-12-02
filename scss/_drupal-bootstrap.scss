@@ -27,6 +27,11 @@ ul {
 
 .navbar-text {
   display: inline-block;
+  font-family: GeometrySoftPro-BoldA;
+
+  &:before {
+    content: 'with ';
+  }
 }
 
 .region-navigation-collapsible {
