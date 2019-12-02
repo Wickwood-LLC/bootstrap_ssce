@@ -137,3 +137,49 @@ p:last-child,
     display: inline-block;
   }
 }
+
+.path-frontpage {
+  .main-container {
+    width: 100% !important;
+    padding: 0;
+  }
+
+  section[data-layout-content-preview-placeholder-label="\"Save 10%\" block"]{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(248, 248, 249));
+    padding: 0 60px 60px 60px;
+  }
+  section[data-layout-content-preview-placeholder-label="\"Save with Common Energy\" block" ] {
+    background-color: rgba(245,245,247,.71);
+    padding: 0 60px 49px 60px;
+  }
+  section[data-layout-content-preview-placeholder-label="\"How it Works\" block"] {
+    background-color: #f8f7f2;
+    padding: 92px 60px 127px;
+  }
+  section[data-layout-content-preview-placeholder-label="\"FAQs\" views block"] {
+    background-color: #fffcfc;
+    padding: 88px 60px 151px;
+  }
+  section[data-layout-content-preview-placeholder-label="\"Sign up for free in two minutes.\" block"] {
+    background-image: linear-gradient(180deg,#2479ff,#2479ff);
+    display: flex;
+    height: 268px;
+    justify-content: center;
+    align-items: center;
+
+    .field--name-body {
+      color: white;
+    }
+  }
+}
+
+.btn-outline-primary {
+  border-color: #fff;
+  color: #fff;
+  text-align: center;
+
+  &:hover{
+    border-color: hsla(0,0%,100%,.25);
+    background-color: hsla(0,0%,100%,.25);
+  }
+}
