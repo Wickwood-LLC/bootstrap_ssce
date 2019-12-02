@@ -1,5 +1,6 @@
 name: 'Bootstrap SSCE'
 description: 'A Drupal Bootstrap 3 based sub-theme for CommonEnergy'
+version: '1.0'
 package: 'Bootstrap'
 core: 8.x
 type: theme
@@ -21,3 +22,6 @@ regions:
 libraries-extend:
   bootstrap/framework:
     - bootstrap_ssce/framework
+
+libraries:
+  - bootstrap_ssce/fonts
