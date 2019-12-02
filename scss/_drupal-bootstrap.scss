@@ -34,6 +34,11 @@ ul {
   }
 }
 
+.region-navigation {
+  display: inline-flex;
+  align-items: baseline;
+}
+
 .region-navigation-collapsible {
   display: flex;
   min-height: 50px;

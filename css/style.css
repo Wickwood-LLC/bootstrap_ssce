@@ -8548,6 +8548,13 @@ ul:last-child {
   content: 'with ';
 }
 
+.region-navigation {
+  display: -webkit-inline-box;
+  display: inline-flex;
+  -webkit-box-align: baseline;
+          align-items: baseline;
+}
+
 .region-navigation-collapsible {
   display: -webkit-box;
   display: flex;
