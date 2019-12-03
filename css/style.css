@@ -8530,6 +8530,22 @@ body.toolbar-loading.toolbar {
   color: #fff;
 }
 
+html {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 4 * ((100vw - 320px) / 930));
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  html {
+    font-size: 20px;
+  }
+}
+
 h1 {
   font-size: 24px;
 }
