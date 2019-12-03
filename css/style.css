@@ -8810,9 +8810,19 @@ p:last-child,
   margin-bottom: 56px;
 }
 
+.path-frontpage section[data-layout-content-preview-placeholder-label='"Save 10%" block'] .field--name-body {
+  max-width: 1920px;
+  margin: auto;
+}
+
 .path-frontpage section[data-layout-content-preview-placeholder-label='"Save with Common Energy" block'] {
   background-color: rgba(245, 245, 247, 0.71);
   padding: 102px 60px 49px 60px;
+}
+
+.path-frontpage section[data-layout-content-preview-placeholder-label='"Save with Common Energy" block'] .field--name-body {
+  max-width: 1920px;
+  margin: auto;
 }
 
 .path-frontpage section[data-layout-content-preview-placeholder-label='"How it Works" block'] {
@@ -8820,9 +8830,23 @@ p:last-child,
   padding: 92px 60px 127px;
 }
 
+.path-frontpage section[data-layout-content-preview-placeholder-label='"How it Works" block'] .field--name-body {
+  max-width: 1920px;
+  margin: auto;
+}
+
 .path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] {
   background-color: #fffcfc;
   padding: 88px 60px 151px;
+}
+
+.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .block-title {
+  text-align: center;
+}
+
+.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .views-element-container {
+  max-width: 1920px;
+  margin: auto;
 }
 
 .path-frontpage section[data-layout-content-preview-placeholder-label='"Sign up for free in two minutes." block'] {
