@@ -139,8 +139,14 @@ p:last-child,
 }
 
 .path-frontpage {
+  .row {
+    margin: 0;
+  }
   .main-container {
     width: 100% !important;
+    padding: 0;
+  }
+  section.col-sm-12 {
     padding: 0;
   }
 

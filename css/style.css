@@ -8651,8 +8651,16 @@ p:last-child,
   display: inline-block;
 }
 
+.path-frontpage .row {
+  margin: 0;
+}
+
 .path-frontpage .main-container {
   width: 100% !important;
+  padding: 0;
+}
+
+.path-frontpage section.col-sm-12 {
   padding: 0;
 }
 
