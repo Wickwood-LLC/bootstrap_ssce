@@ -8790,6 +8790,11 @@ p:last-child,
   margin: 0;
 }
 
+.path-frontpage .region-header {
+  max-width: 1920px;
+  margin: auto;
+}
+
 .path-frontpage .main-container {
   width: 100% !important;
   padding: 0;
