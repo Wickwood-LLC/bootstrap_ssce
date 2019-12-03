@@ -7682,6 +7682,7 @@ button.close {
   }
 }
 
+/* Fluid Typography */
 #drupal-off-canvas .ui-state-default {
   color: #333;
   border: 0;
@@ -8527,6 +8528,118 @@ body.toolbar-loading.toolbar {
 .ui-autocomplete .ui-menu-item.ui-state-active, .ui-autocomplete .ui-menu-item.ui-state-focus {
   background: #337ab7;
   color: #fff;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 320px) {
+  h1 {
+    font-size: calc(24px + 16 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+h2 {
+  font-size: 22px;
+}
+
+@media screen and (min-width: 320px) {
+  h2 {
+    font-size: calc(22px + 14 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h2 {
+    font-size: 36px;
+  }
+}
+
+h3 {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  h3 {
+    font-size: calc(20px + 10 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+
+h4 {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 320px) {
+  h4 {
+    font-size: calc(18px + 6 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h4 {
+    font-size: 24px;
+  }
+}
+
+h5 {
+  font-size: 17px;
+}
+
+@media screen and (min-width: 320px) {
+  h5 {
+    font-size: calc(17px + 5 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h5 {
+    font-size: 22px;
+  }
+}
+
+h6 {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+  h6 {
+    font-size: calc(16px + 4 * ((100vw - 320px) / 930));
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  h6 {
+    font-size: 20px;
+  }
+}
+
+p {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+  p {
+    font-size: calc(16px + 4 * ((100vw - 320px) / 930));
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  p {
+    font-size: 20px;
+  }
 }
 
 ol,
