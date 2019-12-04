@@ -254,3 +254,8 @@ p:last-child,
     background-color: hsla(0,0%,100%,.25);
   }
 }
+
+.ui-widget.ui-widget-content,
+.ui-widget.ui-dialog.ui-dialog-off-canvas {
+  z-index: 10000;
+}
