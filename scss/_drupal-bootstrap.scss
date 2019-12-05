@@ -245,13 +245,12 @@ p:last-child,
     .views-accordion-header {
       border: 0;
       background: 0;
+    }
+    .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+      color: #454545;
 
-      .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
-        color: #454545;
-
-        .ui-icon {
-          filter: invert(1);
-        }
+      .ui-icon {
+        filter: invert(1);
       }
     }
     .ui-accordion-content {
