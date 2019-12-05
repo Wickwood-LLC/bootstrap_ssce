@@ -8807,7 +8807,7 @@ p:last-child,
 .path-frontpage section[data-layout-content-preview-placeholder-label='"Save 10%" block'] {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f8f8f9));
   background-image: linear-gradient(180deg, #fff, #f8f8f9);
-  padding: 0 0 60px 60px;
+  padding: 0 60px 60px 60px;
 }
 
 .path-frontpage section[data-layout-content-preview-placeholder-label='"Save 10%" block'] p {
