@@ -8854,6 +8854,39 @@ p:last-child,
   margin: auto;
 }
 
+.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .view-content > .views-row {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-flow: row wrap;
+}
+
+.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .view-content > .views-row > .views-row {
+  -webkit-box-flex: 1;
+          flex: 1 1 auto;
+  margin: 0.5em;
+  max-width: calc((100% / 3) - 1em);
+}
+
+.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .views-accordion-header {
+  border: 0;
+  background: 0;
+}
+
+.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .views-accordion-header .ui-state-active a, .path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .views-accordion-header .ui-state-active a:link, .path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .views-accordion-header .ui-state-active a:visited {
+  color: #454545;
+}
+
+.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .views-accordion-header .ui-state-active a .ui-icon, .path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .views-accordion-header .ui-state-active a:link .ui-icon, .path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .views-accordion-header .ui-state-active a:visited .ui-icon {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .ui-accordion-content {
+  border: 0;
+}
+
 .path-frontpage section[data-layout-content-preview-placeholder-label='"Sign up for free in two minutes." block'] {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#2479ff), to(#2479ff));
   background-image: linear-gradient(180deg, #2479ff, #2479ff);

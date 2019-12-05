@@ -230,6 +230,33 @@ p:last-child,
       max-width: 1920px;
       margin: auto;
     }
+
+    .view-content > .views-row {
+      display: flex;
+      flex-flow: row wrap;
+
+      > .views-row {
+        flex: 1 1 auto;
+        margin: 0.5em;
+        max-width: calc((100% / 3) - 1em);
+      }
+    }
+
+    .views-accordion-header {
+      border: 0;
+      background: 0;
+
+      .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+        color: #454545;
+
+        .ui-icon {
+          filter: invert(1);
+        }
+      }
+    }
+    .ui-accordion-content {
+      border: 0;
+    }
   }
   section[data-layout-content-preview-placeholder-label="\"Sign up for free in two minutes.\" block"] {
     background-image: linear-gradient(180deg,#2479ff,#2479ff);
@@ -259,3 +286,4 @@ p:last-child,
 .ui-widget.ui-dialog.ui-dialog-off-canvas {
   z-index: 10000;
 }
+
