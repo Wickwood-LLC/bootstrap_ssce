@@ -236,9 +236,17 @@ p:last-child,
       flex-flow: row wrap;
 
       > .views-row {
-        flex: 1 1 auto;
+        flex: 1 1 100%;
         margin: 0.5em;
-        max-width: calc((100% / 3) - 1em);
+
+        @include breakpoint(480px) {
+          flex: 1 1 calc(50% - 1em);
+          max-width: calc(50% - 1em);
+        }
+        @include breakpoint(768px) {
+          flex: 1 1 calc((100% / 3) - 1em); 
+          max-width: calc((100% / 3) - 1em);
+        }
       }
     }
 
