@@ -246,8 +246,10 @@ p:last-child,
       border: 0;
       background: 0;
     }
-    .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
-      color: #454545;
+    .ui-state-active {
+      a, a:link, a:visited {
+        color: #454545;
+      }
 
       .ui-icon {
         filter: invert(1);

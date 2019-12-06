@@ -8878,7 +8878,7 @@ p:last-child,
   color: #454545;
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .ui-state-active a .ui-icon, .path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .ui-state-active a:link .ui-icon, .path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .ui-state-active a:visited .ui-icon {
+.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .ui-state-active .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1);
 }
