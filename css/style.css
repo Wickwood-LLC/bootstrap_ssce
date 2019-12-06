@@ -7920,7 +7920,6 @@ button.close {
 .wt-three-col.ltrb .wt-col-md-4,
 .wt-three-col.lbrt .wt-col-md-4 {
   width: 100%;
-  padding: 0;
 }
 
 @media only screen and (min-width: 601px) {
