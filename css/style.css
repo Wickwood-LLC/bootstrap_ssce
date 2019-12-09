@@ -8669,6 +8669,11 @@ ul:last-child {
 }
 
 .navbar-brand {
+  height: auto;
+  padding: 0;
+}
+
+.navbar-brand {
   font-size: 24px;
 }
 
@@ -8685,8 +8690,11 @@ ul:last-child {
 }
 
 .navbar-brand a {
-  height: auto;
-  padding: 0;
+  color: unset;
+}
+
+.navbar-brand a:hover {
+  text-decoration: none;
 }
 
 .navbar-text {

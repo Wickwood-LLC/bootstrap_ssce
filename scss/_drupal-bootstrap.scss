@@ -52,11 +52,16 @@ ul {
 }
 
 .navbar-brand {
+  height: auto;
+  padding: 0;
   @include fluid-type(320px, 1200px, 24px, 40px); // same values as h1
 
   a {
-    height: auto;
-    padding: 0;
+    color: unset;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 .navbar-text {
