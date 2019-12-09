@@ -8668,13 +8668,28 @@ ul:last-child {
   margin-bottom: 0;
 }
 
-.navbar-text {
-  display: inline-block;
-  font-family: GeometrySoftPro-BoldA;
+.navbar-brand {
+  font-size: 24px;
 }
 
-.navbar-text:before {
-  content: 'with ';
+@media screen and (min-width: 320px) {
+  .navbar-brand {
+    font-size: calc(24px + 16 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-brand {
+    font-size: 40px;
+  }
+}
+
+.navbar-text {
+  display: inline-block;
+}
+
+.navbar-text span {
+  font-family: GeometrySoftPro-BoldA;
 }
 
 .region-navigation {
