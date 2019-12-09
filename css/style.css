@@ -8822,6 +8822,10 @@ p:last-child,
   letter-spacing: .2px;
 }
 
+.region-content {
+  clear: both;
+}
+
 .region-footer {
   text-align: center;
 }
