@@ -1,10 +1,10 @@
 name: 'Bootstrap SSCE'
 description: 'A Drupal Bootstrap 3 based sub-theme for CommonEnergy'
-version: '8.x-1.0'
+version: '8.x-2.x'
 package: 'Bootstrap'
 core: 8.x
 type: theme
-base theme: bootstrap
+base theme: bootstrap_wwm_base
 
 regions:
   navigation: 'Navigation'
