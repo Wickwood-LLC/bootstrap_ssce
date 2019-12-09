@@ -8684,6 +8684,11 @@ ul:last-child {
   }
 }
 
+.navbar-brand a {
+  height: auto;
+  padding: 0;
+}
+
 .navbar-text {
   display: inline-block;
 }

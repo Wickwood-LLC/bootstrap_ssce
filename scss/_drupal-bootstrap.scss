@@ -53,6 +53,11 @@ ul {
 
 .navbar-brand {
   @include fluid-type(320px, 1200px, 24px, 40px); // same values as h1
+
+  a {
+    height: auto;
+    padding: 0;
+  }
 }
 .navbar-text {
   display: inline-block;
