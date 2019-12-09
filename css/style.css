@@ -8717,6 +8717,50 @@ nav.tabs {
   margin-bottom: 2em;
 }
 
+.nav-tabs {
+  border-bottom: 0px;
+  display: inline-block;
+  float: right;
+}
+
+.nav-tabs > li {
+  float: left;
+  position: relative;
+  background: #eee;
+  margin-bottom: 10px;
+}
+
+.nav-tabs > li.active {
+  background-color: #337ab7;
+}
+
+.nav-tabs > li.active > a {
+  color: white;
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+.nav-tabs > li:hover {
+  background-color: #f8f8f8;
+}
+
+.nav-tabs > li:hover a:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-tabs > li > a {
+  color: #333333;
+}
+
+.nav-tabs > li:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.nav-tabs > li:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
 .footer {
   margin-top: 45px;
   padding-top: 35px;
@@ -8791,7 +8835,7 @@ p:last-child,
 }
 
 .path-frontpage .region-header {
-  max-width: 1920px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -8816,7 +8860,7 @@ p:last-child,
 }
 
 .path-frontpage section[data-layout-content-preview-placeholder-label='"Save 10%" block'] .field--name-body {
-  max-width: 1920px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -8826,7 +8870,7 @@ p:last-child,
 }
 
 .path-frontpage section[data-layout-content-preview-placeholder-label='"Save with Common Energy" block'] .field--name-body {
-  max-width: 1920px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -8836,7 +8880,7 @@ p:last-child,
 }
 
 .path-frontpage section[data-layout-content-preview-placeholder-label='"How it Works" block'] .field--name-body {
-  max-width: 1920px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -8850,7 +8894,7 @@ p:last-child,
 }
 
 .path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .views-element-container {
-  max-width: 1920px;
+  max-width: 1200px;
   margin: auto;
 }
 
