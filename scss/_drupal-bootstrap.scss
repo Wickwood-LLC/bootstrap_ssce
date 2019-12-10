@@ -52,11 +52,14 @@ ul {
 }
 
 .navbar-brand {
+  display: inline;
+  float: none;
   height: auto;
   padding: 0;
+  margin-left: 1em;
 
   a {
-    color: unset;
+    color: #2379ff;
     @include fluid-type(320px, 1200px, 20px, 30px); // similar to h3 sizes
 
     &:hover {
@@ -65,17 +68,17 @@ ul {
   }
 }
 .navbar-text {
-  display: inline-block;
+  color: #2379ff;
+  display: inline;
+  float: none;
+  margin-left: 0;
   
   span {
     font-family: GeometrySoftPro-BoldA;
   }
 }
 
-.region-navigation {
-  display: inline-flex;
-  align-items: baseline;
-}
+.region-navigation {}
 
 .region-navigation-collapsible {
   display: flex;

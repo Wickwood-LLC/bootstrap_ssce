@@ -8654,12 +8654,15 @@ ul:last-child {
 }
 
 .navbar-brand {
+  display: inline;
+  float: none;
   height: auto;
   padding: 0;
+  margin-left: 1em;
 }
 
 .navbar-brand a {
-  color: unset;
+  color: #2379ff;
 }
 
 .navbar-brand a {
@@ -8683,16 +8686,14 @@ ul:last-child {
 }
 
 .navbar-text {
-  display: inline-block;
+  color: #2379ff;
+  display: inline;
+  float: none;
+  margin-left: 0;
 }
 
 .navbar-text span {
   font-family: GeometrySoftPro-BoldA;
-}
-
-.region-navigation {
-  display: inline-flex;
-  align-items: baseline;
 }
 
 .region-navigation-collapsible {
