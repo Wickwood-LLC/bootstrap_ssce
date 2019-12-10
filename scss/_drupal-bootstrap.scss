@@ -259,6 +259,13 @@ p:last-child,
   }
   section[data-layout-content-preview-placeholder-label="\"Save with Common Energy\" block" ] {
     background-color: rgba(245,245,247,.71);
+
+    span.icon {
+      color: $brand-primary;
+      font-size: 1.5em;
+      vertical-align: middle;
+      margin-right: 0.5em;
+    }
   }
   section[data-layout-content-preview-placeholder-label="\"How it Works\" block"] {
     background-color: #f8f7f2;
