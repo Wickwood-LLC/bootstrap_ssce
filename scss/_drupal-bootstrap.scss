@@ -57,6 +57,7 @@ ul {
 
   a {
     color: unset;
+    @include fluid-type(320px, 1200px, 20px, 30px); // similar to h3 sizes
 
     &:hover {
       text-decoration: none;
