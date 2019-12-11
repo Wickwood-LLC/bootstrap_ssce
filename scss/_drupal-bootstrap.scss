@@ -78,6 +78,22 @@ ul {
   }
 }
 
+#navbar {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-header {
+    flex: 1 0 auto;
+    max-width: 100%;
+  }
+}
+#navbar-collapse {
+  margin-left: 1em;
+  flex: 1 1 auto;
+}
+
 .region-navigation {}
 
 .region-navigation-collapsible {
@@ -90,6 +106,7 @@ ul {
 #block-headerlinks {
   .phone-link {
     color: unset;
+    vertical-align: bottom;
     
     &:hover{
       color: #23527c;

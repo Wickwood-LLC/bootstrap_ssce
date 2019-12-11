@@ -8696,6 +8696,21 @@ ul:last-child {
   font-family: GeometrySoftPro-BoldA;
 }
 
+#navbar .container {
+  display: flex;
+  align-items: center;
+}
+
+#navbar .navbar-header {
+  flex: 1 0 auto;
+  max-width: 100%;
+}
+
+#navbar-collapse {
+  margin-left: 1em;
+  flex: 1 1 auto;
+}
+
 .region-navigation-collapsible {
   display: flex;
   min-height: 50px;
@@ -8705,6 +8720,7 @@ ul:last-child {
 
 #block-headerlinks .phone-link {
   color: unset;
+  vertical-align: bottom;
 }
 
 #block-headerlinks .phone-link:hover {
@@ -8886,7 +8902,7 @@ p:last-child,
   font-size: 1.5em;
   vertical-align: middle;
   margin-right: 0.5em;
-  width: 40px;
+  width: 1.4em;
   display: inline-block;
   vertical-align: baseline;
   text-align: center;
