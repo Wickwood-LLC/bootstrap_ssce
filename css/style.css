@@ -8886,6 +8886,10 @@ p:last-child,
   font-size: 1.5em;
   vertical-align: middle;
   margin-right: 0.5em;
+  width: 40px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-align: center;
 }
 
 .path-frontpage section[data-layout-content-preview-placeholder-label='"How it Works" block'] {
