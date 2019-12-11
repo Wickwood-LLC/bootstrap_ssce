@@ -82,6 +82,8 @@ ul {
   .container {
     display: flex;
     align-items: center;
+    flex-flow: row wrap;
+    max-width: 100%;
   }
 
   .navbar-header {
