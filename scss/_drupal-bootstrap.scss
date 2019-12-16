@@ -17,7 +17,7 @@
 @import "drupal-bootstrap/jquery-ui/autocomplete";
 
 html, body {
-    @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 h1 {
@@ -36,10 +36,10 @@ h5 {
     @include fluid-type(320px, 1200px, 17px, 22px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 h6 {
-    @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 p {
-    @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 ol,
@@ -276,6 +276,7 @@ p:last-child,
 
     .block-title {
       text-align: center;
+      margin-bottom: 1em;
     }
 
     .views-element-container {
@@ -335,6 +336,39 @@ p:last-child,
       text-align: center;
     }
   }
+
+  .view-testimonial-carousel {
+    .views-field-field-referee-image {
+      border-radius: 300px;
+      margin: auto;
+      margin-bottom: 1em;
+
+      @include breakpoint(992px) {
+        float: left;
+        margin-right: 1em;
+      }
+    }
+    .views-field-body {
+      text-align: center;
+      @include fluid-type(320px, 1200px, 16px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+
+      @include breakpoint(992px) {
+        text-align: left;
+      }
+    }
+    .views-field-title {
+      text-align: center;
+
+      .testimonial-name {
+        color: $brand-primary;
+      }
+
+      @include breakpoint(992px) {
+        text-align: left;
+      }
+    }
+  }
+
   section[data-layout-content-preview-placeholder-label="\"How it Works\" block"] {
     background-color: #f8f7f2;
   }

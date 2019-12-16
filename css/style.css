@@ -8536,11 +8536,11 @@ html, body {
 
 @media screen and (min-width: 320px) {
   html, body {
-    font-size: calc(16px + 4 * ((100vw - 320px) / 930));
+    font-size: calc(16px + 4 * ((100vw - 320px) / 880));
   }
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   html, body {
     font-size: 20px;
   }
@@ -8632,11 +8632,11 @@ h6 {
 
 @media screen and (min-width: 320px) {
   h6 {
-    font-size: calc(16px + 4 * ((100vw - 320px) / 930));
+    font-size: calc(16px + 4 * ((100vw - 320px) / 880));
   }
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   h6 {
     font-size: 20px;
   }
@@ -8648,11 +8648,11 @@ p {
 
 @media screen and (min-width: 320px) {
   p {
-    font-size: calc(16px + 4 * ((100vw - 320px) / 930));
+    font-size: calc(16px + 4 * ((100vw - 320px) / 880));
   }
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   p {
     font-size: 20px;
   }
@@ -8918,6 +8918,7 @@ p:last-child,
 
 .path-frontpage section.block-views .block-title {
   text-align: center;
+  margin-bottom: 1em;
 }
 
 .path-frontpage section.block-views .views-element-container {
@@ -8984,6 +8985,59 @@ p:last-child,
   display: inline-block;
   vertical-align: baseline;
   text-align: center;
+}
+
+.path-frontpage .view-testimonial-carousel .views-field-field-referee-image {
+  border-radius: 300px;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 992px) {
+  .path-frontpage .view-testimonial-carousel .views-field-field-referee-image {
+    float: left;
+    margin-right: 1em;
+  }
+}
+
+.path-frontpage .view-testimonial-carousel .views-field-body {
+  text-align: center;
+}
+
+.path-frontpage .view-testimonial-carousel .views-field-body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+  .path-frontpage .view-testimonial-carousel .views-field-body {
+    font-size: calc(16px + 14 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .path-frontpage .view-testimonial-carousel .views-field-body {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .path-frontpage .view-testimonial-carousel .views-field-body {
+    text-align: left;
+  }
+}
+
+.path-frontpage .view-testimonial-carousel .views-field-title {
+  text-align: center;
+}
+
+.path-frontpage .view-testimonial-carousel .views-field-title .testimonial-name {
+  color: #337ab7;
+}
+
+@media (min-width: 992px) {
+  .path-frontpage .view-testimonial-carousel .views-field-title {
+    text-align: left;
+  }
 }
 
 .path-frontpage section[data-layout-content-preview-placeholder-label='"How it Works" block'] {
