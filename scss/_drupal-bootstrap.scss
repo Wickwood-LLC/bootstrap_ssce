@@ -349,8 +349,13 @@ p:last-child,
       }
     }
     .views-field-body {
+      font-weight: bold;
+      margin-bottom: 0.5em;
       text-align: center;
-      @include fluid-type(320px, 1200px, 16px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+      
+      p {
+        @include fluid-type(320px, 1200px, 16px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+      }
 
       @include breakpoint(992px) {
         text-align: left;
