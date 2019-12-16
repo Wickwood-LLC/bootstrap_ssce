@@ -1891,24 +1891,6 @@
 		"oAP": "/config/schema/bootstrap_ssce.schema.yml",
 		"oF": 0
 		},
-	"/css/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/style.css.map",
-		"oF": 0
-		},
 	"/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
@@ -2268,19 +2250,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/_drupal-bootstrap.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_drupal-bootstrap.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2552,14 +2521,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/templates/block--system-branding-block.html.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/block--system-branding-block.html.twig",
-		"oF": 0
 		},
 	"/templates/README.md": {
 		"cB": 0,
