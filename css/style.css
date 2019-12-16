@@ -8987,14 +8987,14 @@ p:last-child,
   text-align: center;
 }
 
-.path-frontpage .view-testimonial-carousel .views-field-field-referee-image {
+.path-frontpage .view-testimonial-carousel .views-field-field-referee-image img {
   border-radius: 300px;
   margin: auto;
   margin-bottom: 1em;
 }
 
 @media (min-width: 992px) {
-  .path-frontpage .view-testimonial-carousel .views-field-field-referee-image {
+  .path-frontpage .view-testimonial-carousel .views-field-field-referee-image img {
     float: left;
     margin-right: 1em;
   }
