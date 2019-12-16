@@ -1891,12 +1891,101 @@
 		"oAP": "/config/schema/bootstrap_ssce.schema.yml",
 		"oF": 0
 		},
+	"/css/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/style.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/css/style.css.map",
+		"oF": 0
+		},
 	"/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/favicon.ico",
+		"oF": 0
+		},
+	"/favicon/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 50953,
+		"oA": 0,
+		"oAP": "/favicon/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 227538,
+		"oA": 0,
+		"oAP": "/favicon/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 45743,
+		"oA": 0,
+		"oAP": "/favicon/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 884,
+		"oA": 0,
+		"oAP": "/favicon/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 2639,
+		"oA": 0,
+		"oAP": "/favicon/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon/favicon.ico",
+		"oF": 0
+		},
+	"/favicon/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon/site.webmanifest",
 		"oF": 0
 		},
 	"/fonts/SSCE-Geometry-Soft-Pro-Bold-A-webfont-kit.css": {
@@ -2535,6 +2624,22 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/templates/block--system-branding-block.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/block--system-branding-block.html.twig",
+		"oF": 0
+		},
+	"/templates/html.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/html.html.twig",
+		"oF": 0
+		},
 	"/templates/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -2563,7 +2668,7 @@
 	"creationDate": 596948080.32239604,
 	"displayValue": "bootstrap_ssce",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "/bootstrap/test/dummy_node_mincer/apple-touch-icon-144-precomposed.png",
+	"iconImageName": "/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
