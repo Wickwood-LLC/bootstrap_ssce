@@ -22,9 +22,9 @@
     </a>
   {% endif %}
   {% if site_name %}
-    <h3 class="name navbar-brand"><a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a></h3>
+    <h1 class="name navbar-brand"><a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a></h1>
   {% endif %}
   {% if site_slogan %}
-    <h3 class="navbar-text">{{ site_slogan }}</h3>
+    <h1 class="navbar-text">{{ site_slogan }}</h1>
   {% endif %}
 {% endblock %}

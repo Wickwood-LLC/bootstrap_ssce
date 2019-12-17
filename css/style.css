@@ -8671,9 +8671,26 @@ ul:last-child {
 .navbar-brand {
   display: inline;
   float: none;
+  font-weight: bold;
   height: auto;
   padding: 0;
   margin-left: 1em;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  .navbar-brand {
+    font-size: calc(20px + 10 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
 }
 
 .navbar-brand a {
@@ -8704,11 +8721,44 @@ ul:last-child {
   color: #2379ff;
   display: inline;
   float: none;
+  font-weight: bold;
   margin-left: 0;
+}
+
+.navbar-text {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  .navbar-text {
+    font-size: calc(20px + 10 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-text {
+    font-size: 30px;
+  }
 }
 
 .navbar-text span {
   font-family: GeometrySoftPro-BoldA;
+}
+
+.navbar-text span {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 320px) {
+  .navbar-text span {
+    font-size: calc(25px + 10 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-text span {
+    font-size: 35px;
+  }
 }
 
 #navbar .container {
@@ -8746,6 +8796,8 @@ ul:last-child {
 
 #block-headerlinks .phone-link {
   color: unset;
+  font-size: 1.2em;
+  font-weight: bold;
   vertical-align: bottom;
 }
 
@@ -9162,5 +9214,10 @@ p:last-child,
 .ui-widget.ui-widget-content,
 .ui-widget.ui-dialog.ui-dialog-off-canvas {
   z-index: 10000;
+}
+
+.btn-primary {
+  font-size: 0.9em;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
