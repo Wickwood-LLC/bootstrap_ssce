@@ -51,51 +51,6 @@ ul {
   }
 }
 
-.navbar-brand {
-  display: block;
-  float: none;
-  font-weight: bold;
-  height: auto;
-  padding: 0;
-  margin-left: 0;
-  text-align: center;
-  width: 100%;
-  @include fluid-type(320px, 1200px, 20px, 30px); // same size as h3
-
-  a {
-    color: #2379ff;
-    @include fluid-type(320px, 1200px, 20px, 30px); // similar to h3 sizes
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
-  @include breakpoint(530px){
-    display: inline;
-    margin-left: 1em;
-    width: auto;
-  }
-}
-.navbar-text {
-  color: #2379ff;
-  display: block;
-  float: none;
-  font-weight: bold;
-  text-align: center;
-  @include fluid-type(320px, 1200px, 20px, 30px); // same size as h3
-  
-  span {
-    font-family: GeometrySoftPro-BoldA;
-    @include fluid-type(320px, 1200px, 25px, 35px);
-  }
-
-  @include breakpoint(530px){
-    display: inline;
-    width: auto;
-  }
-}
-
 #navbar {
   .container {
     display: flex;
@@ -103,12 +58,58 @@ ul {
     flex-flow: row wrap;
     margin: auto;
     max-width: 100%;
+
+    .navbar-brand {
+      display: block;
+      float: none;
+      font-weight: bold;
+      height: auto;
+      padding: 0;
+      margin-left: 0;
+      text-align: center;
+      width: 100%;
+      @include fluid-type(320px, 1200px, 20px, 30px); // same size as h3
+
+      a {
+        color: #2379ff;
+        @include fluid-type(320px, 1200px, 20px, 30px); // similar to h3 sizes
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      @include breakpoint(530px){
+        display: inline;
+        margin-left: 1em;
+        width: auto;
+      }
+    }
+    .navbar-text {
+      color: #2379ff;
+      display: block;
+      float: none;
+      font-weight: bold;
+      text-align: center;
+      @include fluid-type(320px, 1200px, 20px, 30px); // same size as h3
+      
+      span {
+        font-family: GeometrySoftPro-BoldA;
+        @include fluid-type(320px, 1200px, 25px, 35px);
+      }
+
+      @include breakpoint(530px){
+        display: inline;
+        width: auto;
+      }
+    }
   }
 
   .navbar-header {
     flex: 1 0 auto;
     max-width: 100%;
     margin: 0;
+    width: 100%;
   }
 }
 #navbar-collapse {

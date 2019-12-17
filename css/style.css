@@ -8668,116 +8668,6 @@ ul:last-child {
   margin-bottom: 0;
 }
 
-.navbar-brand {
-  display: block;
-  float: none;
-  font-weight: bold;
-  height: auto;
-  padding: 0;
-  margin-left: 0;
-  text-align: center;
-  width: 100%;
-}
-
-.navbar-brand {
-  font-size: 20px;
-}
-
-@media screen and (min-width: 320px) {
-  .navbar-brand {
-    font-size: calc(20px + 10 * ((100vw - 320px) / 880));
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .navbar-brand {
-    font-size: 30px;
-  }
-}
-
-.navbar-brand a {
-  color: #2379ff;
-}
-
-.navbar-brand a {
-  font-size: 20px;
-}
-
-@media screen and (min-width: 320px) {
-  .navbar-brand a {
-    font-size: calc(20px + 10 * ((100vw - 320px) / 880));
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .navbar-brand a {
-    font-size: 30px;
-  }
-}
-
-.navbar-brand a:hover {
-  text-decoration: none;
-}
-
-@media (min-width: 530px) {
-  .navbar-brand {
-    display: inline;
-    margin-left: 1em;
-    width: auto;
-  }
-}
-
-.navbar-text {
-  color: #2379ff;
-  display: block;
-  float: none;
-  font-weight: bold;
-  text-align: center;
-}
-
-.navbar-text {
-  font-size: 20px;
-}
-
-@media screen and (min-width: 320px) {
-  .navbar-text {
-    font-size: calc(20px + 10 * ((100vw - 320px) / 880));
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .navbar-text {
-    font-size: 30px;
-  }
-}
-
-.navbar-text span {
-  font-family: GeometrySoftPro-BoldA;
-}
-
-.navbar-text span {
-  font-size: 25px;
-}
-
-@media screen and (min-width: 320px) {
-  .navbar-text span {
-    font-size: calc(25px + 10 * ((100vw - 320px) / 880));
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .navbar-text span {
-    font-size: 35px;
-  }
-}
-
-@media (min-width: 530px) {
-  .navbar-text {
-    display: inline;
-    width: auto;
-  }
-}
-
 #navbar .container {
   display: -webkit-box;
   display: flex;
@@ -8790,11 +8680,122 @@ ul:last-child {
   max-width: 100%;
 }
 
+#navbar .container .navbar-brand {
+  display: block;
+  float: none;
+  font-weight: bold;
+  height: auto;
+  padding: 0;
+  margin-left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+#navbar .container .navbar-brand {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  #navbar .container .navbar-brand {
+    font-size: calc(20px + 10 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #navbar .container .navbar-brand {
+    font-size: 30px;
+  }
+}
+
+#navbar .container .navbar-brand a {
+  color: #2379ff;
+}
+
+#navbar .container .navbar-brand a {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  #navbar .container .navbar-brand a {
+    font-size: calc(20px + 10 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #navbar .container .navbar-brand a {
+    font-size: 30px;
+  }
+}
+
+#navbar .container .navbar-brand a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 530px) {
+  #navbar .container .navbar-brand {
+    display: inline;
+    margin-left: 1em;
+    width: auto;
+  }
+}
+
+#navbar .container .navbar-text {
+  color: #2379ff;
+  display: block;
+  float: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+#navbar .container .navbar-text {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  #navbar .container .navbar-text {
+    font-size: calc(20px + 10 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #navbar .container .navbar-text {
+    font-size: 30px;
+  }
+}
+
+#navbar .container .navbar-text span {
+  font-family: GeometrySoftPro-BoldA;
+}
+
+#navbar .container .navbar-text span {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 320px) {
+  #navbar .container .navbar-text span {
+    font-size: calc(25px + 10 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #navbar .container .navbar-text span {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 530px) {
+  #navbar .container .navbar-text {
+    display: inline;
+    width: auto;
+  }
+}
+
 #navbar .navbar-header {
   -webkit-box-flex: 1;
           flex: 1 0 auto;
   max-width: 100%;
   margin: 0;
+  width: 100%;
 }
 
 #navbar-collapse {
