@@ -8732,7 +8732,6 @@ ul:last-child {
   display: block;
   float: none;
   font-weight: bold;
-  margin-left: 0;
 }
 
 .navbar-text {
@@ -8774,7 +8773,6 @@ ul:last-child {
 @media (min-width: 530px) {
   .navbar-text {
     display: inline;
-    margin-left: 1em;
     width: auto;
   }
 }
