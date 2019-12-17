@@ -338,6 +338,25 @@ p:last-child,
   }
 
   .view-testimonial-carousel {
+    .view-header {
+      font-size: 50px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      > a {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+      }
+    }
+    .view-content {
+      margin: 0 30px;
+    }
     #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1 {
       width: 100% !important;
 
