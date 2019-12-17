@@ -52,12 +52,14 @@ ul {
 }
 
 .navbar-brand {
-  display: inline;
+  display: block;
   float: none;
   font-weight: bold;
   height: auto;
   padding: 0;
-  margin-left: 1em;
+  margin-left: 0;
+  text-align: center;
+  width: 100%;
   @include fluid-type(320px, 1200px, 20px, 30px); // same size as h3
 
   a {
@@ -68,10 +70,16 @@ ul {
       text-decoration: none;
     }
   }
+
+  @include breakpoint(530px){
+    display: inline;
+    margin-left: 1em;
+    width: auto;
+  }
 }
 .navbar-text {
   color: #2379ff;
-  display: inline;
+  display: block;
   float: none;
   font-weight: bold;
   margin-left: 0;
@@ -81,6 +89,12 @@ ul {
     font-family: GeometrySoftPro-BoldA;
     @include fluid-type(320px, 1200px, 25px, 35px);
   }
+
+  @include breakpoint(530px){
+    display: inline;
+    margin-left: 1em;
+    width: auto;
+  }
 }
 
 #navbar {
@@ -88,6 +102,7 @@ ul {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
     max-width: 100%;
   }
 

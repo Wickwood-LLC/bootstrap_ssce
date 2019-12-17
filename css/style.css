@@ -8669,12 +8669,14 @@ ul:last-child {
 }
 
 .navbar-brand {
-  display: inline;
+  display: block;
   float: none;
   font-weight: bold;
   height: auto;
   padding: 0;
-  margin-left: 1em;
+  margin-left: 0;
+  text-align: center;
+  width: 100%;
 }
 
 .navbar-brand {
@@ -8717,9 +8719,17 @@ ul:last-child {
   text-decoration: none;
 }
 
+@media (min-width: 530px) {
+  .navbar-brand {
+    display: inline;
+    margin-left: 1em;
+    width: auto;
+  }
+}
+
 .navbar-text {
   color: #2379ff;
-  display: inline;
+  display: block;
   float: none;
   font-weight: bold;
   margin-left: 0;
@@ -8761,6 +8771,14 @@ ul:last-child {
   }
 }
 
+@media (min-width: 530px) {
+  .navbar-text {
+    display: inline;
+    margin-left: 1em;
+    width: auto;
+  }
+}
+
 #navbar .container {
   display: -webkit-box;
   display: flex;
@@ -8769,6 +8787,7 @@ ul:last-child {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
           flex-flow: row wrap;
+  margin: 0;
   max-width: 100%;
 }
 
