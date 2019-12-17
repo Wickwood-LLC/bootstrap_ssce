@@ -82,6 +82,7 @@ ul {
   display: block;
   float: none;
   font-weight: bold;
+  text-align: center;
   @include fluid-type(320px, 1200px, 20px, 30px); // same size as h3
   
   span {
@@ -100,13 +101,14 @@ ul {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
-    margin: 0;
+    margin: auto;
     max-width: 100%;
   }
 
   .navbar-header {
     flex: 1 0 auto;
     max-width: 100%;
+    margin: 0;
   }
 }
 #navbar-collapse {

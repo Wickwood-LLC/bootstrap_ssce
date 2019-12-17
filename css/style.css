@@ -8732,6 +8732,7 @@ ul:last-child {
   display: block;
   float: none;
   font-weight: bold;
+  text-align: center;
 }
 
 .navbar-text {
@@ -8785,7 +8786,7 @@ ul:last-child {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
           flex-flow: row wrap;
-  margin: 0;
+  margin: auto;
   max-width: 100%;
 }
 
@@ -8793,6 +8794,7 @@ ul:last-child {
   -webkit-box-flex: 1;
           flex: 1 0 auto;
   max-width: 100%;
+  margin: 0;
 }
 
 #navbar-collapse {
