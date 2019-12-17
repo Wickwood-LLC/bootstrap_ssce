@@ -8734,7 +8734,6 @@ ul:last-child {
 @media (min-width: 530px) {
   #navbar .container .navbar-brand {
     display: inline;
-    margin-left: 1em;
     width: auto;
   }
 }
@@ -8744,6 +8743,7 @@ ul:last-child {
   display: block;
   float: none;
   font-weight: bold;
+  margin: 0;
   text-align: center;
 }
 
@@ -8795,7 +8795,6 @@ ul:last-child {
           flex: 1 0 auto;
   max-width: 100%;
   margin: 0;
-  width: 100%;
 }
 
 #navbar-collapse {
