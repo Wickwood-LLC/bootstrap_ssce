@@ -9074,8 +9074,14 @@ p:last-child,
 }
 
 .path-frontpage .view-testimonial-carousel .view-content {
-  height: 505px !important;
+  height: 505px;
   margin: 0 30px;
+}
+
+@media (min-width: 992px) {
+  .path-frontpage .view-testimonial-carousel .view-content {
+    height: auto;
+  }
 }
 
 .path-frontpage .view-testimonial-carousel #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1 {
