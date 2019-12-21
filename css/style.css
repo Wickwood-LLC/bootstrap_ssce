@@ -9084,7 +9084,7 @@ p:last-child,
 
 @media (min-width: 992px) {
   .path-frontpage .view-testimonial-carousel #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1 {
-    height: auto !important;
+    height: 316px !important;
   }
 }
 
