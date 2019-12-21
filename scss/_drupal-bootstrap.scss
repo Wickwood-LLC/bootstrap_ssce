@@ -60,13 +60,13 @@ ul {
     max-width: 100%;
 
     .navbar-brand {
-      display: block;
+      display: inline-block;
       float: none;
       font-weight: bold;
       height: auto;
       padding: 0;
-      margin-left: 0;
-      text-align: center;
+      margin: 0;
+      text-align: left;
       width: 100%;
       @include fluid-type(320px, 1200px, 20px, 30px); // same size as h3
 
@@ -80,17 +80,16 @@ ul {
       }
 
       @include breakpoint(530px){
-        display: inline;
         width: auto;
       }
     }
     .navbar-text {
       color: #2379ff;
-      display: block;
+      display: inline-block;
       float: none;
       font-weight: bold;
       margin: 0;
-      text-align: center;
+      text-align: left;
       @include fluid-type(320px, 1200px, 20px, 30px); // same size as h3
       
       span {
@@ -99,13 +98,14 @@ ul {
       }
 
       @include breakpoint(530px){
-        display: inline;
         width: auto;
       }
     }
   }
 
   .navbar-header {
+    display: flex;
+    align-items: center;
     flex: 1 0 auto;
     max-width: 100%;
     margin: 0;
@@ -113,16 +113,29 @@ ul {
 }
 #navbar-collapse {
   margin-left: 1em;
-  flex: 1 1 auto;
+  flex: 0 40%;
 }
 
-.region-navigation {}
+.region-navigation {
+  display: inline-block;
+  padding: 9px 0;
+  flex: 1;
+
+  @include breakpoint(768px) {
+    width: 50%;
+  }
+}
+
+.navbar-toggle {
+  margin: 15px 8px;
+}
 
 .region-navigation-collapsible {
   display: flex;
   min-height: 50px;
   justify-content: flex-end;
   align-items: center;
+  text-align: right;
 }
 
 #block-headerlinks {
