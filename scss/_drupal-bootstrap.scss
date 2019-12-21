@@ -117,7 +117,10 @@ ul {
 }
 #navbar-collapse {
   margin-left: 1em;
-  flex: 0 40%;
+  
+  @include breakpoint(768px){
+    flex: 0 40%;
+  }
 }
 
 .region-navigation {

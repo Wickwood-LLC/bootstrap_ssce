@@ -8785,7 +8785,12 @@ ul:last-child {
 
 #navbar-collapse {
   margin-left: 1em;
-  flex: 0 40%;
+}
+
+@media (min-width: 768px) {
+  #navbar-collapse {
+    flex: 0 40%;
+  }
 }
 
 .region-navigation {
