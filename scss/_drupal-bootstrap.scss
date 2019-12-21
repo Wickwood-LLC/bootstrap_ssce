@@ -397,7 +397,12 @@ p:last-child,
       }
     }
     .view-content {
+      height: 505px;
       margin: 0 30px;
+
+      @include breakpoint(992px) {
+        height: auto;
+      }
     }
     #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1 {
       width: 100% !important;

@@ -9074,6 +9074,7 @@ p:last-child,
 }
 
 .path-frontpage .view-testimonial-carousel .view-content {
+  height: 505px !important;
   margin: 0 30px;
 }
 
