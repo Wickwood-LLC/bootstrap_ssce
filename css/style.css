@@ -8777,6 +8777,12 @@ ul:last-child {
   margin: 0;
 }
 
+@media (min-width: 768px) {
+  #navbar .navbar-header {
+    flex: 1 1 50%;
+  }
+}
+
 #navbar-collapse {
   margin-left: 1em;
   flex: 0 40%;
