@@ -401,10 +401,10 @@ p:last-child,
     }
     #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1 {
       width: 100% !important;
-      height: 505px;
-      
+      height: 505px !important;
+
       @include breakpoint(992px) {
-        height: auto;
+        height: auto !important;
       }
 
       .views_slideshow_cycle_slide {
