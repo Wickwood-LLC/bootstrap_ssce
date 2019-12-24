@@ -8668,7 +8668,7 @@ ul:last-child {
   height: auto;
   padding: 0;
   margin: 0;
-  text-align: left;
+  text-align: center;
   width: 100%;
 }
 
@@ -8724,7 +8724,8 @@ ul:last-child {
   float: none;
   font-weight: bold;
   margin: 0;
-  text-align: left;
+  text-align: center;
+  width: 100%;
 }
 
 #navbar .container .navbar-text {
