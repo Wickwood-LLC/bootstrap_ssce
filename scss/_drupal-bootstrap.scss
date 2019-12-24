@@ -64,7 +64,7 @@ ul {
       width: 100%;
       text-align: center;
       
-      @include breakpoint(768){
+      @include breakpoint(768px){
         width: 50%;
         text-align: left;
       }

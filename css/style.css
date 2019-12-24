@@ -8667,7 +8667,7 @@ ul:last-child {
   text-align: center;
 }
 
-@media (min-width: 768) {
+@media (min-width: 768px) {
   #navbar .container .name-and-slogan {
     width: 50%;
     text-align: left;
