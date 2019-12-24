@@ -8661,6 +8661,16 @@ ul:last-child {
   max-width: 100%;
 }
 
+#navbar .container .name-and-slogan {
+  width: 50%;
+}
+
+@media (min-width: 1200px) {
+  #navbar .container .name-and-slogan {
+    width: auto;
+  }
+}
+
 #navbar .container .navbar-brand {
   display: inline-block;
   float: none;
@@ -8807,11 +8817,19 @@ ul:last-child {
 
 #block-headerlinks {
   float: none;
+  text-align: center;
+  width: 50%;
 }
 
 @media (min-width: 768px) {
   #block-headerlinks {
     float: right;
+  }
+}
+
+@media (min-width: 1200px) {
+  #block-headerlinks {
+    width: auto;
   }
 }
 

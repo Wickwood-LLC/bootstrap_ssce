@@ -59,6 +59,14 @@ ul {
     margin: auto;
     max-width: 100%;
 
+    .name-and-slogan {
+      width: 50%;
+      
+      @include breakpoint(1200px){
+        width: auto;
+      }
+    }
+
     .navbar-brand {
       display: inline-block;
       float: none;
@@ -139,9 +147,15 @@ ul {
 
 #block-headerlinks {
   float: none;
+  text-align: center;
 
   @include breakpoint(768px){
     float: right;
+    width: 50%;
+  }
+
+  @include breakpoint(1200px){
+    width: auto;
   }
 
   .phone-link {
