@@ -8833,7 +8833,7 @@ ul:last-child {
 @media (min-width: 768px) {
   #block-headerlinks {
     float: right;
-    width: 50%;
+    width: 215px;
     text-align: right;
   }
 }
