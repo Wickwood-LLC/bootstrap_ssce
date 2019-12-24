@@ -21,7 +21,7 @@
       <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
     </a>
   {% endif %}
-  {% if site_name and slogan %}
+  {% if site_name and site_slogan %}
     <div class="name-and-slogan">
   {% endif %}
     {% if site_name %}
@@ -30,7 +30,7 @@
     {% if site_slogan %}
       <h1 class="navbar-text">{{ site_slogan }}</h1>
     {% endif %}
-  {% if site_name and slogan %}
+  {% if site_name and site_slogan %}
     </div>
   {% endif %}
 {% endblock %}
