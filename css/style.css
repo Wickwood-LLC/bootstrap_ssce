@@ -8818,12 +8818,12 @@ ul:last-child {
 #block-headerlinks {
   float: none;
   text-align: center;
-  width: 50%;
 }
 
 @media (min-width: 768px) {
   #block-headerlinks {
     float: right;
+    width: 50%;
   }
 }
 
@@ -9133,13 +9133,13 @@ p:last-child,
 
 @media screen and (min-width: 320px) {
   .path-frontpage .view-testimonial-carousel .views-field-body p {
-    font-size: calc(16px + 14 * ((100vw - 320px) / 880));
+    font-size: calc(16px + 4 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
   .path-frontpage .view-testimonial-carousel .views-field-body p {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
