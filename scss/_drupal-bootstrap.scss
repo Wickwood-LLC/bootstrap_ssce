@@ -60,8 +60,14 @@ ul {
     max-width: 100%;
 
     .name-and-slogan {
-      width: 50%;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
       
+      @include breakpoint(768){
+        width: 50%;
+        text-align: left;
+      }
       @include breakpoint(1200px){
         width: auto;
       }
@@ -148,10 +154,12 @@ ul {
 #block-headerlinks {
   float: none;
   text-align: center;
+  width: 100%;
 
   @include breakpoint(768px){
     float: right;
     width: 50%;
+    text-align: right;
   }
 
   @include breakpoint(1200px){

@@ -8662,7 +8662,16 @@ ul:last-child {
 }
 
 #navbar .container .name-and-slogan {
-  width: 50%;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 768) {
+  #navbar .container .name-and-slogan {
+    width: 50%;
+    text-align: left;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -8818,12 +8827,14 @@ ul:last-child {
 #block-headerlinks {
   float: none;
   text-align: center;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
   #block-headerlinks {
     float: right;
     width: 50%;
+    text-align: right;
   }
 }
 
