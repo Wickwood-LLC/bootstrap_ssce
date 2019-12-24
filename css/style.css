@@ -8712,12 +8712,6 @@ ul:last-child {
   text-decoration: none;
 }
 
-@media (min-width: 530px) {
-  #navbar .container .navbar-brand {
-    width: auto;
-  }
-}
-
 #navbar .container .navbar-text {
   color: #2379ff;
   display: inline-block;
@@ -8784,25 +8778,13 @@ ul:last-child {
 }
 
 #navbar-collapse {
-  margin-left: 1em;
-}
-
-@media (min-width: 768px) {
-  #navbar-collapse {
-    flex: 0 40%;
-  }
+  flex: 100%;
 }
 
 .region-navigation {
   display: inline-block;
   padding: 9px 0;
   flex: 1;
-}
-
-@media (min-width: 768px) {
-  .region-navigation {
-    width: 50%;
-  }
 }
 
 .navbar-toggle {
@@ -8812,9 +8794,18 @@ ul:last-child {
 .region-navigation-collapsible {
   display: flex;
   min-height: 50px;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  text-align: right;
+}
+
+#block-headerlinks {
+  float: none;
+}
+
+@media (min-width: 768px) {
+  #block-headerlinks {
+    float: right;
+  }
 }
 
 #block-headerlinks .phone-link {
