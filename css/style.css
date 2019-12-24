@@ -8712,6 +8712,12 @@ ul:last-child {
   text-decoration: none;
 }
 
+@media (min-width: 530px) {
+  #navbar .container .navbar-brand {
+    width: auto;
+  }
+}
+
 #navbar .container .navbar-text {
   color: #2379ff;
   display: inline-block;
