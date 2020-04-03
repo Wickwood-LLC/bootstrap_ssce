@@ -8485,6 +8485,10 @@ body.maintenance-page .main-container {
   justify-content: center;
 }
 
+body.navbar-is-fixed-top {
+  margin-top: 125px;
+}
+
 /**
  * jQuery UI autocomplete widget style overrides.
  *
@@ -9297,5 +9301,16 @@ p:last-child,
 .btn-primary {
   font-size: 0.9em;
   font-weight: bold;
+}
+
+form#user-login-form,
+form#user-pass {
+  max-width: 500px;
+  margin: auto;
+}
+
+form#user-login-form #edit-actions,
+form#user-pass #edit-actions {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

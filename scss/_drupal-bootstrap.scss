@@ -30,6 +30,10 @@ body.maintenance-page {
   }
 }
 
+body.navbar-is-fixed-top {
+  margin-top: 125px;
+}
+
 // jQuery UI style overrides.
 @import "drupal-bootstrap/jquery-ui/autocomplete";
 
@@ -564,4 +568,14 @@ p:last-child,
 .btn-primary {
   font-size: 0.9em;
   font-weight: bold;
+}
+
+form#user-login-form,
+form#user-pass {
+  max-width: 500px;
+  margin: auto;
+
+  #edit-actions {
+    text-align: center;
+  }
 }
