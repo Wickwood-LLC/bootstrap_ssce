@@ -13,6 +13,23 @@
 @import "drupal-bootstrap/component/tabs";
 @import "drupal-bootstrap/component/toolbar";
 
+html {
+  min-height: 100vh;
+}
+body.maintenance-page {
+  height: calc(100vh - 65px);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  .main-container {
+    min-height: calc(100vh - 105px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
 // jQuery UI style overrides.
 @import "drupal-bootstrap/jquery-ui/autocomplete";
 

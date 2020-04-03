@@ -8467,6 +8467,24 @@ body.toolbar-loading.toolbar {
   margin-bottom: 15px;
 }
 
+html {
+  min-height: 100vh;
+}
+
+body.maintenance-page {
+  height: calc(100vh - 65px);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+body.maintenance-page .main-container {
+  min-height: calc(100vh - 105px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /**
  * jQuery UI autocomplete widget style overrides.
  *
