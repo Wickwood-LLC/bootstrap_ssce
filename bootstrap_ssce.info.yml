@@ -25,3 +25,6 @@ libraries-extend:
 
 libraries:
   - bootstrap_ssce/fonts
+
+ckeditor_stylesheets:
+  - css/ckeditor-styles.css
