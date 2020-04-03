@@ -8809,6 +8809,11 @@ ul:last-child {
   }
 }
 
+#navbar .container .navbar-text a {
+  color: #2379ff;
+  text-decoration: none;
+}
+
 #navbar .container .navbar-text span {
   font-family: GeometrySoftPro-BoldA;
 }
