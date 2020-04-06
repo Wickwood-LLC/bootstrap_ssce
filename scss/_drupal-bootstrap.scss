@@ -17,16 +17,17 @@ html {
   min-height: 100vh;
 }
 body.maintenance-page {
-  height: calc(100vh - 65px);
+  height: calc(100vh - 125px);
   display: flex;
   justify-content: center;
   align-content: center;
 
   .main-container {
-    min-height: calc(100vh - 105px);
+    min-height: calc(100vh - 165px);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -125px;
   }
 }
 
