@@ -8483,6 +8483,7 @@ body.maintenance-page .main-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: -125px;
 }
 
 body.navbar-is-fixed-top {
