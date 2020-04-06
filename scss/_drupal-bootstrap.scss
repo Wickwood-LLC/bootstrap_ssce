@@ -387,7 +387,21 @@ p:last-child,
     }
   }
 
-  .view-press-coverage {
+  section.statement-of-savings {
+    min-height: 100%;
+    margin-top: -25px;
+    background-image: linear-gradient(180deg,#edf3fe,#fff);
+    
+    img {
+      margin: auto;
+      width: 500px;
+      margin-top: 100px;
+    }
+  }
+
+  .block-views-blockpress-coverage-block-1 {
+    background-color: #f8f8f9;
+
     .view-content {
       display: grid;
       grid-auto-columns: 1fr;
@@ -500,8 +514,39 @@ p:last-child,
   }
 
   section.how-it-works {
-    background-color: #f8f7f2;
+    background-color: #f8f8f9;
+
+    img {
+      width: 400px;
+      margin: auto;
+    }
+
+    .wt-row.wt-two-col {
+      display: flex;
+      flex-flow: row wrap;
+
+      &:nth-of-type(2),
+      &:nth-of-type(4) {
+        .wt-col-1 {
+          order: 1;
+
+          @include breakpoint(640px) {
+            order: 0;
+          }
+        }
+      }
+      
+      .wt-col-md-6 {
+        flex: 1 1 250px;
+        text-align: center;
+
+        @include breakpoint(640px) {
+          text-align: unset;
+        }
+      }
+    }
   }
+
   section.faq-section {
     background-color: #fffcfc;
 

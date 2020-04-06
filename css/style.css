@@ -9086,7 +9086,23 @@ p:last-child,
   margin: 1em 0;
 }
 
-.path-frontpage .view-press-coverage .view-content {
+.path-frontpage section.statement-of-savings {
+  min-height: 100%;
+  margin-top: -25px;
+  background-image: linear-gradient(180deg, #edf3fe, #fff);
+}
+
+.path-frontpage section.statement-of-savings img {
+  margin: auto;
+  width: 500px;
+  margin-top: 100px;
+}
+
+.path-frontpage .block-views-blockpress-coverage-block-1 {
+  background-color: #f8f8f9;
+}
+
+.path-frontpage .block-views-blockpress-coverage-block-1 .view-content {
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr;
@@ -9100,20 +9116,20 @@ p:last-child,
 }
 
 @media (min-width: 478px) {
-  .path-frontpage .view-press-coverage .view-content {
+  .path-frontpage .block-views-blockpress-coverage-block-1 .view-content {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
   }
 }
 
 @media (min-width: 992px) {
-  .path-frontpage .view-press-coverage .view-content {
+  .path-frontpage .block-views-blockpress-coverage-block-1 .view-content {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
   }
 }
 
-.path-frontpage .view-press-coverage .views-row {
+.path-frontpage .block-views-blockpress-coverage-block-1 .views-row {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9226,7 +9242,38 @@ p:last-child,
 }
 
 .path-frontpage section.how-it-works {
-  background-color: #f8f7f2;
+  background-color: #f8f8f9;
+}
+
+.path-frontpage section.how-it-works img {
+  width: 400px;
+  margin: auto;
+}
+
+.path-frontpage section.how-it-works .wt-row.wt-two-col {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.path-frontpage section.how-it-works .wt-row.wt-two-col:nth-of-type(2) .wt-col-1, .path-frontpage section.how-it-works .wt-row.wt-two-col:nth-of-type(4) .wt-col-1 {
+  order: 1;
+}
+
+@media (min-width: 640px) {
+  .path-frontpage section.how-it-works .wt-row.wt-two-col:nth-of-type(2) .wt-col-1, .path-frontpage section.how-it-works .wt-row.wt-two-col:nth-of-type(4) .wt-col-1 {
+    order: 0;
+  }
+}
+
+.path-frontpage section.how-it-works .wt-row.wt-two-col .wt-col-md-6 {
+  flex: 1 1 250px;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .path-frontpage section.how-it-works .wt-row.wt-two-col .wt-col-md-6 {
+    text-align: unset;
+  }
 }
 
 .path-frontpage section.faq-section {
