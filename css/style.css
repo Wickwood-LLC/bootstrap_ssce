@@ -9078,11 +9078,11 @@ p:last-child,
   margin: auto;
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"Save 10%" block'] {
+.path-frontpage section.save-10 {
   background-image: linear-gradient(180deg, #fff, #f8f8f9);
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"Save 10%" block'] p {
+.path-frontpage section.save-10 p {
   margin: 1em 0;
 }
 
@@ -9119,11 +9119,11 @@ p:last-child,
   align-items: center;
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"Save with Common Energy" block'] {
+.path-frontpage section.save-with-ce {
   background-color: rgba(245, 245, 247, 0.71);
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"Save with Common Energy" block'] span.icon {
+.path-frontpage section.save-with-ce span.icon {
   color: #337ab7;
   font-size: 1.5em;
   vertical-align: middle;
@@ -9225,57 +9225,57 @@ p:last-child,
   }
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"How it Works" block'] {
+.path-frontpage section.how-it-works {
   background-color: #f8f7f2;
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] {
+.path-frontpage section.faq-section {
   background-color: #fffcfc;
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .view-content > .views-row {
+.path-frontpage section.faq-section .view-content > .views-row {
   display: flex;
   flex-flow: row wrap;
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .view-content > .views-row > .views-row {
+.path-frontpage section.faq-section .view-content > .views-row > .views-row {
   flex: 1 1 100%;
   margin: 0.5em;
 }
 
 @media (min-width: 480px) {
-  .path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .view-content > .views-row > .views-row {
+  .path-frontpage section.faq-section .view-content > .views-row > .views-row {
     flex: 1 1 calc(50% - 1em);
     max-width: calc(50% - 1em);
   }
 }
 
 @media (min-width: 768px) {
-  .path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .view-content > .views-row > .views-row {
+  .path-frontpage section.faq-section .view-content > .views-row > .views-row {
     flex: 1 1 calc((100% / 3) - 1em);
     max-width: calc((100% / 3) - 1em);
   }
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .views-accordion-header {
+.path-frontpage section.faq-section .views-accordion-header {
   border: 0;
   background: 0;
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .ui-state-active a, .path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .ui-state-active a:link, .path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .ui-state-active a:visited {
+.path-frontpage section.faq-section .ui-state-active a, .path-frontpage section.faq-section .ui-state-active a:link, .path-frontpage section.faq-section .ui-state-active a:visited {
   color: #454545;
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .ui-state-active .ui-icon {
+.path-frontpage section.faq-section .ui-state-active .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1);
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"FAQs" views block'] .ui-accordion-content {
+.path-frontpage section.faq-section .ui-accordion-content {
   border: 0;
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"Sign up for free in two minutes." block'] {
+.path-frontpage section.sign-up-for-free {
   background-image: linear-gradient(180deg, #2479ff, #2479ff);
   display: flex;
   height: 268px;
@@ -9283,7 +9283,7 @@ p:last-child,
   align-items: center;
 }
 
-.path-frontpage section[data-layout-content-preview-placeholder-label='"Sign up for free in two minutes." block'] .field--name-body {
+.path-frontpage section.sign-up-for-free .field--name-body {
   color: white;
 }
 
