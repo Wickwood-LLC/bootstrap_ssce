@@ -9173,6 +9173,11 @@ p:last-child,
   text-decoration: none;
 }
 
+.path-frontpage article.page.full .content > .layout:nth-of-type(5) .view-testimonial-carousel .views-slideshow-controls-bottom {
+  position: relative;
+  z-index: 1;
+}
+
 .path-frontpage article.page.full .content > .layout:nth-of-type(5) .view-testimonial-carousel .view-content {
   margin: 0 30px;
 }

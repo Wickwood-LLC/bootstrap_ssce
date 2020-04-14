@@ -472,6 +472,10 @@ p:last-child,
             text-decoration: none; 
           }
         }
+        .views-slideshow-controls-bottom {
+          position: relative;
+          z-index: 1;
+        }
         .view-content {
           margin: 0 30px;
         }
@@ -611,7 +615,7 @@ p:last-child,
         border: 0;
       }
     }
-    
+
     > .layout:nth-of-type(8) {
       background-image: linear-gradient(180deg,#2479ff,#2479ff);
       display: flex;
