@@ -407,8 +407,12 @@ p:last-child,
     }
 
     > .layout:nth-of-type(3) {
+      background-color: #f8f8f9;
+      
       .block-views-blockpress-coverage-block-2 {
-        background-color: #f8f8f9;
+        .views_slideshow_cycle_teaser_section {
+          width: 100% !important;
+        }
   
         .views-row {
           display: flex;
@@ -438,6 +442,11 @@ p:last-child,
           @include breakpoint(992px) {
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
             grid-template-rows: auto;
+          }
+
+          .views_slideshow_pager_field_item {
+            display: flex;
+            align-items: center;
           }
         }
       }
