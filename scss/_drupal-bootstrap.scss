@@ -22,6 +22,11 @@ body.maintenance-page {
   justify-content: center;
   align-content: center;
 
+  .navbar-brand {
+    margin-right: 0.3em;
+    color: #2379ff;
+  }
+
   .main-container {
     min-height: calc(100vh - 165px);
     display: flex;
