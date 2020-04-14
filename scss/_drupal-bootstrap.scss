@@ -410,7 +410,8 @@ p:last-child,
       background-color: #f8f8f9;
       
       .block-views-blockpress-coverage-block-2 {
-        .views_slideshow_cycle_teaser_section {
+        .views_slideshow_cycle_teaser_section,
+        .views_slideshow_cycle_slide {
           width: 100% !important;
         }
   
@@ -430,7 +431,7 @@ p:last-child,
           grid-template-rows: auto auto auto auto auto auto;
           grid-row-gap: 31px;
           grid-column-gap: 16px;
-          margin-top: 0;
+          margin-top: 1em;
           justify-content: center;
           justify-items: center;
           align-content: center;
