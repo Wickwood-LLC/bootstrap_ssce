@@ -426,7 +426,7 @@ p:last-child,
     }
 
     > .layout:nth-of-type(3) {
-      background-color: #f8f8f9;
+      background-color: white;
       
       .block-views-blockpress-coverage-block-2 {
         .views_slideshow_cycle_teaser_section,
@@ -436,8 +436,29 @@ p:last-child,
   
         .views-row {
           display: flex;
+          flex-flow: row wrap;
           justify-content: center;
           align-items: center;
+
+          .views-field.views-field-body {
+            width: 100%;
+            min-width: 0;
+            margin-top: 20px;
+            color: #555e80;
+            font-size: 26px;
+            line-height: 38px;
+            text-align: center;
+          }
+
+          .views-field-title {
+            width: 100%;
+            text-align: center;
+            margin: 2em 0;
+            color: #2479ff;
+            line-height: 35px;
+            text-transform: uppercase;
+            font-size: 14px;
+          }
         }
 
         .widget_pager {

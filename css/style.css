@@ -8491,6 +8491,10 @@ body.maintenance-page #navbar .container .navbar-brand {
   color: #2379ff;
 }
 
+body.maintenance-page .navbar-header {
+  justify-content: center;
+}
+
 body.maintenance-page .fad.fa-phone-alt::before {
   content: "\f879";
   font-family: 'Font Awesome 5 Duotone';
@@ -9129,8 +9133,29 @@ p:last-child,
 
 .path-frontpage article.page.full .content > .layout:nth-of-type(3) .block-views-blockpress-coverage-block-2 .views-row {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+}
+
+.path-frontpage article.page.full .content > .layout:nth-of-type(3) .block-views-blockpress-coverage-block-2 .views-row .views-field.views-field-body {
+  width: 100%;
+  min-width: 0;
+  margin-top: 20px;
+  color: #555e80;
+  font-size: 26px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.path-frontpage article.page.full .content > .layout:nth-of-type(3) .block-views-blockpress-coverage-block-2 .views-row .views-field-title {
+  width: 100%;
+  text-align: center;
+  margin: 2em 0;
+  color: #2479ff;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .path-frontpage article.page.full .content > .layout:nth-of-type(3) .block-views-blockpress-coverage-block-2 .widget_pager {
