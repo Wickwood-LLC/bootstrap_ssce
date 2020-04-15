@@ -9367,8 +9367,7 @@ p:last-child,
 }
 
 .view-faqs .view-content > .views-row {
-  display: flex;
-  flex-flow: row wrap;
+  text-align: center;
 }
 
 .view-faqs .view-content > .views-row > .views-row {
@@ -9379,19 +9378,14 @@ p:last-child,
   margin: 0.5em;
   min-height: 130px;
   padding: 27px;
+  text-align: left;
 }
 
 @media (min-width: 480px) {
   .view-faqs .view-content > .views-row > .views-row {
-    flex: 1 1 calc(50% - 1em);
-    max-width: calc(50% - 1em);
-  }
-}
-
-@media (min-width: 768px) {
-  .view-faqs .view-content > .views-row > .views-row {
-    flex: 1 1 calc((100% / 3) - 1em);
-    max-width: calc((100% / 3) - 1em);
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 2em);
   }
 }
 

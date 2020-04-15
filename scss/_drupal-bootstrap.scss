@@ -651,8 +651,7 @@ p:last-child,
 
 .view-faqs {
   .view-content > .views-row {
-    display: flex;
-    flex-flow: row wrap;
+    text-align: center;
 
     > .views-row {
       border: 1.5px solid #2479ff;
@@ -662,10 +661,12 @@ p:last-child,
       margin: 0.5em;
       min-height: 130px;
       padding: 27px;
+      text-align: left;
 
       @include breakpoint(480px) {
-        flex: 1 1 calc(50% - 1em);
-        max-width: calc(50% - 1em);
+        display: inline-block;
+        vertical-align: top;
+        width: calc(50% - 2em);
       }
       // @include breakpoint(768px) {
       //   flex: 1 1 calc((100% / 3) - 1em); 
