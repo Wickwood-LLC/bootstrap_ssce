@@ -453,7 +453,7 @@ p:last-child,
           .views-field-title {
             width: 100%;
             text-align: center;
-            margin: 2em 0;
+            margin: 2em 0 0;
             color: #2479ff;
             line-height: 35px;
             text-transform: uppercase;
@@ -471,7 +471,6 @@ p:last-child,
           grid-template-rows: auto auto auto auto auto auto;
           grid-row-gap: 31px;
           grid-column-gap: 16px;
-          margin-top: 1em;
           justify-content: center;
           justify-items: center;
           align-content: center;
