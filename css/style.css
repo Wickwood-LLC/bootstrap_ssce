@@ -9374,14 +9374,13 @@ p:last-child,
   border: 1.5px solid #2479ff;
   border-radius: 3px;
   cursor: pointer;
-  flex: 1 1 100%;
   margin: 0.5em;
   min-height: 130px;
   padding: 27px;
   text-align: left;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 768px) {
   .view-faqs .view-content > .views-row > .views-row {
     display: inline-block;
     vertical-align: top;
@@ -9396,13 +9395,31 @@ p:last-child,
   font-weight: 700;
 }
 
-.view-faqs .ui-state-active a, .view-faqs .ui-state-active a:link, .view-faqs .ui-state-active a:visited {
+.view-faqs .views-accordion-header .ui-accordion-header-icon {
+  display: none;
+}
+
+.view-faqs .ui-accordion-header-active a, .view-faqs .ui-accordion-header-active a:link, .view-faqs .ui-accordion-header-active a:visited {
   color: #454545;
 }
 
-.view-faqs .ui-state-active .ui-icon {
+.view-faqs .ui-accordion-header-active .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1);
+}
+
+.view-faqs .ui-accordion-header-active:after {
+  color: #2479ff;
+  content: "\f055";
+  float: right;
+  font-family: "Font Awesome 5 Pro";
+}
+
+.view-faqs .ui-accordion-header-collapsed:after {
+  color: #2479ff;
+  content: "\f056";
+  float: right;
+  font-family: "Font Awesome 5 Pro";
 }
 
 .view-faqs .ui-accordion-content {

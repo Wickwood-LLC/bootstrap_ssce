@@ -657,21 +657,16 @@ p:last-child,
       border: 1.5px solid #2479ff;
       border-radius: 3px;
       cursor: pointer;
-      flex: 1 1 100%;
       margin: 0.5em;
       min-height: 130px;
       padding: 27px;
       text-align: left;
 
-      @include breakpoint(480px) {
+      @include breakpoint(768px) {
         display: inline-block;
         vertical-align: top;
         width: calc(50% - 2em);
       }
-      // @include breakpoint(768px) {
-      //   flex: 1 1 calc((100% / 3) - 1em); 
-      //   max-width: calc((100% / 3) - 1em);
-      // }
     }
   }
 
@@ -680,14 +675,33 @@ p:last-child,
     background: 0;
     color: #313146;
     font-weight: 700;
+
+    .ui-accordion-header-icon {
+      display: none;
+    }
   }
-  .ui-state-active {
+  .ui-accordion-header-active {
     a, a:link, a:visited {
       color: #454545;
     }
 
     .ui-icon {
       filter: invert(1);
+    }
+
+    &:after {
+      color: #2479ff;
+      content: "\f055";
+      float: right;
+      font-family: "Font Awesome 5 Pro";
+    }
+  }
+  .ui-accordion-header-collapsed {
+    &:after {
+      color: #2479ff;
+      content: "\f056";
+      float: right;
+      font-family: "Font Awesome 5 Pro";
     }
   }
   .ui-accordion-content {
