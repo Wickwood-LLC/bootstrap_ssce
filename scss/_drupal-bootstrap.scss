@@ -22,9 +22,18 @@ body.maintenance-page {
   justify-content: center;
   align-content: center;
 
-  #navbar .container .navbar-brand {
-    margin-right: 0.3em;
-    color: #2379ff;
+  #navbar {
+    padding: 0.25em 0;
+    
+    .container {
+      > .row {
+        width: 100%;
+      }
+      .navbar-brand {
+        margin-right: 0.3em;
+        color: #2379ff;
+      }
+    }
   }
 
   .main-container {
