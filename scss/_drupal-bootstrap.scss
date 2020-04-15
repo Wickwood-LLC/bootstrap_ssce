@@ -679,6 +679,10 @@ p:last-child,
     .ui-accordion-header-icon {
       display: none;
     }
+    .field-content {
+      display: inline-block;
+      width: calc(100% - 25px);
+    }
   }
   .ui-accordion-header-active {
     a, a:link, a:visited {

@@ -9399,6 +9399,11 @@ p:last-child,
   display: none;
 }
 
+.view-faqs .views-accordion-header .field-content {
+  display: inline-block;
+  width: calc(100% - 25px);
+}
+
 .view-faqs .ui-accordion-header-active a, .view-faqs .ui-accordion-header-active a:link, .view-faqs .ui-accordion-header-active a:visited {
   color: #454545;
 }
