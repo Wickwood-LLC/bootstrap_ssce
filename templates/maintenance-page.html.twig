@@ -25,12 +25,6 @@
     <div class="row">
       <section class="col-sm-12">
         <div class="navbar-header">
-          {% if logo %}
-            <a class="logo navbar-btn pull-left" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
-              <img src="{{ logo }}" alt="{{ 'Home'|t }}" />
-            </a>
-          {% endif %}
-
           {% if site_name or site_slogan %}
               {% if site_name %}
                  <a class="name navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
@@ -40,6 +34,11 @@
               {% endif %}
           {% endif %}
         </div>
+
+        <section id="block-headerlinks" class="block block-block-content">
+          <a class="phone-link" href="tel:518-250-9729"><span class="fontawesome-icon-inline"><span class="fad fa-phone-alt"></span>&nbsp;</span>518-250-9729 </a>
+          <a class="btn btn-primary" href="https://my.commonenergy.us/onboarding/step1?affiliate=Wickwood" target="_blank">Check Availability</a>              
+        </section>
       </section>
     </div>
   </div>
