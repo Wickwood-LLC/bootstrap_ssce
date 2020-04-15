@@ -9372,8 +9372,13 @@ p:last-child,
 }
 
 .view-faqs .view-content > .views-row > .views-row {
+  border: 1.5px solid #2479ff;
+  border-radius: 3px;
+  cursor: pointer;
   flex: 1 1 100%;
   margin: 0.5em;
+  min-height: 130px;
+  padding: 27px;
 }
 
 @media (min-width: 480px) {
@@ -9393,6 +9398,8 @@ p:last-child,
 .view-faqs .views-accordion-header {
   border: 0;
   background: 0;
+  color: #313146;
+  font-weight: 700;
 }
 
 .view-faqs .ui-state-active a, .view-faqs .ui-state-active a:link, .view-faqs .ui-state-active a:visited {

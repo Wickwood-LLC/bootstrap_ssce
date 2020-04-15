@@ -655,23 +655,30 @@ p:last-child,
     flex-flow: row wrap;
 
     > .views-row {
+      border: 1.5px solid #2479ff;
+      border-radius: 3px;
+      cursor: pointer;
       flex: 1 1 100%;
       margin: 0.5em;
+      min-height: 130px;
+      padding: 27px;
 
       @include breakpoint(480px) {
         flex: 1 1 calc(50% - 1em);
         max-width: calc(50% - 1em);
       }
-      @include breakpoint(768px) {
-        flex: 1 1 calc((100% / 3) - 1em); 
-        max-width: calc((100% / 3) - 1em);
-      }
+      // @include breakpoint(768px) {
+      //   flex: 1 1 calc((100% / 3) - 1em); 
+      //   max-width: calc((100% / 3) - 1em);
+      // }
     }
   }
 
   .views-accordion-header {
     border: 0;
     background: 0;
+    color: #313146;
+    font-weight: 700;
   }
   .ui-state-active {
     a, a:link, a:visited {
