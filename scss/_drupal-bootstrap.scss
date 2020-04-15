@@ -36,6 +36,16 @@ body.maintenance-page {
     }
   }
 
+  .navbar-header {
+    justify-content: center;
+  }
+
+  .fad.fa-phone-alt::before {
+    content: "\f879";
+    font-family: 'Font Awesome 5 Duotone';
+    font-weight: 900;
+  }
+
   .main-container {
     min-height: calc(100vh - 165px);
     display: flex;
