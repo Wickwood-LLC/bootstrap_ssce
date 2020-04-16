@@ -51,6 +51,15 @@ body.maintenance-page {
 
 body.navbar-is-fixed-top {
   margin-top: 125px;
+  min-height: calc(100vh - 125px);
+}
+.dialog-off-canvas-main-canvas {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: calc(100vh - 204px);
+}
+.main-container {
+  flex: 1;
 }
 
 // jQuery UI style overrides.
@@ -354,6 +363,11 @@ p:last-child,
 
 .region-footer {
   text-align: center;
+  font-size: 0.66rem;
+
+  p {
+    font-size: 0.66rem;
+  }
 }
 #block-bootstrap-ssce-footer {
   li {
