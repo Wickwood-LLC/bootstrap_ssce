@@ -40,12 +40,6 @@ body.maintenance-page {
     justify-content: center;
   }
 
-  .fad.fa-phone-alt::before {
-    content: "\f879";
-    font-family: 'Font Awesome 5 Duotone';
-    font-weight: 900;
-  }
-
   .main-container {
     min-height: calc(100vh - 165px);
     display: flex;
@@ -695,7 +689,7 @@ p:last-child,
 
     &:after {
       color: #2479ff;
-      content: "\f055";
+      content: "\f056";
       float: right;
       font-family: "Font Awesome 5 Pro";
     }
@@ -703,7 +697,7 @@ p:last-child,
   .ui-accordion-header-collapsed {
     &:after {
       color: #2479ff;
-      content: "\f056";
+      content: "\f055";
       float: right;
       font-family: "Font Awesome 5 Pro";
     }
