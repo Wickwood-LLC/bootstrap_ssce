@@ -524,65 +524,6 @@ p:last-child,
     }
   }
 
-  .save-with-ce {
-    span.icon {
-      color: $brand-primary;
-      font-size: 1.5em;
-      vertical-align: middle;
-      margin-right: 0.5em;
-      width: 1.4em;
-      display: inline-block;
-      vertical-align: baseline;
-      text-align: center;
-    }
-  }
-
-  .how-it-works {
-    img {
-      width: 250px;
-      margin: auto;
-
-      @include breakpoint(640px) {
-        width: 400px;
-      }      
-    }
-
-    .wt-row.wt-two-col {
-      display: flex;
-      flex-flow: row wrap;
-
-      &:nth-of-type(2),
-      &:nth-of-type(4) {
-        .wt-col-1 {
-          order: 1;
-
-          @include breakpoint(640px) {
-            order: 0;
-          }
-        }
-      }
-      
-      .wt-col-md-6 {
-        flex: 1 1 250px;
-        text-align: center;
-        padding: 15px;
-
-        @include breakpoint(640px) {
-          text-align: unset;
-        }
-
-        @include breakpoint(850px) {
-          .wt-col-2 {
-            padding-left: 0;
-          }
-          .wt-col-2 {
-            padding-right: 0;
-          }
-        }
-      }
-    }
-  }
-
   .view-testimonial-carousel {
     .view-header {
       font-size: 50px;
@@ -656,6 +597,64 @@ p:last-child,
   }
 }
 
+.save-with-ce {
+  span.icon {
+    color: $brand-primary;
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin-right: 0.5em;
+    width: 1.4em;
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: center;
+  }
+}
+
+.how-it-works {
+  img {
+    width: 250px;
+    margin: auto;
+
+    @include breakpoint(640px) {
+      width: 400px;
+    }      
+  }
+
+  .wt-row.wt-two-col {
+    display: flex;
+    flex-flow: row wrap;
+
+    &:nth-of-type(2),
+    &:nth-of-type(4) {
+      .wt-col-1 {
+        order: 1;
+
+        @include breakpoint(640px) {
+          order: 0;
+        }
+      }
+    }
+    
+    .wt-col-md-6 {
+      flex: 1 1 250px;
+      text-align: center;
+      padding: 15px;
+
+      @include breakpoint(640px) {
+        text-align: unset;
+      }
+
+      @include breakpoint(850px) {
+        .wt-col-2 {
+          padding-left: 0;
+        }
+        .wt-col-2 {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
 
 .view-faqs {
   .view-content > .views-row {
