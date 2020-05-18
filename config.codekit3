@@ -1891,6 +1891,24 @@
 		"oAP": "/config/schema/bootstrap_ssce.schema.yml",
 		"oF": 0
 		},
+	"/css/ckeditor-styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/ckeditor-styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/ckeditor-styles.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/css/ckeditor-styles.css.map",
+		"oF": 0
+		},
 	"/css/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2378,6 +2396,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/ckeditor-styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/ckeditor-styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/drupal-bootstrap/component/_ajax.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2638,6 +2669,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/html.html.twig",
+		"oF": 0
+		},
+	"/templates/maintenance-page.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/maintenance-page.html.twig",
 		"oF": 0
 		},
 	"/templates/README.md": {

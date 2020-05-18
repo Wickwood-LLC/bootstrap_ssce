@@ -424,7 +424,7 @@ p:last-child,
     > .layout:nth-of-type(2) {
       min-height: 100%;
       margin-top: -25px;
-      background-image: linear-gradient(180deg,#edf3fe,#fff);
+      background-color: #edf3fe;
       
       img {
         margin: auto;
@@ -442,7 +442,7 @@ p:last-child,
     }
 
     > .layout:nth-of-type(5) {
-      background-color: #f8f8f9;
+      background-color: white;
     }
 
     > .layout:nth-of-type(6) {
