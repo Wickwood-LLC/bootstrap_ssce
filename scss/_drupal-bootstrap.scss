@@ -747,3 +747,13 @@ form#user-pass {
     text-align: center;
   }
 }
+
+form#webform-submission-contact-node-160-add-form {
+  @include breakpoint(990px) {
+    margin: 0 10%;
+  }
+
+  #edit-actions {
+    text-align: center;
+  }
+}

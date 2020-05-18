@@ -9472,4 +9472,14 @@ form#user-login-form #edit-actions,
 form#user-pass #edit-actions {
   text-align: center;
 }
+
+@media (min-width: 990px) {
+  form#webform-submission-contact-node-160-add-form {
+    margin: 0 10%;
+  }
+}
+
+form#webform-submission-contact-node-160-add-form #edit-actions {
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
