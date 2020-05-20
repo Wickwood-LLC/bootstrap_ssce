@@ -9496,4 +9496,9 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   background: #5988b4;
   color: #fff;
 }
+
+.ui-dialog .ui-dialog-title {
+  text-align: center;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
