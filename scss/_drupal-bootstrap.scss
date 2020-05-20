@@ -757,3 +757,11 @@ form#webform-submission-contact-node-160-add-form {
     text-align: center;
   }
 }
+
+.g-recaptcha {
+  margin-bottom: 0.5em;
+  
+  > div {
+    margin: auto;
+  }
+}
