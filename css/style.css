@@ -9483,14 +9483,6 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   text-align: center;
 }
 
-.g-recaptcha {
-  margin-bottom: 0.5em;
-}
-
-.g-recaptcha > div {
-  margin: auto;
-}
-
 .ui-dialog .ui-widget-header {
   border: 1px solid #5988b4;
   background: #5988b4;
