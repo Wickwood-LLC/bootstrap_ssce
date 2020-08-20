@@ -1,7 +1,7 @@
 body.earnbysharingsolar-com {
 	&.toolbar-tray-open.toolbar-vertical {
 		@include breakpoint(0px 942px) {
-			.name-and-slogan {
+			#navbar .container .name-and-slogan {
 				width: 100%;
 				text-align: center;
 			}

@@ -9513,7 +9513,7 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
 }
 
 @media (min-width: 0px) and (max-width: 942px) {
-  body.earnbysharingsolar-com.toolbar-tray-open.toolbar-vertical .name-and-slogan {
+  body.earnbysharingsolar-com.toolbar-tray-open.toolbar-vertical #navbar .container .name-and-slogan {
     width: 100%;
     text-align: center;
   }
