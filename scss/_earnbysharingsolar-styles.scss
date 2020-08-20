@@ -1,4 +1,15 @@
 body.earnbysharingsolar-com {
+	&.toolbar-tray-open.toolbar-vertical {
+		@include breakpoint(0px 942px) {
+			.name-and-slogan {
+				width: 100%;
+				text-align: center;
+			}
+			#block-headerlinksearnbysharingsolar {
+				float: none;
+			}
+		}
+	}
 
 	#block-headerlinksearnbysharingsolar {
 		@include breakpoint(768px) {

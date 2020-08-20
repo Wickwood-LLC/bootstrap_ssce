@@ -9512,6 +9512,16 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   width: 100%;
 }
 
+@media (min-width: 0px) and (max-width: 942px) {
+  body.earnbysharingsolar-com.toolbar-tray-open.toolbar-vertical .name-and-slogan {
+    width: 100%;
+    text-align: center;
+  }
+  body.earnbysharingsolar-com.toolbar-tray-open.toolbar-vertical #block-headerlinksearnbysharingsolar {
+    float: none;
+  }
+}
+
 @media (min-width: 768px) {
   body.earnbysharingsolar-com #block-headerlinksearnbysharingsolar {
     float: right;
