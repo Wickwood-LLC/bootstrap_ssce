@@ -9511,4 +9511,10 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   text-align: center;
   width: 100%;
 }
+
+@media (min-width: 768px) {
+  body.earnbysharingsolar-com #block-headerlinksearnbysharingsolar {
+    float: right;
+  }
+}
 /*# sourceMappingURL=style.css.map */
