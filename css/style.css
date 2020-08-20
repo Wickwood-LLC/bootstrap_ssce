@@ -9527,4 +9527,40 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
     float: right;
   }
 }
+
+body.earnbysharingsolar-com .btn-green {
+  background-color: #1b903a;
+  border-color: #0f6b27;
+}
+
+body.earnbysharingsolar-com .btn-green:hover {
+  background-color: #136529;
+}
+
+body.earnbysharingsolar-com .btn-lt-blue {
+  background-color: #128bc5;
+  border-color: #0a638e;
+}
+
+body.earnbysharingsolar-com .btn-lt-blue:hover {
+  background-color: #0e6a96;
+}
+
+body.earnbysharingsolar-com .btn-gold {
+  background-color: #c59e12;
+  border-color: #a08110;
+}
+
+body.earnbysharingsolar-com .btn-gold:hover {
+  background-color: #96790e;
+}
+
+body.earnbysharingsolar-com .btn-yellow {
+  background-color: #c5c715;
+  border-color: #a3a511;
+}
+
+body.earnbysharingsolar-com .btn-yellow:hover {
+  background-color: #979910;
+}
 /*# sourceMappingURL=style.css.map */

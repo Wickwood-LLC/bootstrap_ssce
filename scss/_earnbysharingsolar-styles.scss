@@ -16,4 +16,41 @@ body.earnbysharingsolar-com {
 			float: right;
 		}
 	}
+
+	.btn-green{	
+	    background-color: #1b903a;
+	    border-color: #0f6b27;
+
+	    &:hover {
+	    	background-color: darken(#1b903a, 10%);
+	    }
+	}
+
+	.btn-lt-blue{	
+	    background-color: #128bc5;	
+	    border-color: #0a638e;
+
+	    &:hover {
+	    	background-color: darken(#128bc5, 10%);
+	    }
+	}
+
+	.btn-gold{	
+	    background-color: #c59e12;	
+	    border-color: #a08110;
+
+	    &:hover {
+	    	background-color: darken(#c59e12, 10%);
+	    }
+	}
+
+	.btn-yellow{	
+	    background-color: #c5c715;	
+	    border-color: #a3a511;
+
+	    &:hover {
+	    	background-color: darken(#c5c715, 10%);
+	    }
+	}
+
 }
