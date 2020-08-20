@@ -1,0 +1,8 @@
+body.earnbysharingsolar-com {
+
+	#block-headerlinksearnbysharingsolar {
+		@include breakpoint(768px) {
+			float: right;
+		}
+	}
+}
