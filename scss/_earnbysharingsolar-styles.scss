@@ -25,7 +25,7 @@ body.earnbysharingsolar-com {
 			> a {
 				padding: 6px 12px;
 
-				&.btn-primary:hover {
+				&[class="btn btn-primary"]:hover {
 					background-color: #286090;
 				}
 			}

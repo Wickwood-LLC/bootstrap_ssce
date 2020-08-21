@@ -9536,7 +9536,7 @@ body.earnbysharingsolar-com .menu--main-menu-ebss > li > a {
   padding: 6px 12px;
 }
 
-body.earnbysharingsolar-com .menu--main-menu-ebss > li > a.btn-primary:hover {
+body.earnbysharingsolar-com .menu--main-menu-ebss > li > a[class="btn btn-primary"]:hover {
   background-color: #286090;
 }
 
