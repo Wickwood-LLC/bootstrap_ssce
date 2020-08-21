@@ -9528,6 +9528,18 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   }
 }
 
+body.earnbysharingsolar-com .menu--main-menu-ebss > li {
+  display: inline-block;
+}
+
+body.earnbysharingsolar-com .menu--main-menu-ebss > li > a {
+  padding: 6px 12px;
+}
+
+body.earnbysharingsolar-com .menu--main-menu-ebss > li > a.btn-primary:hover {
+  background-color: #286090;
+}
+
 body.earnbysharingsolar-com .btn-green {
   background-color: #1b903a;
   border-color: #0f6b27;

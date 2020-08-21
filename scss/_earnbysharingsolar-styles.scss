@@ -16,6 +16,21 @@ body.earnbysharingsolar-com {
 			float: right;
 		}
 	}
+	
+	// MAIN MENU
+	.menu--main-menu-ebss {
+		> li {
+			display: inline-block;
+
+			> a {
+				padding: 6px 12px;
+
+				&.btn-primary:hover {
+					background-color: #286090;
+				}
+			}
+		}
+	}
 
 	.btn-green{	
 	    background-color: #1b903a;
