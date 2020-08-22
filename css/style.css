@@ -1516,8 +1516,8 @@ h6 .small,
 h1, .h1,
 h2, .h2,
 h3, .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
 }
 
 h1 small,
@@ -8964,10 +8964,6 @@ ul:last-child {
   text-align: center;
 }
 
-nav.tabs {
-  margin-bottom: 2em;
-}
-
 .nav-tabs {
   border-bottom: 0px;
   display: inline-block;
@@ -8978,7 +8974,6 @@ nav.tabs {
   float: left;
   position: relative;
   background: #eee;
-  margin-bottom: 10px;
 }
 
 .nav-tabs > li.active {

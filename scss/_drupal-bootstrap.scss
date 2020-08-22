@@ -267,7 +267,7 @@ ul {
 }
 
 nav.tabs {
-  margin-bottom: 2em;
+  
 }
 
 .nav-tabs {
@@ -279,7 +279,6 @@ nav.tabs {
     float: left;
     position: relative;
     background: #eee;
-    margin-bottom: 10px;
 
     &.active {
       background-color: $brand-primary;
