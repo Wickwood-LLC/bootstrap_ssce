@@ -19,12 +19,13 @@ regions:
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 
+libraries:
+  - bootstrap_ssce/global-scripts
+  - bootstrap_ssce/fonts
+
 libraries-extend:
   bootstrap/framework:
     - bootstrap_ssce/framework
-
-libraries:
-  - bootstrap_ssce/fonts
 
 ckeditor_stylesheets:
   - css/ckeditor-styles.css
