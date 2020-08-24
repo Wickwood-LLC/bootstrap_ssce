@@ -36,7 +36,7 @@ framework:
 global-scripts:
   version: 1.x
   js:
-    js/bootstrap-bmc.js: {}
+    js/bootstrap-ssce.js: {}
   dependencies:
     - core/jquery
 
@@ -44,4 +44,3 @@ fonts:
   css:
     theme: 
       fonts/SSCE-Geometry-Soft-Pro-Bold-A-webfont-kit.css: {}
-      
