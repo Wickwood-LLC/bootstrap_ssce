@@ -4,9 +4,9 @@
      */
     Drupal.behaviors.topSpacing = {
         attach: function(context, settings) {
-			if $("body").hasClass('navbar-is-fixed-top') {
-				marginTop = $('.navbar-fixed-top').outerHeight();
-				$(this).css({
+			if $('body').hasClass('navbar-is-fixed-top') {
+				var marginTop = $('.navbar-fixed-top').outerHeight();
+				$('body').css({
 		            'margin-top': marginTop,
 		        });
 			}
