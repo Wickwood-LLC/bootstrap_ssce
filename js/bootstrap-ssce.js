@@ -4,12 +4,14 @@
      */
     Drupal.behaviors.topSpacing = {
         attach: function(context, settings) {
-			if $('body').hasClass('navbar-is-fixed-top') {
-				var marginTop = $('.navbar-fixed-top').outerHeight();
-				$('body').css({
-		            'margin-top': marginTop,
-		        });
-			}
+        	$( window ).resize(function() {
+    			if $('body').hasClass('navbar-is-fixed-top') {
+    				var marginTop = $('.navbar-fixed-top').outerHeight();
+    				$(this).css({
+    		            'margin-top': marginTop,
+    		        });
+    			}
+        	});
         }
     };
 })(jQuery, Drupal);

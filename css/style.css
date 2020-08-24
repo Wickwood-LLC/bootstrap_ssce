@@ -9523,15 +9523,21 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   }
 }
 
+body.earnbysharingsolar-com .menu--main-menu-ebss {
+  text-align: center;
+}
+
 body.earnbysharingsolar-com .menu--main-menu-ebss > li {
   display: inline-block;
+  margin-bottom: 0.2em;
 }
 
 body.earnbysharingsolar-com .menu--main-menu-ebss > li > a {
-  padding: 6px 12px;
+  padding: 0.25em 0.5em;
+  font-size: 0.75em;
 }
 
-body.earnbysharingsolar-com .menu--main-menu-ebss > li > a[class="btn btn-primary"]:hover {
+body.earnbysharingsolar-com .menu--main-menu-ebss > li > a[class="btn btn-primary"]:hover, body.earnbysharingsolar-com .menu--main-menu-ebss > li > a[class="btn btn-primary"]:focus {
   background-color: #286090;
 }
 
