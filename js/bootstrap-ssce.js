@@ -8,7 +8,7 @@
     			if ($('body').hasClass('navbar-is-fixed-top')) {
     				var marginTop = $('.navbar-fixed-top').outerHeight();
     				$('body').css({
-    		            'margin-top': marginTop + "px",
+    		            'margin-top': "calc(" + marginTop + "px + 0.5em)",
     		        });
     			}
         	});
