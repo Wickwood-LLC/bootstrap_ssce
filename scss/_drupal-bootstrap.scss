@@ -407,7 +407,7 @@ p:last-child,
     padding: 0;
   }
   section.block-layout-builder {
-    padding: 3% 10% 3% 10%;
+    padding: 1% 10% 1% 10%;
 
     .field--name-body {
       max-width: 1200px;
@@ -415,7 +415,7 @@ p:last-child,
     }
   }
   section.block-views {
-    padding: 3% 10% 3% 10%;
+    padding: 1% 10% 1% 10%;
 
     .block-title {
       text-align: center;
@@ -433,7 +433,7 @@ p:last-child,
       background-image: linear-gradient(180deg,#fff,#f8f8f9);
 
       p {
-        margin: 1em 0;
+        margin: 0.5em 0 1em 0;
       }
     }
 

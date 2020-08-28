@@ -9103,7 +9103,7 @@ p:last-child,
 }
 
 .path-frontpage section.block-layout-builder {
-  padding: 3% 10% 3% 10%;
+  padding: 1% 10% 1% 10%;
 }
 
 .path-frontpage section.block-layout-builder .field--name-body {
@@ -9112,7 +9112,7 @@ p:last-child,
 }
 
 .path-frontpage section.block-views {
-  padding: 3% 10% 3% 10%;
+  padding: 1% 10% 1% 10%;
 }
 
 .path-frontpage section.block-views .block-title {
@@ -9130,7 +9130,7 @@ p:last-child,
 }
 
 .path-frontpage article.page.full .content > .layout:nth-of-type(1) p {
-  margin: 1em 0;
+  margin: 0.5em 0 1em 0;
 }
 
 .path-frontpage article.page.full .content > .layout:nth-of-type(2) {
