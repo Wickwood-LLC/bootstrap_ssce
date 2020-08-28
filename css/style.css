@@ -9093,7 +9093,8 @@ p:last-child,
 }
 
 .fluid-columns > * {
-  flex: 0 1 300px;
+  flex: 1 1 250px;
+  padding: 0.5em;
 }
 
 .path-frontpage .row {
