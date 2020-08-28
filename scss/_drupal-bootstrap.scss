@@ -391,6 +391,17 @@ p:last-child,
   }
 }
 
+.fluid-columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 1em;
+  border-radius: 5px;
+}
+.fluid-columns > * {
+  flex: 0 1 300px;	
+}
+
 .path-frontpage {
   .row {
     margin: 0;
