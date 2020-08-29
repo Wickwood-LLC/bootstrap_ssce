@@ -9593,4 +9593,128 @@ body.earnbysharingsolar-com .btn-yellow {
 body.earnbysharingsolar-com .btn-yellow:hover {
   background-color: #979910;
 }
+
+.range-slider12 {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.range-slider12 > input {
+  opacity: 0;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  margin-top: 72px;
+  -webkit-appearance: none;
+}
+
+.range-slider12 > input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  z-index: 100;
+  position: relative;
+  width: 50px;
+  height: 30px;
+  -webkit-border-radius: 10px;
+}
+
+.range-slider12 > span.slider-container {
+  min-height: 110px;
+  display: inline-block;
+  position: absolute;
+  top: 70px;
+  left: -8px;
+  right: 46px;
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+.range-slider12 > span.slider-container > span.bar {
+  background-color: #dddde6;
+  /* boja posle tacke */
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  top: 12px;
+  left: 10px;
+  right: -25px;
+  height: 11px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.range-slider12 > span.slider-container > span.bar > span {
+  background: #2479ff;
+  /* boja pre tacke */
+  display: inline-block;
+  float: left;
+  height: 11px;
+  width: 0%;
+}
+
+.range-slider12 > span.slider-container > span.bar-btn {
+  display: inline-block;
+  position: absolute;
+  width: 46px;
+  height: auto;
+  padding-top: 40px;
+  font-weight: bold;
+  /* text-align: center; */
+  background: #f8f8f9;
+  left: -25px;
+  top: -65px;
+  /* border-radius: 3px; */
+  /* border: #333 2px solid; */
+  /* -webkit-box-shadow: 0px 0px 10px red; */
+  /* -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); */
+  /* box-shadow: 0px 0px 10px red; */
+}
+
+.range-slider12 > span.slider-container > span.bar-btn:after {
+  content: "";
+  border: 5px solid #fff;
+  background-color: #41ef8b;
+  /*boja tacke*/
+  border-radius: 20px;
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  top: 70px;
+  z-index: 3;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.range-slider12 > span.slider-container > span.bar-btn > span:before {
+  content: "$";
+}
+
+#min {
+  position: absolute;
+  top: 42px;
+}
+
+#max {
+  position: absolute;
+  top: 42px;
+  right: 20px;
+}
+
+.text-block-27 {
+  position: absolute;
+  top: 42px;
+}
+
+.text-block-27-copy {
+  position: absolute;
+  top: 42px;
+  right: 0px;
+}
+
+#output1 {
+  opacity: 0;
+}
 /*# sourceMappingURL=style.css.map */

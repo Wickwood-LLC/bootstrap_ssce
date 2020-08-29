@@ -1985,10 +1985,10 @@
 	"/js/bootstrap-ssce.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
-		"oA": 0,
+		"mi": 0,
+		"oA": 1,
 		"oAP": "/js/bootstrap-ssce-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -2343,6 +2343,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_off-canvas.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_rangeslider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_rangeslider.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
