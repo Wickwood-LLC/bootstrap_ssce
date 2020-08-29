@@ -22,7 +22,7 @@
         attach: function(context, settings) {
         	$(".slider12").rangeslider();
 
-        	$.fn.rangeslider = function(options) {
+        	function rangeslider(options) {
         	    var obj = this;
         	    var defautValue = obj.attr("value");
         	    obj.wrap("<span class='range-slider12'></span>");
@@ -44,8 +44,7 @@
         	    nextObj.find("span.bar > span").css("width", percentage + "%");
         	    nextObj.find("span.bar-btn > span").text(skala.value);
         	};
-        	const
-        	    skala = document.querySelector('#skala');
+        	const skala = document.querySelector('#skala');
         	const output1 = document.querySelector('#output1');
         	const output12 = document.querySelector('#output12');
         	const output2 = document.querySelector('#output2');
