@@ -26,11 +26,12 @@
         max: 400,
         step: 10,
         create: function() {
-          handle.text($(this).slider("value"));
+          handle.text("$" + $(this).slider("value"));
         },
         slide: function(event, ui) {
           handle.text("$" + ui.value);
         }
+        handle.wrapInner("<span class='handle-text'></span>");
       });
 
       function updateSlider(passObj) {
