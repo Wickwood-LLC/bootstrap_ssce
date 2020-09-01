@@ -20,17 +20,14 @@
      */
     Drupal.behaviors.rangeSlider = {
         attach: function(context, settings) {
-        	$(".slider12").rangeslider();
-
-        	$.fn.rangeslider = function(options) {
-        	    var obj = this;
-        	    var defautValue = obj.attr("value");
-        	    obj.wrap("<span class='range-slider12'></span>");
-        	    obj.after("<span class='slider-container'><span class='bar'><span></span></span><span class='bar-btn'><span>0</span></span></span>");
-        	    obj.attr("oninput", "updateSlider(this)");
-        	    updateSlider(this);
-        	    return obj;
-        	};
+			$( "#range-slider" ).slider({
+			  value:200,
+			  max: 400,
+			  step: 10,
+			  slide: function( event, ui ) {
+			    $( "#amount" ).val( "$" + ui.value );
+			  }
+			});
 
         	function updateSlider(passObj) {
         	    var obj = $(passObj);
