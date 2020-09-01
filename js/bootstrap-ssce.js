@@ -22,7 +22,7 @@
         attach: function(context, settings) {
         	$(".slider12").rangeslider();
 
-        	function rangeslider(options) {
+        	$.fn.rangeslider = function(options) {
         	    var obj = this;
         	    var defautValue = obj.attr("value");
         	    obj.wrap("<span class='range-slider12'></span>");
