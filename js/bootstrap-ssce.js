@@ -48,11 +48,11 @@
           var nb = ui.value - ms;
           output12.text(ui.value);
           output2.text((ui.value < 10) ? '0 kWh' : `${ce.toLocaleString('en')} kWh`);
-          output3.textContent = (ui.value < 10) ? '0 lbs' : `${Math.round(cep).toLocaleString('en')} lbs`;
-          output4.textContent = (ui.value < 10) ? '$0' : `$ ${ms.toFixed(0).toLocaleString('en')}`;
-          output42.textContent = (ui.value < 10) ? '$0' : `$ ${ms.toFixed(0).toLocaleString('en')}`;
-          output5.textContent = (ui.value < 10) ? '0' : `${Math.round(etp)}`;
-          output6.textContent = (ui.value < 10) ? "$0" : `$${nb.toFixed(0)}`;
+          output3.text((ui.value < 10) ? '0 lbs' : `${Math.round(cep).toLocaleString('en')} lbs`);
+          output4.text((ui.value < 10) ? '$0' : `$ ${ms.toFixed(0).toLocaleString('en')}`);
+          output42.text((ui.value < 10) ? '$0' : `$ ${ms.toFixed(0).toLocaleString('en')}`);
+          output5.text((ui.value < 10) ? '0' : `${Math.round(etp)}`);
+          output6.text((ui.value < 10) ? "$0" : `$${nb.toFixed(0)}`);
         }
       });
       
