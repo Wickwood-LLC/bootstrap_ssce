@@ -31,8 +31,8 @@
         slide: function(event, ui) {
           handle.text("$" + ui.value);
         }
-        handle.wrapInner("<span class='handle-text'></span>");
       });
+      handle.wrapInner("<span class='handle-text'></span>");
 
       function updateSlider(passObj) {
         var obj = $(passObj);
