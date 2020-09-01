@@ -39,6 +39,7 @@ global-scripts:
     js/bootstrap-ssce.js: {}
   dependencies:
     - core/jquery
+    - jquery_ui_slider/slider
 
 fonts:
   css:
