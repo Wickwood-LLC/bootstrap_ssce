@@ -20,13 +20,16 @@
    */
   Drupal.behaviors.rangeSlider = {
     attach: function(context, settings) {
-      var handle = $(".ui-slider-handle");
-      handle.wrapInner('<span class="handle-text"></span>');
-      var handleText = $(".ui-slider-handle .handle-text");
       $("#range-slider").slider({
         value: 200,
         max: 400,
         step: 10,
+        create: function( event, ui ) {
+        	var handle = $(".ui-slider-handle");
+			    handle.wrapInner('<span class="handle-text"></span>');
+			    var handleText = $(".ui-slider-handle .handle-text");
+			    handleText.text("$" + $( this ).slider( "value" ) );
+        },
         slide: function(event, ui) {
           handleText.text("$" + ui.value);
         }
