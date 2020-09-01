@@ -31,6 +31,7 @@
 			    handleText.text("$" + $( this ).slider( "value" ) );
         },
         slide: function(event, ui) {
+        	var handleText = $(".ui-slider-handle .handle-text");
           handleText.text("$" + ui.value);
         }
       });
