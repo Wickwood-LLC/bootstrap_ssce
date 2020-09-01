@@ -46,8 +46,8 @@
           var etp = cep / 30;	// Equivalent trees planted
           var ms = ce * 0.01;	// Monthly Savings
           var nb = ui.value - ms;
-          output12.textContent = ui.value;
-          output2.textContent = (ui.value < 10) ? '0 kWh' : `${ce.toLocaleString('en')} kWh`;
+          output12.text(ui.value);
+          output2.text((ui.value < 10) ? '0 kWh' : `${ce.toLocaleString('en')} kWh`);
           output3.textContent = (ui.value < 10) ? '0 lbs' : `${Math.round(cep).toLocaleString('en')} lbs`;
           output4.textContent = (ui.value < 10) ? '$0' : `$ ${ms.toFixed(0).toLocaleString('en')}`;
           output42.textContent = (ui.value < 10) ? '$0' : `$ ${ms.toFixed(0).toLocaleString('en')}`;
