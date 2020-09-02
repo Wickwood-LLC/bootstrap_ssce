@@ -9598,13 +9598,17 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   width: 56px;
   height: 1px;
   margin: 32px auto 10px auto;
-  margin-left: 0;
   padding: 0;
   border: 1.5px solid #41ef8b;
   background-color: #41ef8b;
 }
 
 .div-block-41 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.estimate-container {
   display: flex;
   flex-flow: row wrap;
 }
@@ -9640,11 +9644,11 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   border-radius: 10px;
 }
 
-.ui-slider-range {
+#range-slider .ui-slider-range {
   background: #2479ff;
 }
 
-.ui-slider-handle {
+#range-slider .ui-slider-handle {
   border: 5px solid #fff;
   background-color: #41ef8b;
   border-radius: 20px;
@@ -9654,15 +9658,15 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-.ui-slider-handle.ui-state-active {
+#range-slider .ui-slider-handle.ui-state-active {
   color: inherit;
 }
 
-.ui-slider-handle:focus {
+#range-slider .ui-slider-handle:focus {
   outline: none;
 }
 
-.ui-slider-handle .handle-text {
+#range-slider .ui-slider-handle .handle-text {
   position: absolute;
   bottom: 23px;
   font-size: 0.8em;
