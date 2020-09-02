@@ -28,6 +28,7 @@
       const output5 = $('#output5');
       const output6 = $('#output6');
       $("#range-slider").slider({
+      	range: "min",
         value: 200,
         max: 400,
         step: 10,
@@ -45,8 +46,8 @@
           var cep = ce * 0.8;	// Carbon emissions you prevent
           var etp = cep / 30;	// Equivalent trees planted
           var ms = ce * 0.01;	// Monthly Savings
-          var nb = ui.value - ms;
-          output12.text(ui.value);
+          var nb = ui.value - ms;	// New Electricity Bill
+          output12.text(ui.value);	// Original Bill
           output2.text((ui.value < 10) ? '0 kWh' : `${ce.toLocaleString('en')} kWh`);
           output3.text((ui.value < 10) ? '0 lbs' : `${Math.round(cep).toLocaleString('en')} lbs`);
           output4.text((ui.value < 10) ? '$0' : `$ ${ms.toFixed(0).toLocaleString('en')}`);
