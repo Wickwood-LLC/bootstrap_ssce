@@ -9594,113 +9594,82 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   background-color: #979910;
 }
 
-.range-slider12 {
-  display: inline-block;
-  width: 100%;
-  box-sizing: border-box;
-  position: relative;
-  padding-bottom: 15px;
+.hr-range {
+  width: 56px;
+  height: 1px;
+  margin: 32px auto 10px auto;
+  margin-left: 0;
+  padding: 0;
+  border: 1.5px solid #41ef8b;
+  background-color: #41ef8b;
 }
 
-.range-slider12 > input {
-  opacity: 0;
-  width: 100%;
-  position: relative;
-  z-index: 5;
-  margin-top: 72px;
-  -webkit-appearance: none;
+.div-block-41 {
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.range-slider12 > input::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  z-index: 100;
-  position: relative;
-  width: 50px;
-  height: 30px;
-  -webkit-border-radius: 10px;
+.text-block-24 {
+  flex: 1 0 300px;
+  margin-right: 2em;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
-.range-slider12 > span.slider-container {
-  min-height: 110px;
-  display: inline-block;
-  position: absolute;
-  top: 70px;
-  left: -8px;
-  right: 46px;
-  z-index: 3;
-  box-sizing: border-box;
+.slider-container {
+  flex: 1 0 570px;
 }
 
-.range-slider12 > span.slider-container > span.bar {
-  background-color: #dddde6;
-  /* boja posle tacke */
-  display: inline-block;
-  position: absolute;
-  z-index: 1;
-  top: 12px;
-  left: 10px;
-  right: -25px;
+.min-value {
+  float: left;
+  font-size: 0.7em;
+  margin-bottom: 1em;
+  margin-left: -10px;
+}
+
+.max-value {
+  float: right;
+  font-size: 0.7em;
+  margin-bottom: 1em;
+  margin-right: -10px;
+}
+
+#range-slider {
+  clear: both;
   height: 11px;
-  overflow: hidden;
   border-radius: 10px;
 }
 
-.range-slider12 > span.slider-container > span.bar > span {
+.ui-slider-range {
   background: #2479ff;
-  /* boja pre tacke */
-  display: inline-block;
-  float: left;
-  height: 11px;
-  width: 0%;
 }
 
-.range-slider12 > span.slider-container > span.bar-btn {
-  display: inline-block;
-  position: absolute;
-  width: 46px;
-  height: auto;
-  padding-top: 40px;
-  font-weight: bold;
-  /* text-align: center; */
-  background: #f8f8f9;
-  left: -25px;
-  top: -65px;
-  /* border-radius: 3px; */
-  /* border: #333 2px solid; */
-  /* -webkit-box-shadow: 0px 0px 10px red; */
-  /* -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); */
-  /* box-shadow: 0px 0px 10px red; */
-}
-
-.range-slider12 > span.slider-container > span.bar-btn:after {
-  content: "";
+.ui-slider-handle {
   border: 5px solid #fff;
   background-color: #41ef8b;
-  /*boja tacke*/
   border-radius: 20px;
   width: 11px;
   height: 11px;
-  display: inline-block;
-  position: absolute;
-  left: 8px;
-  top: 70px;
-  z-index: 3;
+  box-sizing: content-box;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-.range-slider12 > span.slider-container > span.bar-btn > span:before {
-  content: "$";
+.ui-slider-handle.ui-state-active {
+  color: inherit;
 }
 
-#min {
-  position: absolute;
-  top: 42px;
+.ui-slider-handle:focus {
+  outline: none;
 }
 
-#max {
+.ui-slider-handle .handle-text {
   position: absolute;
-  top: 42px;
-  right: 20px;
+  bottom: 23px;
+  font-size: 0.8em;
+  font-weight: bold;
+  left: calc(-50% - 6px - 0.5em);
+  background: white;
+  padding: 0 0.5em;
 }
 
 .text-block-27 {
