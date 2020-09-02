@@ -15,6 +15,7 @@
 .estimate-container {
   display: flex;
   flex-flow: row wrap;
+  margin: 4em 0;
 }
 
 .text-block-24 {
@@ -27,12 +28,14 @@
 .slider-container {
   flex: 1 0 570px;
 }
+
 .min-value {
   float: left;
   font-size: 0.7em;
-  margin-bottom: 1em;  
+  margin-bottom: 1em;
   margin-left: -10px;
 }
+
 .max-value {
   float: right;
   font-size: 0.7em;
@@ -44,10 +47,11 @@
   clear: both;
   height: 11px;
   border-radius: 10px;
-  
+
   .ui-slider-range {
     background: #2479ff;
   }
+
   .ui-slider-handle {
     border: 5px solid #fff;
     background-color: #41ef8b;
@@ -60,10 +64,11 @@
     &.ui-state-active {
       color: inherit;
     }
+
     &:focus {
       outline: none;
     }
-    
+
     .handle-text {
       position: absolute;
       bottom: 23px;
@@ -76,17 +81,167 @@
   }
 }
 
-.text-block-27 {
-  position: absolute;
-  top: 42px;
+.div-block-43 {
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.text-block-27-copy {
-  position: absolute;
-  top: 42px;
-  right: 0px;
+.estimate-cards {
+  display: flex;
+  max-width: 789px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-#output1 {
-  opacity: 0;
+.single-card {
+  position: relative;
+  display: flex;
+  width: 30%;
+  max-width: 185px;
+  min-height: 211px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.single-card-content-holder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.text-block-26 {
+  max-width: 150px;
+  margin-bottom: 20px;
+  color: #555e80;
+  font-size: 0.8em;
+  line-height: 19px;
+  text-align: center;
+}
+
+.div-block-40 {
+  display: flex;
+  height: 28px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-40 {
+  margin-bottom: 9px;
+}
+
+.text-block-25 {
+  font-size: 1.5em;
+  line-height: 62px;
+  font-weight: 600;
+}
+
+.estimateresults {
+  flex: 0 0 255px;
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-block-26-copy {
+  max-width: none;
+  margin-bottom: 10px;
+  color: #555e80;
+  font-size: 0.9em;
+  line-height: 19px;
+  font-weight: 600;
+}
+
+.dynamicbill {
+  display: flex;
+  width: 255px;
+  height: 250px;
+  margin-left: 0;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://assets.website-files.com/5be0ca05fd286f28b19b251b/5f315f040bee901dfd04c3dd_bill%20copy.svg);
+  background-position: 50% 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cetextlogo {
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.7em;
+}
+
+.amount-total,
+.cetextlogo {
+  height: 25%;
+}
+
+.amount-row {
+  display: flex;
+  width: 65%;
+  height: 12%;
+  margin-top: 5px;
+  padding-left: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.billtitle {
+  margin-right: 5px;
+  color: #2479ff;
+  font-weight: 400;
+
+  &.bold {
+    font-weight: bold;
+  }
+}
+
+.amount-holder {
+  display: flex;
+}
+
+.amountbill,
+.amountbill-total {
+  color: #2479ff;
+  font-weight: 600;
+}
+
+.amountbill,
+.billtitle {
+  font-size: 0.9em;
+}
+
+.amount-total {
+  display: flex;
+  width: 70%;
+  margin-top: 15px;
+  padding-left: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.amountbill-total {
+  margin-top: 15px;
+  font-size: 2em;
 }
