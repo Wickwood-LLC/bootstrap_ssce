@@ -9689,6 +9689,8 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   padding-bottom: 50px;
   flex-direction: row;
   justify-content: space-between;
+  flex: 1 1 50%;
+  margin: auto;
 }
 
 .single-card {
