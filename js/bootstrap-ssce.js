@@ -28,27 +28,29 @@
       const output5 = $('#output5');
       const output6 = $('#output6');
       $("#range-slider").slider({
-      	range: "min",
+        range: "min",
         value: 200,
         min: 20,
         max: 400,
         step: 10,
-        create: function( event, ui ) {
-        	const handle = $(".ui-slider-handle");
-			    handle.wrapInner('<span class="handle-text"></span>');
-			    window.handleText = $(".ui-slider-handle .handle-text");
-			    window.handleText.text("$" + $( this ).slider( "value" ) );
+        create: function(event, ui) {
+          const handle = $(".ui-slider-handle");
+          handle.wrapInner('<span class="handle-text"></span>');
+          window.handleText = $(".ui-slider-handle .handle-text");
+          window.handleText.text("$" + $(this).slider("value"));
+          $('.min-value').text('$' + ui.min);
+          $('.max-value').text('$' + ui.max);
         },
         slide: function(event, ui) {
           window.handleText.text("$" + ui.value);
-          window.handleText.css({'left': (-handleText.outerWidth() * 0.5) + 5.5});
+          window.handleText.css({ 'left': (-handleText.outerWidth() * 0.5) + 5.5 });
 
-          var ce = ((ui.value - 10) / 0.1) * 0.9;	// Clean energy you enable
-          var cep = ce * 0.8;	// Carbon emissions you prevent
-          var etp = cep / 30;	// Equivalent trees planted
-          var ms = ce * 0.01;	// Monthly Savings
-          var nb = ui.value - ms;	// New Electricity Bill
-          output12.text(ui.value);	// Original Bill
+          var ce = ((ui.value - 10) / 0.1) * 0.9; // Clean energy you enable
+          var cep = ce * 0.8; // Carbon emissions you prevent
+          var etp = cep / 30; // Equivalent trees planted
+          var ms = ce * 0.01; // Monthly Savings
+          var nb = ui.value - ms; // New Electricity Bill
+          output12.text(ui.value); // Original Bill
           output2.text((ui.value < 10) ? '0 kWh' : `${ce.toLocaleString('en')} kWh`);
           output3.text((ui.value < 10) ? '0 lbs' : `${Math.round(cep).toLocaleString('en')} lbs`);
           output4.text((ui.value < 10) ? '$0' : `$ ${ms.toFixed(0).toLocaleString('en')}`);
