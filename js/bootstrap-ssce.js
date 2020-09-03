@@ -27,8 +27,6 @@
       const output42 = $('#output42');
       const output5 = $('#output5');
       const output6 = $('#output6');
-      const handle = $(".ui-slider-handle");
-			const handleText = $(".ui-slider-handle .handle-text");
       $("#range-slider").slider({
       	range: "min",
         value: 200,
@@ -36,12 +34,14 @@
         max: 400,
         step: 10,
         create: function( event, ui ) {
+        	const handle = $(".ui-slider-handle");
 			    handle.wrapInner('<span class="handle-text"></span>');
-			    handleText.text("$" + $( this ).slider( "value" ) );
+			    window.handleText = $(".ui-slider-handle .handle-text");
+			    window.handleText.text("$" + $( this ).slider( "value" ) );
         },
         slide: function(event, ui) {
-          handleText.text("$" + ui.value);
-          handleText.css({'left': (-handleText.outerWidth() * 0.5) + 5.5});
+          window.handleText.text("$" + ui.value);
+          window.handleText.css({'left': (-handleText.outerWidth() * 0.5) + 5.5});
 
           var ce = ((ui.value - 10) / 0.1) * 0.9;	// Clean energy you enable
           var cep = ce * 0.8;	// Carbon emissions you prevent
