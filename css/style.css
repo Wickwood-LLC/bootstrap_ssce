@@ -9710,7 +9710,6 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 .estimate-cards {
   display: flex;
   max-width: 789px;
-  padding-bottom: 50px;
   flex-flow: row wrap;
   justify-content: center;
   flex: 1 1 50%;
