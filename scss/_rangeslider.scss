@@ -91,8 +91,8 @@
   max-width: 789px;
   padding-top: 30px;
   padding-bottom: 50px;
-  flex-direction: row;
-  justify-content: space-between;
+      flex-flow: row wrap;
+  justify-content: center;
   flex: 1 1 50%;
   margin: auto;
 }
@@ -109,6 +109,11 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  margin: 0.5em;
+
+  @include breakpoint(1180px) {
+        flex: 1 1 15%;
+  }
 }
 
 .single-card-content-holder {
@@ -145,6 +150,8 @@
     height: 100%;
     
     img {
+      max-width: 32px;
+      max-height: 28px;
       width: auto;
       margin-bottom: 9px;
     }
@@ -163,6 +170,7 @@
   margin-left: 20px;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .text-block-26-copy {
