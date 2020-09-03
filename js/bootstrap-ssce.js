@@ -38,8 +38,6 @@
           handle.wrapInner('<span class="handle-text"></span>');
           window.handleText = $(".ui-slider-handle .handle-text");
           window.handleText.text("$" + $(this).slider("value"));
-          $('.min-value').text('$' + $(this).slider("min"));
-          $('.max-value').text('$' + $(this).slider("max"));
         },
         slide: function(event, ui) {
           window.handleText.text("$" + ui.value);
