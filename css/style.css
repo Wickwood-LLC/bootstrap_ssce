@@ -9748,7 +9748,12 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   align-items: center;
 }
 
-.image-40 {
+.div-block-40 .embedded-entity {
+  height: 100%;
+}
+
+.div-block-40 .embedded-entity img {
+  width: auto;
   margin-bottom: 9px;
 }
 

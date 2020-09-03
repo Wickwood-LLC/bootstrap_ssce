@@ -140,10 +140,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
 
-.image-40 {
-  margin-bottom: 9px;
+  .embedded-entity {
+    height: 100%;
+    
+    img {
+      width: auto;
+      margin-bottom: 9px;
+    }
+  }
 }
 
 .text-block-25 {
