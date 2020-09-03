@@ -15,18 +15,26 @@
 .estimate-container {
   display: flex;
   flex-flow: row wrap;
-  margin: 4em 0;
+  margin: 2em 0;
+  align-items: center;
+  width: 80%;
 }
 
 .text-block-24 {
-  flex: 1 0 300px;
-  margin-right: 2em;
+  flex: 1 100%;
   font-size: 0.9em;
   font-weight: bold;
+
+  @include breakpoint(1150px) {
+    flex: 0 0 300px;
+    margin-right: 2em;
+  }
 }
 
 .slider-container {
-  flex: 1 0 570px;
+  flex: 1 1 350px;
+  margin: 2em auto;
+  max-width: 589px;
 }
 
 .min-value {
@@ -100,6 +108,7 @@
 .single-card {
   position: relative;
   display: flex;
+  flex: 1 1 100%;
   min-height: 211px;
   padding-top: 26px;
   padding-bottom: 26px;
