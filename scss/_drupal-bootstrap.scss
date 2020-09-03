@@ -16,6 +16,7 @@
 html {
   min-height: 100vh;
 }
+
 body.maintenance-page {
   height: calc(100vh - 125px);
   display: flex;
@@ -24,11 +25,12 @@ body.maintenance-page {
 
   #navbar {
     padding: 0.25em 0;
-    
+
     .container {
-      > .row {
+      >.row {
         width: 100%;
       }
+
       .navbar-brand {
         margin-right: 0.3em;
         color: #2379ff;
@@ -53,11 +55,13 @@ body.navbar-is-fixed-top {
   margin-top: 125px;
   min-height: calc(100vh - 125px);
 }
+
 .dialog-off-canvas-main-canvas {
   display: flex;
   flex-flow: column nowrap;
   min-height: calc(100vh - 204px);
 }
+
 .main-container {
   flex: 1;
 }
@@ -65,36 +69,49 @@ body.navbar-is-fixed-top {
 // jQuery UI style overrides.
 @import "drupal-bootstrap/jquery-ui/autocomplete";
 
-html, body {
-    @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+html,
+body {
+  @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-weight: bold;
   @include fluid-type(320px, 1200px, 24px, 40px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
-h2, .h2 {
+
+h2,
+.h2 {
   font-weight: bold;
   @include fluid-type(320px, 1200px, 22px, 36px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
-h3, .h3 {
+
+h3,
+.h3 {
   font-weight: bold;
   @include fluid-type(320px, 1200px, 20px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
-h4, .h4 {
+
+h4,
+.h4 {
   font-weight: bold;
   @include fluid-type(320px, 1200px, 18px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
-h5, .h5 {
+
+h5,
+.h5 {
   font-weight: bold;
   @include fluid-type(320px, 1200px, 17px, 22px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
-h6, .h6 {
+
+h6,
+.h6 {
   font-weight: bold;
   @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
+
 p {
-    @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+  @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 ol,
@@ -107,20 +124,21 @@ ul {
 }
 
 .field--name-field-media-oembed-video {
-	position: relative;
-	overflow: hidden;
-	width: 100%;
-	padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 
-	iframe {
-		position: absolute;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		width: 100%;
-		height: 100%;
-	}
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 #navbar {
@@ -135,12 +153,13 @@ ul {
       display: inline-block;
       width: 100%;
       text-align: center;
-      
-      @include breakpoint(768px){
+
+      @include breakpoint(768px) {
         width: 50%;
         text-align: left;
       }
-      @include breakpoint(1200px){
+
+      @include breakpoint(1200px) {
         width: auto;
       }
     }
@@ -165,10 +184,11 @@ ul {
         }
       }
 
-      @include breakpoint(530px){
+      @include breakpoint(530px) {
         width: auto;
       }
     }
+
     .navbar-text {
       color: #2379ff;
       display: inline-block;
@@ -183,13 +203,13 @@ ul {
         color: #2379ff;
         text-decoration: none;
       }
-      
+
       span {
         font-family: GeometrySoftPro-BoldA;
         @include fluid-type(320px, 1200px, 25px, 35px);
       }
 
-      @include breakpoint(530px){
+      @include breakpoint(530px) {
         width: auto;
       }
     }
@@ -202,11 +222,12 @@ ul {
     max-width: 100%;
     margin: 0;
 
-    @include breakpoint(768px){
+    @include breakpoint(768px) {
       flex: 1 1 50%;
     }
   }
 }
+
 #navbar-collapse {
   flex: 100%;
 }
@@ -233,13 +254,13 @@ ul {
   text-align: center;
   width: 100%;
 
-  @include breakpoint(768px){
+  @include breakpoint(768px) {
     float: right;
     width: 215px;
     text-align: right;
   }
 
-  @include breakpoint(1200px){
+  @include breakpoint(1200px) {
     width: auto;
   }
 
@@ -248,12 +269,13 @@ ul {
     font-size: 1.2em;
     font-weight: bold;
     vertical-align: bottom;
-    
-    &:hover{
+
+    &:hover {
       color: #23527c;
       text-decoration: none;
     }
   }
+
   .btn {
     margin-left: 1em;
   }
@@ -266,16 +288,14 @@ ul {
   text-align: center;
 }
 
-nav.tabs {
-  
-}
+nav.tabs {}
 
 .nav-tabs {
   border-bottom: 0px;
   display: inline-block;
   float: right;
 
-  > li {
+  >li {
     float: left;
     position: relative;
     background: #eee;
@@ -283,12 +303,13 @@ nav.tabs {
     &.active {
       background-color: $brand-primary;
 
-      > a {
+      >a {
         color: white;
         background: transparent;
         border: 1px solid transparent;
       }
     }
+
     &:hover {
       background-color: #f8f8f8;
 
@@ -297,12 +318,15 @@ nav.tabs {
         border-color: transparent;
       }
     }
-    > a {
+
+    >a {
       color: $text-color;
     }
+
     &:first-child {
       border-radius: 5px 0 0 5px;
     }
+
     &:last-child {
       border-radius: 0 5px 5px 0;
     }
@@ -364,7 +388,7 @@ p:last-child,
   &.wt-primary {
     background-color: #2479ff;
     color: white;
-    
+
     &:hover {
       background-color: #1b5cc3;
       color: #fff;
@@ -385,6 +409,7 @@ p:last-child,
     font-size: 0.66rem;
   }
 }
+
 #block-bootstrap-ssce-footer {
   li {
     display: inline-block;
@@ -398,7 +423,8 @@ p:last-child,
   padding: 1em;
   border-radius: 5px;
 }
-.fluid-columns > * {
+
+.fluid-columns>* {
   flex: 1 1 250px;
   padding: 0.5em;
 }
@@ -407,17 +433,21 @@ p:last-child,
   .row {
     margin: 0;
   }
+
   .region-header {
     max-width: 1200px;
     margin: auto;
   }
+
   .main-container {
     width: 100% !important;
     padding: 0;
   }
+
   section.col-sm-12 {
     padding: 0;
   }
+
   section.block-layout-builder {
     padding: 1% 10% 1% 10%;
 
@@ -426,6 +456,7 @@ p:last-child,
       margin: auto;
     }
   }
+
   section.block-views {
     padding: 1% 10% 1% 10%;
 
@@ -441,19 +472,24 @@ p:last-child,
   }
 
   article.page.full .content {
-    > .layout:nth-of-type(1) {
-      background-image: linear-gradient(180deg,#fff,#f8f8f9);
+    >.layout:nth-of-type(1) {
+      background-image: linear-gradient(180deg, #fff, #f8f8f9);
 
       p {
         margin: 0.5em 0 1em 0;
       }
     }
 
-    > .layout:nth-of-type(2) {
+    >.layout:nth-of-type(2) {
+      padding: 4em 0;
+      background-image: linear-gradient(180deg, #edf3fe, #fff);
+    }
+
+    >.layout:nth-of-type(3) {
       min-height: 100%;
       margin-top: -25px;
       background-color: #edf3fe;
-      
+
       img {
         margin: auto;
         width: 500px;
@@ -461,20 +497,20 @@ p:last-child,
       }
     }
 
-    > .layout:nth-of-type(3) {
+    >.layout:nth-of-type(4) {
       background-color: white;
     }
 
-    > .layout:nth-of-type(4) {
-      background-color: rgba(245,245,247,.71);
+    >.layout:nth-of-type(5) {
+      background-color: rgba(245, 245, 247, .71);
     }
 
-    > .layout:nth-of-type(5) {
+    >.layout:nth-of-type(6) {
       background-color: white;
     }
 
-    > .layout:nth-of-type(6) {
-      background-image: linear-gradient(180deg,#2479ff,#2479ff);
+    >.layout:nth-of-type(7) {
+      background-image: linear-gradient(180deg, #2479ff, #2479ff);
       display: flex;
       height: 268px;
       justify-content: center;
@@ -487,11 +523,12 @@ p:last-child,
   }
 
   .block-views-blockpress-coverage-block-2 {
+
     .views_slideshow_cycle_teaser_section,
     .views_slideshow_cycle_slide {
       width: 100% !important;
     }
-  
+
     .views-row {
       display: flex;
       flex-flow: row wrap;
@@ -532,11 +569,12 @@ p:last-child,
       justify-content: center;
       justify-items: center;
       align-content: center;
-  
+
       @include breakpoint(478px) {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto auto;
       }
+
       @include breakpoint(992px) {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: auto;
@@ -559,20 +597,23 @@ p:last-child,
       align-items: center;
       justify-content: space-between;
 
-      > a {
+      >a {
         height: 100%;
         display: flex;
         align-items: center;
-        text-decoration: none; 
+        text-decoration: none;
       }
     }
+
     .views-slideshow-controls-bottom {
       position: relative;
       z-index: 1;
     }
+
     .view-content {
       margin: 0 30px;
     }
+
     #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1 {
       width: 100% !important;
       height: 505px !important;
@@ -585,6 +626,7 @@ p:last-child,
         width: 100% !important;
       }
     }
+
     .views-field-field-referee-image img {
       border-radius: 300px;
       margin: auto;
@@ -595,11 +637,12 @@ p:last-child,
         margin-right: 1em;
       }
     }
+
     .views-field-body {
       font-weight: bold;
       margin-bottom: 0.5em;
       text-align: center;
-      
+
       p {
         @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
       }
@@ -608,6 +651,7 @@ p:last-child,
         text-align: left;
       }
     }
+
     .views-field-title {
       text-align: center;
 
@@ -623,7 +667,7 @@ p:last-child,
 }
 
 .block-views-blockcontent-image-slideshow-block-1 {
-	padding: 1% 0;
+  padding: 1% 0;
 }
 
 .save-with-ce {
@@ -646,7 +690,7 @@ p:last-child,
 
     @include breakpoint(640px) {
       width: 400px;
-    }      
+    }
   }
 
   .wt-row.wt-two-col {
@@ -663,7 +707,7 @@ p:last-child,
         }
       }
     }
-    
+
     .wt-col-md-6 {
       flex: 1 1 250px;
       text-align: center;
@@ -677,6 +721,7 @@ p:last-child,
         .wt-col-2 {
           padding-left: 0;
         }
+
         .wt-col-2 {
           padding-right: 0;
         }
@@ -686,10 +731,10 @@ p:last-child,
 }
 
 .view-faqs {
-  .view-content > .views-row {
+  .view-content>.views-row {
     text-align: center;
 
-    > .views-row {
+    >.views-row {
       border: 1.5px solid #2479ff;
       border-radius: 3px;
       cursor: pointer;
@@ -715,13 +760,18 @@ p:last-child,
     .ui-accordion-header-icon {
       display: none;
     }
+
     .field-content {
       display: inline-block;
       width: calc(100% - 25px);
     }
   }
+
   .ui-accordion-header-active {
-    a, a:link, a:visited {
+
+    a,
+    a:link,
+    a:visited {
       color: #454545;
     }
 
@@ -736,6 +786,7 @@ p:last-child,
       font-family: "Font Awesome 5 Pro";
     }
   }
+
   .ui-accordion-header-collapsed {
     &:after {
       color: #2479ff;
@@ -744,6 +795,7 @@ p:last-child,
       font-family: "Font Awesome 5 Pro";
     }
   }
+
   .ui-accordion-content {
     border: 0;
   }
@@ -754,9 +806,9 @@ p:last-child,
   color: #fff;
   text-align: center;
 
-  &:hover{
-    border-color: hsla(0,0%,100%,.25);
-    background-color: hsla(0,0%,100%,.25);
+  &:hover {
+    border-color: hsla(0, 0%, 100%, .25);
+    background-color: hsla(0, 0%, 100%, .25);
   }
 }
 
@@ -796,6 +848,7 @@ form#webform-submission-contact-node-160-add-form {
     background: #5988b4;
     color: #fff;
   }
+
   .ui-dialog-title {
     text-align: center;
     width: 100%;
