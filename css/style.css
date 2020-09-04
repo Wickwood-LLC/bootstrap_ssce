@@ -9719,7 +9719,7 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 .single-card {
   position: relative;
   display: flex;
-  box-sizzing: content-box;
+  box-sizing: content-box;
   flex: 1 1 100%;
   min-height: 150px;
   padding-top: 1em;
@@ -9788,6 +9788,10 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   text-align: center;
 }
 
+.calc-result span.unit {
+  font-size: 0.7em;
+}
+
 .estimateresults {
   flex: 1 1 100%;
   display: flex;
@@ -9796,7 +9800,7 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   justify-content: center;
 }
 
-@media (min-width: 728px) {
+@media (min-width: 750px) {
   .estimateresults {
     flex: 0 0 255px;
     margin-left: 20px;
