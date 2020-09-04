@@ -49,8 +49,8 @@
           var ms = ui.value * 0.1; // Monthly Savings
           var nb = ui.value - ms; // New Electricity Bill
           output12.text(ui.value); // Original Bill
-          output2.text((ui.value < 10) ? '0 kWh' : `${ce.toLocaleString('en')} kWh`);
-          output3.text((ui.value < 10) ? '0 lbs' : `${Math.round(cep).toLocaleString('en')} lbs`);
+          output2.text((ui.value < 10) ? '0 kWh' : `${ce.toLocaleString('en')} <span class="unit">kWh</span>`);
+          output3.text((ui.value < 10) ? '0 lbs' : `${Math.round(cep).toLocaleString('en')} <span class="unit">lbs</span>`);
           output4.text((ui.value < 10) ? '$0' : `$ ${ms.toFixed(0).toLocaleString('en')}`);
           output42.text((ui.value < 10) ? '$0' : `$ ${ms.toFixed(0).toLocaleString('en')}`);
           output5.text((ui.value < 10) ? '0' : `${Math.round(etp)}`);
