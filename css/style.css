@@ -8518,6 +8518,10 @@ body.navbar-is-fixed-top {
   flex: 1;
 }
 
+.layout {
+  margin-bottom: 0;
+}
+
 /**
  * jQuery UI autocomplete widget style overrides.
  *
@@ -9119,7 +9123,7 @@ p:last-child,
 }
 
 .path-frontpage section.block-layout-builder {
-  padding: 1% 10% 1% 10%;
+  padding: 3% 10%;
 }
 
 .path-frontpage section.block-layout-builder .field--name-body {
@@ -9128,7 +9132,7 @@ p:last-child,
 }
 
 .path-frontpage section.block-views {
-  padding: 1% 10% 1% 10%;
+  padding: 3% 10%;
 }
 
 .path-frontpage section.block-views .block-title {

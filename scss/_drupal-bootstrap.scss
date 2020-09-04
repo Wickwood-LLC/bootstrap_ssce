@@ -65,6 +65,9 @@ body.navbar-is-fixed-top {
 .main-container {
   flex: 1;
 }
+.layout {
+	margin-bottom: 0;
+}
 
 // jQuery UI style overrides.
 @import "drupal-bootstrap/jquery-ui/autocomplete";
@@ -449,7 +452,7 @@ p:last-child,
   }
 
   section.block-layout-builder {
-    padding: 1% 10% 1% 10%;
+    padding: 3% 10%;
 
     .field--name-body {
       max-width: 1200px;
@@ -458,7 +461,7 @@ p:last-child,
   }
 
   section.block-views {
-    padding: 1% 10% 1% 10%;
+    padding: 3% 10%;
 
     .block-title {
       text-align: center;
