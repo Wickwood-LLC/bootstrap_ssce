@@ -110,6 +110,7 @@
 
 .single-card {
   position: relative;
+  box-sizing: content-box;
   display: flex;
   flex: 1 1 100%;
   min-height: 150px;
@@ -172,6 +173,7 @@
   line-height: 1.5em;
   font-weight: 600;
   margin: 0 0.2em 0.3em;
+  text-align: center;
 }
 
 .estimateresults {
@@ -182,7 +184,7 @@
   justify-content: center;
 
   @include breakpoint(728px) {
-    flex: 0 0 255px;
+    flex: 0 1 auto;
     margin-left: 20px;
   }
 }
@@ -207,6 +209,10 @@
   background-position: 50% 0;
   background-size: contain;
   background-repeat: no-repeat;
+
+  @include breakpoint(728px) {
+    width: 100%;
+  }
 }
 
 .cetextlogo {
@@ -227,7 +233,7 @@
 
 .amount-row {
   display: flex;
-  width: 65%;
+  width: 85%;
   height: 12%;
   margin-top: 5px;
   padding-left: 0;
@@ -262,7 +268,7 @@
 
 .amount-total {
   display: flex;
-  width: 70%;
+  width: 100%;
   margin-top: 15px;
   padding-left: 10px;
   flex-direction: column;
