@@ -112,12 +112,13 @@
   position: relative;
   display: flex;
   flex: 1 1 100%;
-  min-height: 211px;
-  padding-top: 26px;
-  padding-bottom: 26px;
+  min-height: 150px;
+  padding-top: 1em;
+  padding-bottom: 1em;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid #555e80;
   border-radius: 5px;
   margin: 0.5em;
 
@@ -142,40 +143,35 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
+  border-radius: 5px;
 }
 
-.text-block-26 {
+.calc-title {
   max-width: 150px;
   margin-bottom: 20px;
   color: #555e80;
   font-size: 0.8em;
-  line-height: 19px;
+  line-height: 1.5em;
   text-align: center;
+  margin: 0.8em 0.2em;
+  text-transform: capitalize;
 }
 
-.div-block-40 {
+.calc-icon {
+  color: #2479ff;
   display: flex;
-  height: 28px;
+  font-size: 1.5em;
+  height: 2em;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  .embedded-entity {
-    height: 100%;
-
-    img {
-      max-width: 32px;
-      max-height: 28px;
-      width: auto;
-      margin-bottom: 9px;
-    }
-  }
 }
 
-.text-block-25 {
+.calc-result {
   font-size: 1.5em;
-  line-height: 62px;
+  line-height: 1.5em;
   font-weight: 600;
+  margin: 0 0.2em 0.3em;
 }
 
 .estimateresults {
