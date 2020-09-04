@@ -9718,7 +9718,6 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 
 .single-card {
   position: relative;
-  box-sizing: content-box;
   display: flex;
   flex: 1 1 100%;
   min-height: 150px;
@@ -9785,7 +9784,6 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   line-height: 1.5em;
   font-weight: 600;
   margin: 0 0.2em 0.3em;
-  text-align: center;
 }
 
 .estimateresults {
@@ -9798,7 +9796,7 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 
 @media (min-width: 728px) {
   .estimateresults {
-    flex: 0 1 auto;
+    flex: 0 0 255px;
     margin-left: 20px;
   }
 }
@@ -9825,12 +9823,6 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   background-repeat: no-repeat;
 }
 
-@media (min-width: 728px) {
-  .dynamicbill {
-    width: 100%;
-  }
-}
-
 .cetextlogo {
   display: flex;
   width: 100%;
@@ -9848,7 +9840,7 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 
 .amount-row {
   display: flex;
-  width: 85%;
+  width: 65%;
   height: 12%;
   margin-top: 5px;
   padding-left: 0;
@@ -9883,7 +9875,7 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 
 .amount-total {
   display: flex;
-  width: 100%;
+  width: 70%;
   margin-top: 15px;
   padding-left: 10px;
   flex-direction: column;
