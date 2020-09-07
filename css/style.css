@@ -9897,4 +9897,8 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   margin-top: 15px;
   font-size: 2em;
 }
+
+.dynamic-bill-large {
+  background-image: url(../images/comparison_bill_bg.png);
+}
 /*# sourceMappingURL=style.css.map */
