@@ -9906,31 +9906,33 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   font-size: 2em;
 }
 
-.dynamic-bill-large {
+.dynamic-bill-large,
+.dynamic-bill-small {
   position: relative;
   display: inline-block;
 }
 
-.dynamic-bill-large .original-bill {
+.dynamic-bill-large .original-bill,
+.dynamic-bill-small .original-bill {
   position: absolute;
   bottom: 0;
   width: 40%;
 }
 
-.dynamic-bill-large .new-bill {
+.dynamic-bill-large .new-bill,
+.dynamic-bill-small .new-bill {
   position: absolute;
   bottom: 0;
   right: 2%;
   width: 38%;
 }
 
-.dynamic-bill-large .new-bill .amount-row {
+.dynamic-bill-large .new-bill .amount-row,
+.dynamic-bill-small .new-bill .amount-row {
   width: 100%;
 }
 
 .dynamic-bill-small {
-  position: relative;
-  display: inline-block;
   font-size: 0.7em;
 }
 /*# sourceMappingURL=style.css.map */

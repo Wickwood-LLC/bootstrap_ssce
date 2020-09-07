@@ -280,7 +280,8 @@
   font-size: 2em;
 }
 
-.dynamic-bill-large {
+.dynamic-bill-large,
+.dynamic-bill-small {
   position: relative;
   display: inline-block;
   
@@ -302,7 +303,5 @@
 }
 
 .dynamic-bill-small {
-  position: relative;
-  display: inline-block;
   font-size: 0.7em;
 }
