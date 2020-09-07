@@ -9927,6 +9927,7 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   bottom: 0;
   right: 2%;
   width: 38%;
+  height: 100%;
   position: absolute;
   bottom: 0;
 }
@@ -9940,6 +9941,7 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 .dynamic-bill-small .amount-total {
   position: absolute;
   bottom: 0;
+  height: auto;
 }
 
 .dynamic-bill-large {

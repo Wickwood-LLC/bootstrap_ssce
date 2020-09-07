@@ -284,7 +284,7 @@
 .dynamic-bill-small {
   position: relative;
   display: inline-block;
-  
+
   .original-bill {
     position: absolute;
     bottom: 0;
@@ -292,12 +292,14 @@
     height: 100%;
     filter: grayscale(1);
   }
+
   .new-bill {
     position: absolute;
     bottom: 0;
     right: 2%;
     width: 38%;
-        position: absolute;
+    height: 100%;
+    position: absolute;
     bottom: 0;
 
     .amount-row {
@@ -308,6 +310,7 @@
   .amount-total {
     position: absolute;
     bottom: 0;
+    height: auto;
   }
 }
 
