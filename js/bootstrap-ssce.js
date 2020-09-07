@@ -20,13 +20,13 @@
    */
   Drupal.behaviors.rangeSlider = {
     attach: function(context, settings) {
-      const output12 = $('#output12');
-      const output2 = $('#output2');
-      const output3 = $('#output3');
-      const output4 = $('#output4');
-      const output42 = $('#output42');
-      const output5 = $('#output5');
-      const output6 = $('#output6');
+      const output12 = $('.output12');
+      const output2 = $('.output2');
+      const output3 = $('.output3');
+      const output4 = $('.output4');
+      const output42 = $('.output42');
+      const output5 = $('.output5');
+      const output6 = $('.output6');
       $("#range-slider").slider({
         range: "min",
         value: 200,
