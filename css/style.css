@@ -9182,6 +9182,10 @@ p:last-child,
   background-color: rgba(245, 245, 247, 0.71);
 }
 
+.path-frontpage article.page.full .content > .layout:nth-of-type(5) .wt-col-1 {
+  text-align: center;
+}
+
 .path-frontpage article.page.full .content > .layout:nth-of-type(6) {
   background-color: white;
 }
@@ -9922,5 +9926,11 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 
 .dynamic-bill-large .new-bill .amount-row {
   width: 100%;
+}
+
+.dynamic-bill-small {
+  position: relative;
+  display: inline-block;
+  font-size: 0.7em;
 }
 /*# sourceMappingURL=style.css.map */

@@ -510,6 +510,10 @@ p:last-child,
 
     >.layout:nth-of-type(5) {
       background-color: rgba(245, 245, 247, .71);
+
+      .wt-col-1 {
+      	text-align: center;
+      }
     }
 
     >.layout:nth-of-type(6) {
