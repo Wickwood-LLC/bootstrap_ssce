@@ -9171,7 +9171,6 @@ p:last-child,
 .path-frontpage article.page.full .content > .layout:nth-of-type(3) img {
   margin: auto;
   width: 500px;
-  margin-top: 100px;
 }
 
 .path-frontpage article.page.full .content > .layout:nth-of-type(4) {
@@ -9917,6 +9916,9 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   position: absolute;
   bottom: 0;
   width: 40%;
+  height: 100%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 .dynamic-bill-large .new-bill,
@@ -9925,11 +9927,23 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   bottom: 0;
   right: 2%;
   width: 38%;
+  position: absolute;
+  bottom: 0;
 }
 
 .dynamic-bill-large .new-bill .amount-row,
 .dynamic-bill-small .new-bill .amount-row {
   width: 100%;
+}
+
+.dynamic-bill-large .amount-total,
+.dynamic-bill-small .amount-total {
+  position: absolute;
+  bottom: 0;
+}
+
+.dynamic-bill-large {
+  margin-top: 100px;
 }
 
 .dynamic-bill-small {
