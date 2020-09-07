@@ -9363,6 +9363,10 @@ p:last-child,
   }
 }
 
+.check-availability-btn {
+  margin-top: 2em;
+}
+
 .block-views-blockcontent-image-slideshow-block-1 {
   padding: 1% 0;
 }
