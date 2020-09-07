@@ -281,5 +281,21 @@
 }
 
 .dynamic-bill-large {
-  background-image: url(../images/comparison_bill_bg.png);
+  position: relative;
+  text-align: center;
+  width: auto;
+  display: inline-block;
+  margin: auto;
+  
+  .original-bill {
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+  }
+  .new-bill {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    width: 38%;
+  }
 }

@@ -9899,6 +9899,23 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 }
 
 .dynamic-bill-large {
-  background-image: url(../images/comparison_bill_bg.png);
+  position: relative;
+  text-align: center;
+  width: auto;
+  display: inline-block;
+  margin: auto;
+}
+
+.dynamic-bill-large .original-bill {
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+}
+
+.dynamic-bill-large .new-bill {
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+  width: 38%;
 }
 /*# sourceMappingURL=style.css.map */
