@@ -20,10 +20,8 @@
   width: 80%;
 }
 
-.text-block-24 {
+.slider-question {
   flex: 1 100%;
-  font-size: 0.9em;
-  font-weight: bold;
   padding-top: 2em;
   text-align: center;
 
@@ -88,13 +86,13 @@
       font-size: 0.8em;
       font-weight: bold;
       left: calc(-50% - 6px - 0.5em);
-      background: white;
+      background: #f5f8ff;
       padding: 0 0.5em;
     }
   }
 }
 
-.div-block-43 {
+.savings-estimate {
   display: flex;
   flex-flow: row wrap;
 }
@@ -219,9 +217,9 @@
 .cetextlogo {
   display: flex;
   width: 100%;
-  -webkit-box-pack: center;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: #fff;
   font-weight: 600;
   font-size: 0.7em;
