@@ -493,6 +493,10 @@ p:last-child,
       margin-top: -25px;
       background-color: #edf3fe;
 
+      .field--name-body {
+      	text-align: center;
+      }
+
       img {
         margin: auto;
         width: 500px;

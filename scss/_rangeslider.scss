@@ -282,10 +282,7 @@
 
 .dynamic-bill-large {
   position: relative;
-  text-align: center;
-  width: auto;
   display: inline-block;
-  margin: auto;
   
   .original-bill {
     position: absolute;
@@ -297,5 +294,9 @@
     bottom: 0;
     right: 2%;
     width: 38%;
+
+    .amount-row {
+      width: 100%;
+    }
   }
 }

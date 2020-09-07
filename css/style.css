@@ -9164,6 +9164,10 @@ p:last-child,
   background-color: #edf3fe;
 }
 
+.path-frontpage article.page.full .content > .layout:nth-of-type(3) .field--name-body {
+  text-align: center;
+}
+
 .path-frontpage article.page.full .content > .layout:nth-of-type(3) img {
   margin: auto;
   width: 500px;
@@ -9900,10 +9904,7 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 
 .dynamic-bill-large {
   position: relative;
-  text-align: center;
-  width: auto;
   display: inline-block;
-  margin: auto;
 }
 
 .dynamic-bill-large .original-bill {
@@ -9917,5 +9918,9 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   bottom: 0;
   right: 2%;
   width: 38%;
+}
+
+.dynamic-bill-large .new-bill .amount-row {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
