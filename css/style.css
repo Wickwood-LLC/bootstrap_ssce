@@ -9261,6 +9261,10 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   bottom: 0;
   height: auto;
 }
+.dynamic-bill-large .amountbill-total,
+.dynamic-bill-small .amountbill-total {
+  margin-top: 0;
+}
 
 .dynamic-bill-large {
   margin-top: 1.5em;
