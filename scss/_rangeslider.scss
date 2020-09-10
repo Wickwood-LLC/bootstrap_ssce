@@ -303,7 +303,7 @@
 
   .bill-arrow:before {
     display: block;
-    content: '\f061';
+    content: '\f063';
     font-family: "Font Awesome 5 Pro";
     font-size: 2em;
     margin: 1em;
@@ -351,11 +351,20 @@
   }
 
   @include breakpoint(644px) {
+    font-size: 0.8em;
     flex-direction: row;
 
     .bill-arrow:before {
-      content: '\f063';
+      content: '\f061';
     }
+  }
+
+  @include breakpoint(695px) {
+    font-size: 0.9em;
+  }
+
+  @include breakpoint(788px) {
+    font-size: 1em;
   }
 }
 
