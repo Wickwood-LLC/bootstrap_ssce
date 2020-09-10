@@ -9192,7 +9192,6 @@ p:last-child,
 .path-frontpage article.page.full .content > .layout:nth-of-type(7) {
   background-image: linear-gradient(180deg, #2479ff, #2479ff);
   display: flex;
-  height: 268px;
   justify-content: center;
   align-items: center;
 }
@@ -9365,6 +9364,7 @@ p:last-child,
 
 .check-availability-btn {
   margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .block-views-blockcontent-image-slideshow-block-1 {
