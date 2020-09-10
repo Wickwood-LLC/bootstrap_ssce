@@ -10009,6 +10009,14 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   margin: auto;
 }
 
+.dynamic-bill-small .bill-content {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 1em);
+  height: calc(100% - 1em);
+  margin: 0.5em;
+}
+
 .dynamic-bill-small .cetextlogo {
   font-size: 1em;
   margin-top: -0.5em;
