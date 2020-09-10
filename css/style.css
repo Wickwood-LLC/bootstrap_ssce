@@ -10004,6 +10004,9 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 }
 
 .dynamic-bill-small {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   max-width: 300px;
   position: relative;
   margin: auto;
