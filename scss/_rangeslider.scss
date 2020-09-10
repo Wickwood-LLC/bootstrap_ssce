@@ -288,7 +288,7 @@
   flex-direction: column;
 
   .original-bill {
-    max-width: 400px;
+    max-width: 300px;
     position: relative;
 
     .bill-content {
@@ -311,7 +311,7 @@
   }
 
   .new-bill {
-    max-width: 400px;
+    max-width: 300px;
     position: relative;
 
     .bill-content {
@@ -369,5 +369,34 @@
 }
 
 .dynamic-bill-small {
-  font-size: 0.7em;
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+
+  .cetextlogo {
+    font-size: 1em;
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+
+    span.fontawesome-icon-inline {
+      font-size: 1.5em;
+      align-self: center;
+    }
+  }
+
+  .amount-row {
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+  }
+
+  .amount-total {
+    position: absolute;
+    bottom: 0;
+    height: auto;
+  }
+
+  .amountbill-total {
+    margin-top: 0;
+  }
 }

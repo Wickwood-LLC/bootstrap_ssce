@@ -9918,7 +9918,7 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 }
 
 .dynamic-bill-large .original-bill {
-  max-width: 400px;
+  max-width: 300px;
   position: relative;
 }
 
@@ -9942,7 +9942,7 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 }
 
 .dynamic-bill-large .new-bill {
-  max-width: 400px;
+  max-width: 300px;
   position: relative;
 }
 
@@ -10004,6 +10004,35 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 }
 
 .dynamic-bill-small {
-  font-size: 0.7em;
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+}
+
+.dynamic-bill-small .cetextlogo {
+  font-size: 1em;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+}
+
+.dynamic-bill-small .cetextlogo span.fontawesome-icon-inline {
+  font-size: 1.5em;
+  align-self: center;
+}
+
+.dynamic-bill-small .amount-row {
+  width: 100%;
+  height: auto;
+  font-size: 1em;
+}
+
+.dynamic-bill-small .amount-total {
+  position: absolute;
+  bottom: 0;
+  height: auto;
+}
+
+.dynamic-bill-small .amountbill-total {
+  margin-top: 0;
 }
 /*# sourceMappingURL=style.css.map */
