@@ -280,33 +280,62 @@
   font-size: 2em;
 }
 
-.dynamic-bill-large,
-.dynamic-bill-small {
-  position: relative;
-  display: inline-block;
+.dynamic-bill-large {
+  margin-top: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   .original-bill {
-    position: absolute;
-    bottom: 0;
-    width: 40%;
-    height: 100%;
-    filter: grayscale(1);
+    max-width: 400px;
+    position: relative;
+
+    .bill-content {
+      position: absolute;
+      bottom: 0;
+      width: calc(100% - 1em);
+      height: calc(100% - 1em);
+      margin: 0.5em;
+      filter: grayscale(1);
+    }
+  }
+
+  .bill-arrow:before {
+    content: '\f061';
+    font-family: "Font Awesome 5 Pro";
+    font-size: 2em;
+    margin: 1em;
+    color: #2479ff;
   }
 
   .new-bill {
-    position: absolute;
-    bottom: 0;
-    right: 2%;
-    width: 38%;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
+    max-width: 400px;
+    position: relative;
 
-    .amount-row {
-      width: 100%;
-      height: auto;
-      font-size: 0.8em; saturation:20%;
+    .bill-content {
+      position: absolute;
+      bottom: 0;
+      width: calc(100% - 1em);
+      height: calc(100% - 1em);
+      margin: 0.5em;
     }
+  }
+
+  .cetextlogo {
+    font-size: 1em;
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+
+    span.fontawesome-icon-inline {
+      font-size: 1.5em;
+      align-self: center;
+    }
+  }
+
+  .amount-row {
+    width: 100%;
+    height: auto;
+    font-size: 1em;
   }
 
   .amount-total {
@@ -314,13 +343,10 @@
     bottom: 0;
     height: auto;
   }
+
   .amountbill-total {
     margin-top: 0;
   }
-}
-
-.dynamic-bill-large {
-  margin-top: 1.5em;
 }
 
 .dynamic-bill-small {
