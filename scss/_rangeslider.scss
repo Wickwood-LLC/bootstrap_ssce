@@ -285,6 +285,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   .original-bill {
     max-width: 400px;
@@ -301,6 +302,7 @@
   }
 
   .bill-arrow:before {
+    display: block;
     content: '\f061';
     font-family: "Font Awesome 5 Pro";
     font-size: 2em;
@@ -346,6 +348,14 @@
 
   .amountbill-total {
     margin-top: 0;
+  }
+
+  @include breakpoint(644px) {
+    flex-direction: row;
+
+    .bill-arrow:before {
+      content: '\f063';
+    }
   }
 }
 
