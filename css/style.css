@@ -9919,7 +9919,7 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 }
 
 .dynamic-bill-large .original-bill {
-  max-width: 300px;
+  max-width: 240px;
   position: relative;
 }
 
@@ -9934,7 +9934,7 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 }
 
 .dynamic-bill-large .bill-arrow:before {
-  display: block;
+  display: inline-block;
   content: '\f063';
   font-family: "Font Awesome 5 Pro";
   font-size: 2em;
@@ -9943,7 +9943,7 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 }
 
 .dynamic-bill-large .new-bill {
-  max-width: 300px;
+  max-width: 240px;
   position: relative;
 }
 
@@ -9986,6 +9986,10 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   .dynamic-bill-large {
     font-size: 0.8em;
     flex-direction: row;
+  }
+  .dynamic-bill-large .original-bill,
+  .dynamic-bill-large .new-bill {
+    max-width: 300px;
   }
   .dynamic-bill-large .bill-arrow:before {
     content: '\f061';

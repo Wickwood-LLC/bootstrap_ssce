@@ -288,7 +288,7 @@
   flex-direction: column;
 
   .original-bill {
-    max-width: 300px;
+    max-width: 240px;
     position: relative;
 
     .bill-content {
@@ -302,7 +302,7 @@
   }
 
   .bill-arrow:before {
-    display: block;
+    display: inline-block;
     content: '\f063';
     font-family: "Font Awesome 5 Pro";
     font-size: 2em;
@@ -311,7 +311,7 @@
   }
 
   .new-bill {
-    max-width: 300px;
+    max-width: 240px;
     position: relative;
 
     .bill-content {
@@ -353,6 +353,11 @@
   @include breakpoint(644px) {
     font-size: 0.8em;
     flex-direction: row;
+
+    .original-bill,
+    .new-bill {
+      max-width: 300px;
+    }
 
     .bill-arrow:before {
       content: '\f061';
