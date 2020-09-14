@@ -11,10 +11,9 @@
             'margin-top': "calc(" + marginTop + "px + 0.5em)",
           });
         }
-        if ($('#toolbar-administration').length) {
-        	var paddingTop = $('#toolbar-administration').outerHeight();
+        if ($('body').hasClass('toolbar-tray-open toolbar-horizontal')) {
         	$('body').css({
-        	  'padding-top': paddingTop,
+        	  'padding-top': '79px',
         	});
         }
       });
