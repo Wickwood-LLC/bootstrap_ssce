@@ -846,6 +846,16 @@ form#user-pass {
   }
 }
 
+.path-user {
+	article[typeof="schema:Person"] {
+	    font-size: 0.9em;
+	}
+
+	.field--name-user-picture img {
+		margin: auto;
+	}
+}
+
 form#webform-submission-contact-node-160-add-form {
   @include breakpoint(990px) {
     margin: 0 10%;
@@ -867,4 +877,11 @@ form#webform-submission-contact-node-160-add-form {
     text-align: center;
     width: 100%;
   }
+}
+
+.boxed {
+	border-color: #337AB7;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	padding: 0.5em;
 }

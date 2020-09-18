@@ -9529,6 +9529,14 @@ form#user-pass #edit-actions {
   text-align: center;
 }
 
+.path-user article[typeof="schema:Person"] {
+  font-size: 0.9em;
+}
+
+.path-user .field--name-user-picture img {
+  margin: auto;
+}
+
 @media (min-width: 990px) {
   form#webform-submission-contact-node-160-add-form {
     margin: 0 10%;
@@ -9548,6 +9556,13 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
 .ui-dialog .ui-dialog-title {
   text-align: center;
   width: 100%;
+}
+
+.boxed {
+  border-color: #337AB7;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  padding: 0.5em;
 }
 
 @media (min-width: 0px) and (max-width: 942px) {
