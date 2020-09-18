@@ -854,6 +854,15 @@ form#user-pass {
 	.field--name-user-picture img {
 		margin: auto;
 	}
+	.referral-link-wrapper {
+		input {
+			width: 100%;
+		}
+		button {
+			margin: 0.5em auto 0;
+			display: block;
+		}
+	}
 }
 
 form#webform-submission-contact-node-160-add-form {

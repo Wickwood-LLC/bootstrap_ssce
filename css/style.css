@@ -9537,6 +9537,15 @@ form#user-pass #edit-actions {
   margin: auto;
 }
 
+.path-user .referral-link-wrapper input {
+  width: 100%;
+}
+
+.path-user .referral-link-wrapper button {
+  margin: 0.5em auto 0;
+  display: block;
+}
+
 @media (min-width: 990px) {
   form#webform-submission-contact-node-160-add-form {
     margin: 0 10%;
