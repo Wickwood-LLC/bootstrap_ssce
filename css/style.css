@@ -9574,6 +9574,10 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   padding: 0.5em;
 }
 
+.boxed-columns > .layout__region {
+  border-color: #337AB7;
+}
+
 @media (min-width: 0px) and (max-width: 942px) {
   body.earnbysharingsolar-com.toolbar-tray-open.toolbar-vertical #navbar .container .name-and-slogan {
     width: 100%;
