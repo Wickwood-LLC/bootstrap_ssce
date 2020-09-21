@@ -9537,6 +9537,10 @@ form#user-pass #edit-actions {
   margin: auto;
 }
 
+.path-user .field--name-field-phone-number {
+  font-weight: bold;
+}
+
 .path-user .referral-link-wrapper input {
   width: 100%;
 }
