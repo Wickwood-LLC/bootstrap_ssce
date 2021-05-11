@@ -8754,6 +8754,10 @@ ul:last-child {
   height: 100%;
 }
 
+#front-page-video {
+  padding: 0;
+}
+
 #navbar .container {
   display: flex;
   align-items: center;
@@ -9124,7 +9128,7 @@ p:last-child,
 }
 
 .path-frontpage section.block-layout-builder {
-  padding: 3% 10%;
+  padding: 1.5% 10%;
 }
 
 .path-frontpage section.block-layout-builder .field--name-body {
@@ -9155,7 +9159,7 @@ p:last-child,
 }
 
 .path-frontpage article.page.full .content > .layout:nth-of-type(2) {
-  padding: 4em 0;
+  padding: 1em 0;
   background-image: linear-gradient(180deg, #edf3fe, #fff);
 }
 
