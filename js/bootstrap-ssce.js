@@ -51,7 +51,7 @@
           var ce = ((ui.value - 10) / 0.1) * 0.9; // Clean energy you enable
           var cep = ce * 0.8; // Carbon emissions you prevent
           var etp = cep / 30; // Equivalent trees planted
-          var ms = ui.value * 0.1; // Monthly Savings
+          var ms = ce * 0.01; // Monthly Savings
           var nb = ui.value - ms; // New Electricity Bill
           output12.text(ui.value); // Original Bill
           output2.text((ui.value < 10) ? '0 kWh' : `${ce.toLocaleString('en')}`);
