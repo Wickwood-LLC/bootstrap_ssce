@@ -748,6 +748,37 @@ p:last-child,
   }
 }
 
+#what-is-community-solar {
+  .block-title {
+    text-align: center;
+  }
+}
+#how-it-works {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  grid-gap: 2rem;
+
+  @include breakpoint(480px) {
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  }
+  @include breakpoint(1024px) {
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+  }
+
+  span.inner-circle {
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    vertical-align: text-bottom;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+  }
+}
+
 .view-faqs {
   .view-content>.views-row {
     text-align: center;
