@@ -8805,7 +8805,8 @@ p:last-child,
     grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
   }
 }
-#how-it-works span.inner-circle {
+
+span.inner-circle {
   background-color: black;
   border-radius: 50%;
   color: white;

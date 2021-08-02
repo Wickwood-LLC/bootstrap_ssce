@@ -764,19 +764,18 @@ p:last-child,
   @include breakpoint(1024px) {
     grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
   }
-
-  span.inner-circle {
-    background-color: black;
-    border-radius: 50%;
-    color: white;
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    line-height: 1.5em;
-    vertical-align: text-bottom;
-    margin-right: 0.5em;
-    margin-top: 0.5em;
-  }
+}
+span.inner-circle {
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  vertical-align: text-bottom;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
 }
 
 .view-faqs {
