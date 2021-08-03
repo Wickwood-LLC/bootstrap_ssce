@@ -231,8 +231,6 @@ a.wt-button {
   border: 1px solid transparent;
   font-family: proxima-nova, sans-serif;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   color: #fff;
   background-color: #5cb85c;
@@ -240,9 +238,6 @@ a.wt-button {
   padding: .3em .5em;
   line-height: 1.5;
   border-radius: 3px;
-}
-
-a.wt-button {
   font-size: 16px;
 }
 
