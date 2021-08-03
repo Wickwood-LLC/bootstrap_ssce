@@ -763,6 +763,11 @@ p:last-child,
   @include breakpoint(1024px) {
     grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
   }
+
+  .dynamic-bill-small {
+    @include fluid-type(480px, 1023px, 0.7rem, 1rem); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(1024px, 1200px, 0.7rem, 1rem); // values inside are ($min_width,$max_width, $min_font, $max_font);
+  }
 }
 span.inner-circle {
   background-color: black;
@@ -775,6 +780,7 @@ span.inner-circle {
   vertical-align: text-bottom;
   margin-right: 0.5em;
   margin-top: 0.5em;
+  text-align: center;
 }
 
 .view-faqs {
