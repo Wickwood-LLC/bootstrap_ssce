@@ -765,8 +765,8 @@ p:last-child,
   }
 
   .dynamic-bill-small {
-    @include fluid-type(480px, 1023px, 0.7rem, 1rem); // values inside are ($min_width,$max_width, $min_font, $max_font);
-    @include fluid-type(1024px, 1200px, 0.7rem, 1rem); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(480px, 1023px, 13px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(1024px, 1200px, 13px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
   }
 }
 span.inner-circle {
