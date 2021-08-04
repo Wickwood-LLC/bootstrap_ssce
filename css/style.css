@@ -8698,6 +8698,11 @@ ul:last-child {
   padding: 0;
 }
 
+#front-page-video .block-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
 #navbar .container {
   display: flex;
   align-items: center;

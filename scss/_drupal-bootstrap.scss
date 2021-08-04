@@ -154,6 +154,11 @@ ul {
 
 #front-page-video {
   padding: 0;
+
+  .block-content {
+    max-width: 1200px;
+    margin: auto;
+  }
 }
 
 #navbar {
