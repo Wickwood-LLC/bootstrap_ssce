@@ -39,6 +39,7 @@ global-scripts:
     js/bootstrap-ssce.js: {}
   dependencies:
     - core/jquery
+    - core/jquery.cookie
     - jquery_ui_slider/slider
     - jquery_ui_touch_punch/touch-punch
 

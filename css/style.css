@@ -9605,6 +9605,39 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   border-color: #337AB7;
 }
 
+#block-affiliatesscecustompromo {
+  position: fixed;
+  right: 0;
+  z-index: 5;
+  background: white;
+  padding: 1em;
+  width: 300px;
+  top: 200px;
+  box-shadow: -2px 3px 10px 0 #333;
+  transition: all 1s ease;
+}
+
+#block-affiliatesscecustompromo.close {
+  right: -300px;
+  opacity: 1;
+}
+
+#block-affiliatesscecustompromo button.promo-toggle {
+  display: table;
+  cursor: pointer;
+  color: red;
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: -36px;
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: -3px 0px 5px 0px #38383870;
+}
+
 @media (min-width: 0px) and (max-width: 942px) {
   body.earnbysharingsolar-com.toolbar-tray-open.toolbar-vertical #navbar .container .name-and-slogan {
     width: 100%;
