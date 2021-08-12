@@ -4,7 +4,7 @@
    */
   Drupal.behaviors.topSpacing = {
     attach: function(context, settings) {
-      $(window).on("load resize", function() {
+      $(window, context).on("load resize", function() {
         if ($('body').hasClass('navbar-is-fixed-top')) {
           var marginTop = $('.navbar-fixed-top').outerHeight();
           $('body').css({
@@ -71,7 +71,7 @@
   Drupal.behaviors.promoBlock = {
     attach: function(context, settings) {
       $promoBlock = $('#block-affiliatesscecustompromo');
-      $promoBtn = $('.promo-toggle');
+      $promoBtn = $('.promo-toggle', context);
 
       if (!($.cookie('showPromoBlock'))) {  // Check to see if this cookie exists
         $.cookie('showPromoBlock', 'show', { path: '/' });  // Create a cookie to save the visible state of the promo block. 'path' makes it valid across entire site
