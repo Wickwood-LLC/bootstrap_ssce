@@ -62,6 +62,10 @@ body.navbar-is-fixed-top {
   min-height: calc(100vh - 204px);
 }
 
+.extlink {
+  font-size: 0.75em
+}
+
 .main-container {
   flex: 1;
 }
@@ -692,6 +696,20 @@ p:last-child,
       @include breakpoint(992px) {
         text-align: left;
       }
+    }
+  }
+}
+
+.block-views-blockpress-coverage-block-4 {
+  li.grid {
+    border: 1.5px solid #2479ff;
+    border-radius: 3px;
+    padding: 27px;
+  }
+
+  .views-field-title-html {
+    h5, span.fa-ext.extlink {
+      display: inline;
     }
   }
 }
