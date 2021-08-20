@@ -9312,7 +9312,7 @@ p:last-child,
   color: #337ab7;
   font-size: 1.5em;
   vertical-align: middle;
-  margin-right: 0.5em;
+  margin-right: 0.25em;
   width: 1.4em;
   display: inline-block;
   vertical-align: baseline;
@@ -9603,6 +9603,23 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
 
 .boxed-columns > .layout__region {
   border-color: #337AB7;
+}
+
+#community-solar-summary {
+  padding: 0;
+}
+
+#community-solar-summary dt {
+  display: flex;
+}
+
+#sign-up-for-free {
+  background-image: linear-gradient(180deg, #2479ff, #2479ff);
+  color: white;
+  padding: 1.5% 10%;
+  left: calc(-50vw + 50%);
+  position: relative;
+  width: 100vw;
 }
 
 #block-affiliatesscecustompromo {
