@@ -8477,6 +8477,10 @@ body.navbar-is-fixed-top {
   font-size: 0.75em;
 }
 
+span.red-text {
+  color: red;
+}
+
 .main-container {
   flex: 1;
 }
@@ -9303,6 +9307,10 @@ p:last-child,
   }
 }
 
+.block-views-blockpress-coverage-block-4 {
+  margin: 1em 0;
+}
+
 .block-views-blockpress-coverage-block-4 li.grid {
   border: 1.5px solid #2479ff;
   border-radius: 3px;
@@ -9627,7 +9635,7 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   display: flex;
 }
 
-#sign-up-for-free {
+#sign-up-for-free:not(.layout-builder-block) {
   background-image: linear-gradient(180deg, #2479ff, #2479ff);
   color: white;
   padding: 1.5% 10%;
@@ -9639,7 +9647,7 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
 #block-affiliatesscecustompromo {
   position: fixed;
   right: -300px;
-  z-index: 5;
+  z-index: 11;
   background: white;
   padding: 1em;
   width: 300px;
