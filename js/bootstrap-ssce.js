@@ -4,7 +4,7 @@
    */
   Drupal.behaviors.topSpacing = {
     attach: function(context, settings) {
-      $(window).on("load resize", function() {
+      $(window, context).on("load resize", function() {
         if ($('body').hasClass('navbar-is-fixed-top')) {
           var marginTop = $('.navbar-fixed-top').outerHeight();
           $('body').css({
@@ -60,6 +60,47 @@
           output42.text((ui.value < 10) ? '$0' : `$${ms.toFixed(0).toLocaleString('en')}`);
           output5.text((ui.value < 10) ? '0' : `${Math.round(etp)}`);
           output6.text((ui.value < 10) ? "$0" : `$${nb.toFixed(0)}`);
+        }
+      });
+    }
+  };
+
+  /**
+   * Promo block
+   */
+  Drupal.behaviors.promoBlock = {
+    attach: function(context, settings) {
+      $promoBlock = $('#block-affiliatesscecustompromo');
+      $promoBtn = $('.promo-toggle', context);
+
+      if (!($.cookie('showPromoBlock'))) {  // Check to see if this cookie exists
+        $.cookie('showPromoBlock', 'show', { path: '/' });  // Create a cookie to save the visible state of the promo block. 'path' makes it valid across entire site
+        $promoBlock.addClass('open');
+      }
+
+      switch($.cookie('showPromoBlock')) {
+        case 'show':
+          $promoBlock.addClass('open');
+          $promoBtn.html('<i class="fas fa-times"></i>');
+          break;
+        case 'hide':
+          $promoBlock.addClass('close');
+          $promoBtn.html('<i class="fad fa-star-exclamation"></i>');
+          break;
+      }
+
+      $promoBtn.click(function() {
+        switch($.cookie('showPromoBlock')) {
+          case 'show':
+            $promoBlock.removeClass('open').addClass('close');
+            $promoBtn.html('<i class="fad fa-star-exclamation"></i>');
+            $.cookie('showPromoBlock', 'hide', { path: '/' });
+            break;
+          case 'hide':
+            $promoBlock.removeClass('close').addClass('open');
+            $promoBtn.html('<i class="fas fa-times"></i>');
+            $.cookie('showPromoBlock', 'show', { path: '/' });
+            break;
         }
       });
     }

@@ -28,4 +28,4 @@ libraries-extend:
     - bootstrap_ssce/framework
 
 ckeditor_stylesheets:
-  - css/ckeditor-styles.css
+  - css/style.css
