@@ -63,7 +63,9 @@ body.navbar-is-fixed-top {
 }
 
 .extlink {
-  font-size: 0.75em
+  font-size: 0.75em;
+  margin-left: 0.2em;
+  vertical-align: super;
 }
 span.red-text {
   color: red;
@@ -713,9 +715,17 @@ p:last-child,
   }
 
   .views-field-title-html {
+    margin-bottom: 0.5em;
+
     h5, span.fa-ext.extlink {
       display: inline;
     }
+  }
+  .views-field-field-publisher-logo-1 {
+    margin-bottom: 0.5em;
+  }
+  .views-field-field-publication {
+    margin-bottom: 0.5em;
   }
 }
 
