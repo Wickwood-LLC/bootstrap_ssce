@@ -8475,6 +8475,8 @@ body.navbar-is-fixed-top {
 
 .extlink {
   font-size: 0.75em;
+  margin-left: 0.2em;
+  vertical-align: super;
 }
 
 span.red-text {
@@ -9317,8 +9319,20 @@ p:last-child,
   padding: 27px;
 }
 
+.block-views-blockpress-coverage-block-4 .views-field-title-html {
+  margin-bottom: 0.5em;
+}
+
 .block-views-blockpress-coverage-block-4 .views-field-title-html h5, .block-views-blockpress-coverage-block-4 .views-field-title-html span.fa-ext.extlink {
   display: inline;
+}
+
+.block-views-blockpress-coverage-block-4 .views-field-field-publisher-logo-1 {
+  margin-bottom: 0.5em;
+}
+
+.block-views-blockpress-coverage-block-4 .views-field-field-publication {
+  margin-bottom: 0.5em;
 }
 
 .check-availability-btn {
