@@ -248,6 +248,13 @@ ul {
     }
   }
 
+  .menu--main.nav.navbar-nav > li > a {
+    @include breakpoint(753px 776px)  {
+      padding: 10px 10px;
+    }
+  }
+
+
   .navbar-header {
     display: flex;
     align-items: center;
