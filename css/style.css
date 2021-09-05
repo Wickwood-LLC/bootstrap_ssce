@@ -8884,10 +8884,24 @@ ul:last-child {
   }
 }
 
+#navbar .menu--main .nav.navbar-nav > li > a {
+  font-weight: bold;
+  color: #000000;
+}
+
 @media (min-width: 753px) and (max-width: 776px) {
-  #navbar .menu--main.nav.navbar-nav > li > a {
+  #navbar .menu--main .nav.navbar-nav > li > a {
     padding: 10px 10px;
   }
+}
+
+#navbar .menu--main .nav.navbar-nav > li > a:is-active {
+  color: #2379ff;
+}
+
+#navbar .menu--main .nav.navbar-nav > li > a:hover {
+  color: #2379ff;
+  text-decoration: underline;
 }
 
 #navbar .navbar-header {
