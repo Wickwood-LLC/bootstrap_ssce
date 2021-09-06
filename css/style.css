@@ -8880,6 +8880,15 @@ ul:last-child {
   flex: 100%;
 }
 
+#navbar-collapse.in, #navbar-collapse.collapsing {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: #f8f8f8;
+  text-align: right;
+}
+
 .region-navigation {
   display: inline-block;
   padding: 9px 0;
