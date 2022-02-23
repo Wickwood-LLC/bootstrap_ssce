@@ -9115,6 +9115,10 @@ p:last-child,
   padding: 0.5em;
 }
 
+.path-frontpage .page-title {
+  margin-bottom: 0;
+}
+
 .path-frontpage .row {
   margin: 0;
 }
@@ -9161,7 +9165,7 @@ p:last-child,
 }
 
 .path-frontpage article.page.full .content > .layout:nth-of-type(1) p {
-  margin: 0.5em 0 1em 0;
+  margin: 0;
 }
 
 .path-frontpage article.page.full .content > .layout:nth-of-type(2) {
