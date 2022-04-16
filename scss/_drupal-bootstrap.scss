@@ -267,6 +267,10 @@ ul {
       @include breakpoint(530px) {
         width: auto;
       }
+
+      @include breakpoint(400px) {
+        display: none;
+      }
     }
   }
 

@@ -3004,7 +3004,8 @@ label {
 input[type="search"] {
   box-sizing: border-box;
   -webkit-appearance: none;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
 }
 
 input[type="radio"],
@@ -3627,6 +3628,8 @@ select[multiple].input-lg,
   line-height: 1.428571429;
   border-radius: 4px;
   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -5825,6 +5828,15 @@ a.thumbnail.active {
   color: #843534;
 }
 
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
 @keyframes progress-bar-stripes {
   from {
     background-position: 40px 0;
@@ -5864,6 +5876,7 @@ a.thumbnail.active {
 
 .progress.active .progress-bar,
 .progress-bar.active {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
   animation: progress-bar-stripes 2s linear infinite;
 }
 
@@ -6677,7 +6690,8 @@ button.close {
   background: transparent;
   border: 0;
   -webkit-appearance: none;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
 }
 
 .modal-open {
@@ -6698,11 +6712,15 @@ button.close {
 }
 
 .modal.fade .modal-dialog {
+  -webkit-transform: translate(0, -25%);
   transform: translate(0, -25%);
+  transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 }
 
 .modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
 }
 
@@ -7134,20 +7152,26 @@ button.close {
 
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
+    transition: -webkit-transform 0.6s ease-in-out;
     transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    -webkit-perspective: 1000px;
     perspective: 1000px;
   }
   .carousel-inner > .item.next, .carousel-inner > .item.active.right {
+    -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     left: 0;
   }
   .carousel-inner > .item.prev, .carousel-inner > .item.active.left {
+    -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     left: 0;
   }
   .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right, .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     left: 0;
   }
@@ -7393,6 +7417,10 @@ button.close {
 
 .affix {
   position: fixed;
+}
+
+@-ms-viewport {
+  width: device-width;
 }
 
 .visible-xs {
@@ -7789,18 +7817,31 @@ button.close {
 /**
  * AJAX (throbber) styling.
  */
-@keyframes glyphicon-spin {
+@-webkit-keyframes glyphicon-spin {
   0% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   100% {
-    transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+@keyframes glyphicon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
   }
 }
 
 .glyphicon-spin {
   display: inline-block;
-  animation: glyphicon-spin 1s infinite linear;
+  -webkit-animation: glyphicon-spin 1s infinite linear;
+          animation: glyphicon-spin 1s infinite linear;
 }
 
 a .glyphicon-spin {
@@ -7993,6 +8034,7 @@ table .checkbox.form-no-label, table .radio.form-no-label {
 
 .select-wrapper select {
   -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   line-height: 1;
   padding-right: 2em;
@@ -8876,6 +8918,12 @@ ul:last-child {
   }
 }
 
+@media (min-width: 400px) {
+  #navbar .container .navbar-text {
+    display: none;
+  }
+}
+
 #navbar .menu--main.nav.navbar-nav > li > a {
   font-weight: bold;
   color: #000000;
@@ -9602,7 +9650,8 @@ span.inner-circle {
 }
 
 .view-faqs .ui-accordion-header-active .ui-icon {
-  filter: invert(1);
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 
 .view-faqs .ui-accordion-header-active:after {
@@ -10142,7 +10191,8 @@ body.earnbysharingsolar-com .btn-yellow:hover {
   width: calc(100% - 1em);
   height: calc(100% - 1em);
   margin: 0.5em;
-  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 .dynamic-bill-large .bill-arrow:before {
@@ -10221,6 +10271,8 @@ body.earnbysharingsolar-com .btn-yellow:hover {
 }
 
 .dynamic-bill-small {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   max-width: 300px;
   position: relative;
