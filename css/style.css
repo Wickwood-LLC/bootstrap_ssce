@@ -9013,11 +9013,18 @@ ul:last-child {
   font-size: 1.2em;
   font-weight: bold;
   vertical-align: bottom;
+  display: none;
 }
 
 #block-headerlinks .phone-link:hover {
   color: #23527c;
   text-decoration: none;
+}
+
+@media (min-width: 400px) {
+  #block-headerlinks .phone-link {
+    display: inline-block;
+  }
 }
 
 #block-headerlinks .btn {

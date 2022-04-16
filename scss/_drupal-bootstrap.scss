@@ -359,11 +359,16 @@ ul {
     font-size: 1.2em;
     font-weight: bold;
     vertical-align: bottom;
+    display: none;
 
     &:hover {
       color: #23527c;
       text-decoration: none;
     }
+
+    @include breakpoint(400px) {
+        display: inline-block;
+      }
   }
 
   .btn {
