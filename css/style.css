@@ -9192,10 +9192,6 @@ p:last-child,
   padding: 0;
 }
 
-.path-frontpage section.block-layout-builder {
-  padding: 1.5% 10%;
-}
-
 .path-frontpage section.block-layout-builder .field--name-body {
   max-width: 1200px;
   margin: auto;
