@@ -8869,7 +8869,7 @@ ul:last-child {
 
 #navbar .container .navbar-text {
   color: #2379ff;
-  display: inline-block;
+  display: none;
   float: none;
   font-weight: bold;
   margin: 0;
@@ -8920,7 +8920,7 @@ ul:last-child {
 
 @media (min-width: 400px) {
   #navbar .container .navbar-text {
-    display: none;
+    display: inline-block;
   }
 }
 

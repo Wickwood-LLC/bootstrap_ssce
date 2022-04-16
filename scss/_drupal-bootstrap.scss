@@ -244,7 +244,7 @@ ul {
 
     .navbar-text {
       color: #2379ff;
-      display: inline-block;
+      display: none;
       float: none;
       font-weight: bold;
       margin: 0;
@@ -269,7 +269,7 @@ ul {
       }
 
       @include breakpoint(400px) {
-        display: none;
+        display: inline-block;
       }
     }
   }
