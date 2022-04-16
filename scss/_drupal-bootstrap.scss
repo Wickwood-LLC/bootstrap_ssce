@@ -548,7 +548,7 @@ p:last-child,
   }
 
   section.block-layout-builder {
-    //padding: 1.5% 10%;
+    padding: 1.5% 10%;
 
     .field--name-body {
       max-width: 1200px;
@@ -719,7 +719,8 @@ p:last-child,
       margin: 0 30px;
     }
 
-    #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1 {
+    #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1, 
+    #views_slideshow_cycle_teaser_section_testimonial_carousel-block_2 {
       width: 100% !important;
       height: 505px !important;
 
@@ -1112,4 +1113,92 @@ form#webform-submission-contact-node-160-add-form {
     text-align: center;
     box-shadow: -3px 0px 5px 0px #38383870;
   }
+}
+
+/********************* SLIDERS *********************/
+#flexslider-1 {
+  .slides > li {
+    margin: 15px;
+  }
+}
+
+.slick-arrow {
+  &:before {
+    color: #337ab7;
+  }
+  &:hover::before {
+    color: transparentize($brand-primary, 0.29);
+  }
+}
+
+.slick {
+  .slick-track {
+    display: flex;
+  }
+
+  .slick__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: row;
+  }
+
+  .slide__media img {
+    margin: auto;
+  }
+
+  .slick__arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: unset;
+    bottom: 0px;
+    position: relative;
+    top: unset;
+
+    .slick-arrow {
+      border: 0;
+      border-radius: 50%;
+      font-size: 1em;
+      height: 42px;
+      pointer-events: auto;
+      position: relative;
+      top: unset;
+      transform: unset;
+      width: 42px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .slick-dots {
+      position: relative;
+      bottom: unset;
+      display: flex;
+      width: unset;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+
+      li {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+}
+
+/********************* BLAZY COLUMNS *********************/
+.block-column,
+.blazy.block-column,
+.item-list > .block-column {
+  clear: both;
+  display: block;
+  list-style: none;
+  margin: 0 5%;
+  padding: 0;
+  width: 90%;
 }
