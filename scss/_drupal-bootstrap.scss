@@ -1190,3 +1190,15 @@ form#webform-submission-contact-node-160-add-form {
   }
 
 }
+
+/********************* BLAZY COLUMNS *********************/
+.block-column,
+.blazy.block-column,
+.item-list > .block-column {
+  clear: both;
+  display: block;
+  list-style: none;
+  margin: 0 5%;
+  padding: 0;
+  width: 90%;
+}

@@ -9894,6 +9894,18 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   margin-bottom: 0;
 }
 
+/********************* BLAZY COLUMNS *********************/
+.block-column,
+.blazy.block-column,
+.item-list > .block-column {
+  clear: both;
+  display: block;
+  list-style: none;
+  margin: 0 5%;
+  padding: 0;
+  width: 90%;
+}
+
 @media (min-width: 0px) and (max-width: 942px) {
   body.earnbysharingsolar-com.toolbar-tray-open.toolbar-vertical #navbar .container .name-and-slogan {
     width: 100%;
