@@ -9840,6 +9840,9 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   align-items: center;
   justify-content: center;
   height: inherit;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-direction: row;
 }
 
 .slick .slide__media img {

@@ -1141,6 +1141,9 @@ form#webform-submission-contact-node-160-add-form {
     align-items: center;
     justify-content: center;
     height: inherit;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: row;
   }
 
   .slide__media img {
