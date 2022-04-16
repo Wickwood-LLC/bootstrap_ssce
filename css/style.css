@@ -9358,18 +9358,21 @@ p:last-child,
   margin: 0 30px;
 }
 
-.path-frontpage .view-testimonial-carousel #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1 {
+.path-frontpage .view-testimonial-carousel #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1,
+.path-frontpage .view-testimonial-carousel #views_slideshow_cycle_teaser_section_testimonial_carousel-block_2 {
   width: 100% !important;
   height: 505px !important;
 }
 
 @media (min-width: 992px) {
-  .path-frontpage .view-testimonial-carousel #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1 {
+  .path-frontpage .view-testimonial-carousel #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1,
+  .path-frontpage .view-testimonial-carousel #views_slideshow_cycle_teaser_section_testimonial_carousel-block_2 {
     height: 316px !important;
   }
 }
 
-.path-frontpage .view-testimonial-carousel #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1 .views_slideshow_cycle_slide {
+.path-frontpage .view-testimonial-carousel #views_slideshow_cycle_teaser_section_testimonial_carousel-block_1 .views_slideshow_cycle_slide,
+.path-frontpage .view-testimonial-carousel #views_slideshow_cycle_teaser_section_testimonial_carousel-block_2 .views_slideshow_cycle_slide {
   width: 100% !important;
 }
 
