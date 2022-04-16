@@ -9815,6 +9815,75 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   box-shadow: -3px 0px 5px 0px #38383870;
 }
 
+/********************* SLIDERS *********************/
+#flexslider-1 .slides > li {
+  margin: 15px;
+}
+
+.slick-arrow:before {
+  color: #333;
+}
+
+.slick-arrow:hover::before {
+  color: rgba(51, 122, 183, 0.71);
+}
+
+.slick .slick-track {
+  display: flex;
+}
+
+.slick .slick__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+
+.slick .slide__media img {
+  margin: auto;
+}
+
+.slick .slick__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: unset;
+  bottom: 0px;
+  position: relative;
+  top: unset;
+}
+
+.slick .slick__arrow .slick-arrow {
+  border: 0;
+  border-radius: 50%;
+  font-size: 1em;
+  height: 42px;
+  pointer-events: auto;
+  position: relative;
+  top: unset;
+  -webkit-transform: unset;
+          transform: unset;
+  width: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick .slick__arrow .slick-dots {
+  position: relative;
+  bottom: unset;
+  display: flex;
+  width: unset;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slick .slick__arrow .slick-dots li {
+  margin-bottom: 0;
+}
+
 @media (min-width: 0px) and (max-width: 942px) {
   body.earnbysharingsolar-com.toolbar-tray-open.toolbar-vertical #navbar .container .name-and-slogan {
     width: 100%;

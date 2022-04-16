@@ -1113,3 +1113,76 @@ form#webform-submission-contact-node-160-add-form {
     box-shadow: -3px 0px 5px 0px #38383870;
   }
 }
+
+/********************* SLIDERS *********************/
+#flexslider-1 {
+  .slides > li {
+    margin: 15px;
+  }
+}
+
+.slick-arrow {
+  &:before {
+    color: #333;
+  }
+  &:hover::before {
+    color: transparentize($brand-primary, 0.29);
+  }
+}
+
+.slick {
+  .slick-track {
+    display: flex;
+  }
+
+  .slick__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+  }
+
+  .slide__media img {
+    margin: auto;
+  }
+
+  .slick__arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: unset;
+    bottom: 0px;
+    position: relative;
+    top: unset;
+
+    .slick-arrow {
+      border: 0;
+      border-radius: 50%;
+      font-size: 1em;
+      height: 42px;
+      pointer-events: auto;
+      position: relative;
+      top: unset;
+      transform: unset;
+      width: 42px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .slick-dots {
+      position: relative;
+      bottom: unset;
+      display: flex;
+      width: unset;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+
+      li {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+}
