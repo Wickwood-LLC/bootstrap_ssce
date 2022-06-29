@@ -113,10 +113,12 @@
         attach: function(context, settings) {
             // scroll into view
             setTimeout(_ => {
-                if (document.activeElement.tagName == "IFRAME") {
-                    document.activeElement.blur();
-                }
-                window.scrollTo(0, 0);
+                window.focus();
+                window.scroll({
+                    top: 0,
+                    left: 0,
+                    behavior: 'smooth'
+                });
             }, 500);
         }
     };
