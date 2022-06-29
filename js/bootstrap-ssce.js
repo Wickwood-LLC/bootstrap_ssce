@@ -111,15 +111,27 @@
      */
     Drupal.behaviors.disableAutoFocus = {
         attach: function(context, settings) {
-            // scroll into view
-            setTimeout(_ => {
-                window.focus();
-                window.scroll({
-                    top: 0,
-                    left: 0,
-                    behavior: 'smooth'
-                });
-            }, 500);
+            const iframe = $('.field--name-field-iframe-link iframe');
+            let scrollInterval;
+
+            // check if iframe exists
+            if (iframe.length) {
+                // continuously scroll to top of page
+                if (!scrollInterval) {
+                    scrollInterval = setInterval(() => {
+                        $(window).scrollTop(0);
+                    }, 100);
+                }
+
+                // check if iframe is loaded
+                iframe[0].onload = function() {
+                    // disable autofocus
+                    iframe.contents().find('input[type="text"]').attr('autofocus', false);
+
+                    // stop scrolling
+                    clearInterval(scrollInterval);
+                }
+            }
         }
     };
 
