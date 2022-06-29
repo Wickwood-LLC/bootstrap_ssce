@@ -116,23 +116,30 @@
 
             // check if iframe exists
             if (iframe.length) {
-                // continuously scroll to top of page
-                if (!scrollInterval) {
-                    scrollInterval = setInterval(() => {
-                        $(window).scrollTop(0);
-                    }, 100);
-                }
+                // continuously scroll to top
+                scrollInterval = setInterval(function() {
+                    $(window).scrollTop(0);
+                    console.log(`Scrolled to top. scrollInterval: ${scrollInterval}`);
+                }, 100);
 
                 // check if iframe is loaded
-                iframe[0].onload = function() {
+                iframe.on('load', () => {
                     // disable autofocus
                     iframe.contents().find('input[type="text"]').attr('autofocus', false);
-
-                    // stop scrolling
+                    // clear interval
                     clearInterval(scrollInterval);
-                }
-            }
-        }
-    };
+                    console.log(`Cleared scrollInterval: ${scrollInterval}`);
+                });
 
+            }
+
+            // $('.field--name-field-iframe-link iframe').each(function() {
+            //     let input = $(this).contents().find('input')
+            //     console.log(input);
+            //     input.blur();
+            //     $(window).scrollTop(0);
+            //     console.log(`Scrolled to top.`);
+            // });
+        }
+    }
 })(jQuery, Drupal);
