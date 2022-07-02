@@ -70,7 +70,7 @@
      */
     Drupal.behaviors.promoBlock = {
         attach: function(context, settings) {
-            $promoBlock = $('#block-affiliatesscecustompromo');
+            $promoBlock = $('.affiliate-promo-block');
             $promoBtn = $('.promo-toggle', context);
 
             if (!($.cookie('showPromoBlock'))) { // Check to see if this cookie exists

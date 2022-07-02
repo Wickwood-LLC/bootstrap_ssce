@@ -684,6 +684,10 @@ p:last-child,
 }
 
 .block-views-blockpromotional-users-block-1 {
+    .view-content>h3 {
+        border-bottom: 1px solid #e7e7e7;
+        margin-top: 1em;
+    }
     li.grid {
         border: 1.5px solid #2479ff;
         border-radius: 3px;
@@ -975,7 +979,7 @@ form#webform-submission-contact-node-160-add-form {
     width: 100vw;
 }
 
-#block-affiliatesscecustompromo {
+.affiliate-promo-block {
     position: fixed;
     right: -300px;
     z-index: 11;

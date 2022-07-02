@@ -9388,6 +9388,11 @@ p:last-child,
   }
 }
 
+.block-views-blockpromotional-users-block-1 .view-content > h3 {
+  border-bottom: 1px solid #e7e7e7;
+  margin-top: 1em;
+}
+
 .block-views-blockpromotional-users-block-1 li.grid {
   border: 1.5px solid #2479ff;
   border-radius: 3px;
@@ -9749,7 +9754,7 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   width: 100vw;
 }
 
-#block-affiliatesscecustompromo {
+.affiliate-promo-block {
   position: fixed;
   right: -300px;
   z-index: 11;
@@ -9760,17 +9765,17 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   transition: all 1s ease;
 }
 
-#block-affiliatesscecustompromo.open {
+.affiliate-promo-block.open {
   right: 0;
   opacity: 1;
   box-shadow: -2px 3px 10px 0 #333;
 }
 
-#block-affiliatesscecustompromo.close {
+.affiliate-promo-block.close {
   opacity: 1;
 }
 
-#block-affiliatesscecustompromo button.promo-toggle {
+.affiliate-promo-block button.promo-toggle {
   border: 0;
   display: table;
   cursor: pointer;
