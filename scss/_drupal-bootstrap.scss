@@ -684,14 +684,20 @@ p:last-child,
 }
 
 .block-views-blockpromotional-users-block-1 {
-    .view-content>h3 {
-        border-bottom: 1px solid #e7e7e7;
-        margin-top: 1em;
+    .view-content,
+    .views-group-content {
+        @include auto-grid(320px);
     }
-    li.grid {
-        border: 1.5px solid #2479ff;
-        border-radius: 3px;
-        padding: 27px;
+    .views-group-title {
+        border-bottom: 1px solid #e7e7e7;
+    }
+    .views-group {
+        grid-column: 1 / -1;
+    }
+    .views-row {
+        border: 1px solid $brand-primary;
+        padding: 0.5em;
+        border-radius: 10px;
         text-align: center;
         img {
             margin: auto;

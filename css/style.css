@@ -7640,6 +7640,7 @@ button.close {
 }
 
 /* Fluid Typography */
+/* Auto Grid */
 #drupal-off-canvas .ui-state-default {
   color: #333;
   border: 0;
@@ -9388,19 +9389,29 @@ p:last-child,
   }
 }
 
-.block-views-blockpromotional-users-block-1 .view-content > h3 {
-  border-bottom: 1px solid #e7e7e7;
-  margin-top: 1em;
+.block-views-blockpromotional-users-block-1 .view-content,
+.block-views-blockpromotional-users-block-1 .views-group-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 1rem;
 }
 
-.block-views-blockpromotional-users-block-1 li.grid {
-  border: 1.5px solid #2479ff;
-  border-radius: 3px;
-  padding: 27px;
+.block-views-blockpromotional-users-block-1 .views-group-title {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.block-views-blockpromotional-users-block-1 .views-group {
+  grid-column: 1 / -1;
+}
+
+.block-views-blockpromotional-users-block-1 .views-row {
+  border: 1px solid #337ab7;
+  padding: 0.5em;
+  border-radius: 10px;
   text-align: center;
 }
 
-.block-views-blockpromotional-users-block-1 li.grid img {
+.block-views-blockpromotional-users-block-1 .views-row img {
   margin: auto;
 }
 
