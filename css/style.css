@@ -9415,6 +9415,10 @@ p:last-child,
   margin: auto;
 }
 
+.block-views-blockpromotional-users-block-1 .views-row .views-field-field-referral-id {
+  margin-top: 0.5em;
+}
+
 .block-views-blockpress-coverage-block-4 {
   margin: 1em 0;
 }

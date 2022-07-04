@@ -24,7 +24,7 @@
 
 /* Auto Grid */
 
-@mixin auto-grid($auto-grid-min-size) {
+@mixin auto-grid($auto-grid-min-size: 320px, $auto-grid-gap: 1rem) {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax($auto-grid-min-size, 1fr));
     grid-gap: 1rem;
