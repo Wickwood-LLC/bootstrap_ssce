@@ -9189,6 +9189,30 @@ body.solarfundraisers-com #support-clean-energy {
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
+body.solarfundraisers-com #your-growing-impact {
+  background-color: white;
+  border-bottom: #337ab7;
+}
+body.solarfundraisers-com #your-growing-impact .your-growing-impact-block {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+body.solarfundraisers-com #your-growing-impact .your-growing-impact-block .block-title {
+  text-align: center;
+  color: #a6dffc;
+  font-size: 1rem;
+  letter-spacing: 3.2px;
+}
+body.solarfundraisers-com #your-growing-impact .your-growing-impact-block .block-content .fontawesome-icon-inline {
+  color: #337ab7;
+}
+body.solarfundraisers-com #your-growing-impact .your-growing-impact-block .block-content h1 {
+  font-weight: normal;
+  color: blue;
+}
+body.solarfundraisers-com #your-growing-impact .your-growing-impact-block .block-content p {
+  font-size: 0.8rem;
+}
 
 .hr-range {
   width: 56px;
