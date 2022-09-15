@@ -9182,6 +9182,13 @@ body.solarfundraisers-com .btn-yellow {
 body.solarfundraisers-com .btn-yellow:hover {
   background-color: #979910;
 }
+body.solarfundraisers-com #support-clean-energy {
+  background-image: url(../images/628355de12246d8042e6cf31_hero-dsk.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
 
 .hr-range {
   width: 56px;
