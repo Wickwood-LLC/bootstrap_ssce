@@ -16,61 +16,65 @@ body.solarfundraisers-com {
 			float: right;
 		}
 	}
-	
+
 	// MAIN MENU
 	.menu--main-menu-sf {
 		text-align: center;
-		
+
 		> li {
 			display: inline-block;
 			margin-bottom: 0.2em;
 
 			> a {
 				padding: 0.25em 0.5em;
-				font-size: 0.75em;
+				font-weight: bold;
+				color: #000000;
 
-				&[class="btn btn-primary"]:hover,
-				&[class="btn btn-primary"]:focus {
-					background-color: #286090;
+				&.is-active {
+					color: #2379ff;
+				}
+				&:hover {
+					color: #2379ff;
+					text-decoration: underline;
+					background-color: unset;
 				}
 			}
 		}
 	}
 
-	.btn-green{	
-	    background-color: #1b903a;
-	    border-color: #0f6b27;
+	.btn-green {
+		background-color: #1b903a;
+		border-color: #0f6b27;
 
-	    &:hover {
-	    	background-color: darken(#1b903a, 10%);
-	    }
+		&:hover {
+			background-color: darken(#1b903a, 10%);
+		}
 	}
 
-	.btn-lt-blue{	
-	    background-color: #128bc5;	
-	    border-color: #0a638e;
+	.btn-lt-blue {
+		background-color: #128bc5;
+		border-color: #0a638e;
 
-	    &:hover {
-	    	background-color: darken(#128bc5, 10%);
-	    }
+		&:hover {
+			background-color: darken(#128bc5, 10%);
+		}
 	}
 
-	.btn-gold{	
-	    background-color: #c59e12;	
-	    border-color: #a08110;
+	.btn-gold {
+		background-color: #c59e12;
+		border-color: #a08110;
 
-	    &:hover {
-	    	background-color: darken(#c59e12, 10%);
-	    }
+		&:hover {
+			background-color: darken(#c59e12, 10%);
+		}
 	}
 
-	.btn-yellow{	
-	    background-color: #c5c715;	
-	    border-color: #a3a511;
+	.btn-yellow {
+		background-color: #c5c715;
+		border-color: #a3a511;
 
-	    &:hover {
-	    	background-color: darken(#c5c715, 10%);
-	    }
+		&:hover {
+			background-color: darken(#c5c715, 10%);
+		}
 	}
-
 }

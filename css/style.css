@@ -9143,10 +9143,16 @@ body.solarfundraisers-com .menu--main-menu-sf > li {
 }
 body.solarfundraisers-com .menu--main-menu-sf > li > a {
   padding: 0.25em 0.5em;
-  font-size: 0.75em;
+  font-weight: bold;
+  color: #000000;
 }
-body.solarfundraisers-com .menu--main-menu-sf > li > a[class="btn btn-primary"]:hover, body.solarfundraisers-com .menu--main-menu-sf > li > a[class="btn btn-primary"]:focus {
-  background-color: #286090;
+body.solarfundraisers-com .menu--main-menu-sf > li > a.is-active {
+  color: #2379ff;
+}
+body.solarfundraisers-com .menu--main-menu-sf > li > a:hover {
+  color: #2379ff;
+  text-decoration: underline;
+  background-color: unset;
 }
 body.solarfundraisers-com .btn-green {
   background-color: #1b903a;
