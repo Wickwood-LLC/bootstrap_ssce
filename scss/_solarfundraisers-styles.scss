@@ -79,7 +79,13 @@ body.solarfundraisers-com {
 	}
 
 	#support-clean-energy {
-		background-image: url(#{$theme-root}/images/628355de12246d8042e6cf31_hero-dsk.jpg);
+		background: linear-gradient(
+			to bottom,
+			rgb(2, 127, 255) 0%,
+			rgb(80, 181, 251) 41%,
+			rgb(144, 231, 248) 75%,
+			rgb(108, 218, 231) 100%
+		);
 		background-size: cover;
 		background-position: center;
 		padding-top: 8rem;
