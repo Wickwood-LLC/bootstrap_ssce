@@ -9247,6 +9247,72 @@ body.solarfundraisers-com #your-growing-impact .your-growing-impact-block .block
 body.solarfundraisers-com #your-growing-impact .your-growing-impact-block .block-content p {
   font-size: 0.8rem;
 }
+body.solarfundraisers-com #about-the-program {
+  text-align: left;
+  border-top: 1px solid #96e1ff;
+  background-color: #f4fcff;
+}
+body.solarfundraisers-com #about-the-program .about-the-program-block {
+  padding: 1.5% 1em;
+}
+body.solarfundraisers-com #about-the-program .about-the-program-block .block-title {
+  text-align: center;
+  font-weight: 500;
+  color: #004b9b;
+  margin: 2em 0;
+}
+body.solarfundraisers-com #about-the-program .about-the-program-block .block-content {
+  text-align: left;
+}
+body.solarfundraisers-com #about-the-program .about-the-program-block .block-content h4 {
+  color: #004b9b;
+  font-weight: 500;
+}
+body.solarfundraisers-com #about-the-program .about-the-program-block .block-content img {
+  border-radius: 12px;
+  margin: 0;
+  width: 100%;
+}
+body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox {
+  display: flex;
+  grid-gap: 1rem;
+  flex-flow: row wrap;
+  max-width: 540px;
+  margin: auto;
+  margin-bottom: 2em;
+}
+body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:before, body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:after {
+  display: none;
+}
+body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox > .wt-col-md-6 {
+  flex: 100%;
+  padding: 0;
+}
+body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:first-child .wt-col-1, body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:last-child .wt-col-1 {
+  order: 1;
+}
+@media (min-width: 992px) {
+  body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox {
+    flex-flow: row nowrap;
+    max-width: unset;
+  }
+  body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:first-child .wt-col-1, body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:last-child .wt-col-1 {
+    flex: 0 2 auto;
+    order: 0;
+  }
+  body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:first-child .wt-col-2, body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:last-child .wt-col-2 {
+    flex: 1 1 545px;
+  }
+  body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:nth-child(2) .wt-col-1 {
+    flex: 1 1 545px;
+  }
+  body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:nth-child(2) .wt-col-2 {
+    flex: 0 2 auto;
+  }
+  body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox .wt-col-md-6 {
+    text-align: left;
+  }
+}
 
 .hr-range {
   width: 56px;

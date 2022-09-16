@@ -152,4 +152,85 @@ body.solarfundraisers-com {
 			}
 		}
 	}
+
+	#about-the-program {
+		text-align: left;
+		border-top: 1px solid #96e1ff;
+		background-color: #f4fcff;
+
+		.about-the-program-block {
+			padding: 1.5% 1em;
+			.block-title {
+				text-align: center;
+				font-weight: 500;
+				color: #004b9b;
+				margin: 2em 0;
+			}
+			.block-content {
+				text-align: left;
+
+				h4 {
+					color: #004b9b;
+					font-weight: 500;
+				}
+				img {
+					border-radius: 12px;
+					margin: 0;
+					width: 100%;
+				}
+				.wt-flexbox {
+					display: flex;
+					grid-gap: 1rem;
+					flex-flow: row wrap;
+					max-width: 540px;
+					margin: auto;
+					margin-bottom: 2em;
+
+					&:before,
+					&:after {
+						display: none;
+					}
+
+					> .wt-col-md-6 {
+						flex: 100%;
+						padding: 0;
+					}
+					&:first-child,
+					&:last-child {
+						.wt-col-1 {
+							order: 1;
+						}
+					}
+
+					@include breakpoint(992px) {
+						flex-flow: row nowrap;
+						max-width: unset;
+
+						&:first-child,
+						&:last-child {
+							.wt-col-1 {
+								flex: 0 2 auto;
+								order: 0;
+							}
+							.wt-col-2 {
+								flex: 1 1 545px;
+							}
+						}
+						&:nth-child(2) {
+							.wt-col-1 {
+								flex: 1 1 545px;
+							}
+							.wt-col-2 {
+								flex: 0 2 auto;
+							}
+						}
+
+						.wt-col-md-6 {
+							text-align: left;
+						}
+					}
+				}
+			}
+		}
+	}
 }
