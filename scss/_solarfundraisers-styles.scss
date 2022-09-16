@@ -97,8 +97,11 @@ body.solarfundraisers-com {
 		background-image: unset;
 		border-bottom: $brand-primary;
 		.your-growing-impact-block {
-			padding-top: 0;
-			padding-bottom: 0;
+			max-width: 1200px;
+			box-sizing: content-box;
+			text-align: center;
+			margin: auto;
+			padding: 0;
 			.block-title {
 				text-align: center;
 				color: #a6dffc;
@@ -108,8 +111,15 @@ body.solarfundraisers-com {
 			.block-content {
 				.wt-four-col {
 					display: grid;
-					grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 					grid-gap: 1rem;
+
+					@include breakpoint(280px) {
+						grid-template-columns: 1fr 1fr;
+					}
+
+					@include breakpoint(768px) {
+						grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+					}
 
 					&:before,
 					&:after {
@@ -118,14 +128,23 @@ body.solarfundraisers-com {
 
 					> .wt-col {
 						display: block;
+						width: 100%;
+						margin: 0;
 					}
 				}
 				.fontawesome-icon-inline {
-					color: blue;
+					color: lighten(blue, 20%);
+					display: block;
+					font-size: 2em;
 				}
 				h1 {
+					font-size: 1.2em;
 					font-weight: normal;
-					color: darken(blue, 10%);
+					color: blue;
+
+					@include breakpoint(992px) {
+						font-size: 1.8em;
+					}
 				}
 				p {
 					font-size: 0.8rem;
