@@ -9350,9 +9350,67 @@ body.solarfundraisers-com #sign-up-section .sign-up-block a {
 body.solarfundraisers-com #sign-up-section .sign-up-block a:hover {
   color: hsla(0deg, 0%, 100%, 0.8);
 }
+body.solarfundraisers-com #stats-section {
+  padding: 3em 0em;
+}
 body.solarfundraisers-com #stats-section .layout__region--content {
   max-width: 1200px;
   margin: auto;
+}
+body.solarfundraisers-com #stats-section .stats-intro {
+  max-width: 960px;
+  margin: 0 auto;
+  color: #004b9b;
+  font-size: 1.2em;
+  line-height: 38px;
+  font-weight: 500;
+}
+body.solarfundraisers-com #stats-section .wt-three-col {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+}
+body.solarfundraisers-com #stats-section .wt-three-col:before, body.solarfundraisers-com #stats-section .wt-three-col:after {
+  display: none;
+}
+@media (min-width: 992px) {
+  body.solarfundraisers-com #stats-section .wt-three-col {
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-1 {
+    grid-area: 1/1/span 1/span 2;
+  }
+  body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-2 {
+    grid-area: span 1/span 1/span 1/span 1;
+  }
+  body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-3 {
+    grid-area: span 1/span 1/span 1/span 1;
+  }
+}
+body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-md-4 {
+  padding: 0;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+  font-size: 1.8em;
+  line-height: 48px;
+  font-weight: 500;
+  padding: 1.8em 1.2em;
+  text-align: center;
+  width: unset;
+}
+body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-1 {
+  background-image: url(../images/panels.jpg);
+  grid-area: 1/1/span 1/span 2;
+}
+body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-2 {
+  background-image: url(../images/clouds.jpg);
+}
+body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-3 {
+  background-image: url(../images/trees.jpg);
 }
 body.solarfundraisers-com #joining-solar .layout__region--content {
   max-width: 1200px;
