@@ -302,22 +302,6 @@ body.solarfundraisers-com {
 				display: none;
 			}
 
-			@include breakpoint(992px) {
-				grid-auto-columns: 1fr;
-				grid-template-columns: 1fr 1fr;
-				grid-template-rows: auto auto;
-
-				> .wt-col-1 {
-					grid-area: 1 / 1 / span 1 / span 2;
-				}
-				> .wt-col-2 {
-					grid-area: span 1 / span 1 / span 1 / span 1;
-				}
-				> .wt-col-3 {
-					grid-area: span 1 / span 1 / span 1 / span 1;
-				}
-			}
-
 			> .wt-col-md-4 {
 				padding: 0;
 				display: block;
@@ -327,20 +311,38 @@ body.solarfundraisers-com {
 				font-size: 1.8em;
 				line-height: 48px;
 				font-weight: 500;
-				padding: 1.8em 1.2em;
+				padding: 1.8rem 1.2rem;
 				text-align: center;
 				width: unset;
 			}
 
 			> .wt-col-1 {
 				background-image: url(#{$image-path}/panels.jpg);
-				grid-area: 1 / 1 / span 1 / span 2;
 			}
 			> .wt-col-2 {
 				background-image: url(#{$image-path}/clouds.jpg);
 			}
 			> .wt-col-3 {
 				background-image: url(#{$image-path}/trees.jpg);
+			}
+
+			@include breakpoint(992px) {
+				grid-auto-columns: 1fr;
+				grid-template-columns: 1fr 1fr;
+				grid-template-rows: auto auto;
+
+				> .wt-col-1 {
+					grid-area: 1 / 1 / span 1 / span 2;
+					padding: 4.8rem 6rem;
+				}
+				> .wt-col-2 {
+					grid-area: span 1 / span 1 / span 1 / span 1;
+					padding: 7.5rem 1.2rem;
+				}
+				> .wt-col-3 {
+					grid-area: span 1 / span 1 / span 1 / span 1;
+					padding: 7.5rem 1.2rem;
+				}
 			}
 		}
 	}

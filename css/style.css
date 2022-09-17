@@ -9373,22 +9373,6 @@ body.solarfundraisers-com #stats-section .wt-three-col {
 body.solarfundraisers-com #stats-section .wt-three-col:before, body.solarfundraisers-com #stats-section .wt-three-col:after {
   display: none;
 }
-@media (min-width: 992px) {
-  body.solarfundraisers-com #stats-section .wt-three-col {
-    grid-auto-columns: 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-  }
-  body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-1 {
-    grid-area: 1/1/span 1/span 2;
-  }
-  body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-2 {
-    grid-area: span 1/span 1/span 1/span 1;
-  }
-  body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-3 {
-    grid-area: span 1/span 1/span 1/span 1;
-  }
-}
 body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-md-4 {
   padding: 0;
   display: block;
@@ -9398,19 +9382,37 @@ body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-md-4 {
   font-size: 1.8em;
   line-height: 48px;
   font-weight: 500;
-  padding: 1.8em 1.2em;
+  padding: 1.8rem 1.2rem;
   text-align: center;
   width: unset;
 }
 body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-1 {
   background-image: url(../images/panels.jpg);
-  grid-area: 1/1/span 1/span 2;
 }
 body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-2 {
   background-image: url(../images/clouds.jpg);
 }
 body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-3 {
   background-image: url(../images/trees.jpg);
+}
+@media (min-width: 992px) {
+  body.solarfundraisers-com #stats-section .wt-three-col {
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-1 {
+    grid-area: 1/1/span 1/span 2;
+    padding: 4.8rem 6rem;
+  }
+  body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-2 {
+    grid-area: span 1/span 1/span 1/span 1;
+    padding: 7.5rem 1.2rem;
+  }
+  body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-3 {
+    grid-area: span 1/span 1/span 1/span 1;
+    padding: 7.5rem 1.2rem;
+  }
 }
 body.solarfundraisers-com #joining-solar .layout__region--content {
   max-width: 1200px;
