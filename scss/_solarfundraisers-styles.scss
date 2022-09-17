@@ -303,8 +303,10 @@ body.solarfundraisers-com {
 			}
 
 			> .wt-col-md-4 {
-				padding: 0;
+				color: white;
 				display: block;
+				background-color: #00000038;
+				background-blend-mode: overlay;
 				background-position: center;
 				background-size: cover;
 				border-radius: 12px;

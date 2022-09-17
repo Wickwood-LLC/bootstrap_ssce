@@ -9374,8 +9374,10 @@ body.solarfundraisers-com #stats-section .wt-three-col:before, body.solarfundrai
   display: none;
 }
 body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-md-4 {
-  padding: 0;
+  color: white;
   display: block;
+  background-color: rgba(0, 0, 0, 0.2196078431);
+  background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
   border-radius: 12px;
