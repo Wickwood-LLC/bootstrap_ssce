@@ -9351,7 +9351,7 @@ body.solarfundraisers-com #sign-up-section .sign-up-block a:hover {
   color: hsla(0deg, 0%, 100%, 0.8);
 }
 body.solarfundraisers-com #stats-section {
-  padding: 3em 0em;
+  padding: 3em 1em;
 }
 body.solarfundraisers-com #stats-section .layout__region--content {
   max-width: 1200px;
@@ -9376,6 +9376,7 @@ body.solarfundraisers-com #stats-section .wt-three-col:before, body.solarfundrai
 body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-md-4 {
   color: white;
   display: block;
+  background-attachment: fixed;
   background-color: rgba(0, 0, 0, 0.2196078431);
   background-blend-mode: overlay;
   background-position: center;
