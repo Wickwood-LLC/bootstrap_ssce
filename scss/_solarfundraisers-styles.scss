@@ -90,6 +90,11 @@ body.solarfundraisers-com {
 		background-position: center;
 		padding-top: 8rem;
 		padding-bottom: 8rem;
+
+		.layout__region--content {
+			max-width: 1200px;
+			margin: auto;
+		}
 	}
 
 	#your-growing-impact {
@@ -157,6 +162,11 @@ body.solarfundraisers-com {
 		text-align: left;
 		border-top: 1px solid #96e1ff;
 		background-color: #f4fcff;
+
+		.layout__region--content {
+			max-width: 1200px;
+			margin: auto;
+		}
 
 		.about-the-program-block {
 			padding: 1.5% 1em;

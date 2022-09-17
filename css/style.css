@@ -9189,6 +9189,10 @@ body.solarfundraisers-com #support-clean-energy {
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
+body.solarfundraisers-com #support-clean-energy .layout__region--content {
+  max-width: 1200px;
+  margin: auto;
+}
 body.solarfundraisers-com #your-growing-impact {
   background-color: white;
   background-image: unset;
@@ -9251,6 +9255,10 @@ body.solarfundraisers-com #about-the-program {
   text-align: left;
   border-top: 1px solid #96e1ff;
   background-color: #f4fcff;
+}
+body.solarfundraisers-com #about-the-program .layout__region--content {
+  max-width: 1200px;
+  margin: auto;
 }
 body.solarfundraisers-com #about-the-program .about-the-program-block {
   padding: 1.5% 1em;
