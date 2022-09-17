@@ -243,4 +243,50 @@ body.solarfundraisers-com {
 			}
 		}
 	}
+
+	#sign-up-section {
+		background-image: url(#{$image-path}/solar-farm.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		.layout__region--content {
+			background-color: #0000005c;
+			padding: 7em 0;
+		}
+
+		.sign-up-block {
+			max-width: 1200px;
+			margin: auto;
+			width: 100%;
+			p {
+				color: #d2ffdc;
+				font-size: 48px;
+				line-height: 76px;
+				font-weight: 500;
+			}
+			a {
+				color: #fff;
+				text-decoration: underline;
+
+				&:hover {
+					color: hsla(0, 0%, 100%, 0.8);
+				}
+			}
+		}
+	}
+
+	#stats-section {
+		.layout__region--content {
+			max-width: 1200px;
+			margin: auto;
+		}
+	}
+
+	#joining-solar {
+		.layout__region--content {
+			max-width: 1200px;
+			margin: auto;
+		}
+	}
 }

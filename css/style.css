@@ -9321,6 +9321,43 @@ body.solarfundraisers-com #about-the-program .about-the-program-block .block-con
     text-align: left;
   }
 }
+body.solarfundraisers-com #sign-up-section {
+  background-image: url(../images/solar-farm.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body.solarfundraisers-com #sign-up-section .layout__region--content {
+  background-color: rgba(0, 0, 0, 0.3607843137);
+  padding: 7em 0;
+}
+body.solarfundraisers-com #sign-up-section .sign-up-block {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+body.solarfundraisers-com #sign-up-section .sign-up-block p {
+  color: #d2ffdc;
+  font-size: 48px;
+  line-height: 76px;
+  font-weight: 500;
+}
+body.solarfundraisers-com #sign-up-section .sign-up-block a {
+  color: #fff;
+  text-decoration: underline;
+}
+body.solarfundraisers-com #sign-up-section .sign-up-block a:hover {
+  color: hsla(0deg, 0%, 100%, 0.8);
+}
+body.solarfundraisers-com #stats-section .layout__region--content {
+  max-width: 1200px;
+  margin: auto;
+}
+body.solarfundraisers-com #joining-solar .layout__region--content {
+  max-width: 1200px;
+  margin: auto;
+}
 
 .hr-range {
   width: 56px;
