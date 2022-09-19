@@ -411,4 +411,42 @@ body.solarfundraisers-com {
 			}
 		}
 	}
+
+	#sign-up-save {
+		padding: 4.2rem 1.2rem 1.2rem;
+
+		.layout__region--content {
+			width: 100%;
+			padding-top: 2.4rem;
+			padding-bottom: 2.4rem;
+			border-radius: 12px;
+			background-image: url(#{$image-path}/signup-dsk.jpg);
+			background-attachment: fixed;
+			background-position: 50% 50%;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.sign-up-save-block {
+			.block-title {
+				margin-top: 0.6rem;
+				margin-bottom: 1.2rem;
+				color: #004b9b;
+				font-size: 1.8rem;
+				line-height: 4.4rem;
+				font-weight: 500;
+				text-align: center;
+			}
+			.cta-subtext {
+				max-width: 750px;
+				margin: 0 auto 1.8rem;
+				font-family: Poppins, sans-serif;
+				color: #646469;
+				font-size: 0.9rem;
+				line-height: 30px;
+				font-weight: 500;
+				text-align: center;
+			}
+		}
+	}
 }
