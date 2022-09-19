@@ -351,9 +351,64 @@ body.solarfundraisers-com {
 	}
 
 	#joining-solar {
+		background-color: #96e1ff;
+		padding: 2.2em 1em;
 		.layout__region--content {
 			max-width: 1200px;
 			margin: auto;
+		}
+
+		.joining-solar-block {
+			.block-title {
+				text-align: center;
+				font-weight: 500;
+				font-size: 1.8em;
+				color: #004b9b;
+			}
+			.block-content .wt-four-col {
+				display: grid;
+				grid-gap: 1rem;
+				grid-template-columns: 1fr;
+				grid-template-rows: auto auto;
+
+				@include breakpoint(768px) {
+					grid-template-columns: 1fr 1fr;
+				}
+
+				.wt-col {
+					width: 100%;
+					margin: 0;
+
+					.fontawesome-icon-inline {
+						font-size: 3.5em;
+
+						i:before {
+							color: blue;
+						}
+						i:after {
+							color: green;
+						}
+					}
+
+					> h4 {
+						font-size: 1.2em;
+						font-weight: 500;
+						color: #004b9b;
+					}
+					> p {
+						color: #646469;
+						font-size: 0.9em;
+						line-height: 30px;
+						font-weight: 500;
+						text-align: center;
+					}
+				}
+
+				&:before,
+				&:after {
+					display: none;
+				}
+			}
 		}
 	}
 }

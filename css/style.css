@@ -9417,9 +9417,58 @@ body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-3 {
     padding: 7.5rem 1.2rem;
   }
 }
+body.solarfundraisers-com #joining-solar {
+  background-color: #96e1ff;
+  padding: 2.2em 1em;
+}
 body.solarfundraisers-com #joining-solar .layout__region--content {
   max-width: 1200px;
   margin: auto;
+}
+body.solarfundraisers-com #joining-solar .joining-solar-block .block-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.8em;
+  color: #004b9b;
+}
+body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+@media (min-width: 768px) {
+  body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col .wt-col {
+  width: 100%;
+  margin: 0;
+}
+body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col .wt-col .fontawesome-icon-inline {
+  font-size: 3.5em;
+}
+body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col .wt-col .fontawesome-icon-inline i:before {
+  color: blue;
+}
+body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col .wt-col .fontawesome-icon-inline i:after {
+  color: green;
+}
+body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col .wt-col > h4 {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #004b9b;
+}
+body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col .wt-col > p {
+  color: #646469;
+  font-size: 0.9em;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col:before, body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col:after {
+  display: none;
 }
 
 .hr-range {
