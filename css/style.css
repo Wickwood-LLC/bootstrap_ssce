@@ -9503,6 +9503,33 @@ body.solarfundraisers-com #sign-up-save .sign-up-save-block .cta-subtext {
   font-weight: 500;
   text-align: center;
 }
+body.solarfundraisers-com footer.footer {
+  background-color: #051734;
+  color: #fff;
+  margin: 0;
+  width: 100%;
+}
+body.solarfundraisers-com footer.footer .region-footer {
+  font-size: 0.8rem;
+  max-width: 1200px;
+  margin: auto;
+}
+body.solarfundraisers-com footer.footer .region-footer p {
+  font-size: 0.8rem;
+}
+body.solarfundraisers-com #block-footersf {
+  margin-top: 1rem;
+}
+body.solarfundraisers-com #block-footersf ul.menu--footer-sf li {
+  display: inline-block;
+}
+body.solarfundraisers-com #block-footersf ul.menu--footer-sf li > a {
+  color: white;
+}
+body.solarfundraisers-com #block-footersf ul.menu--footer-sf li > a:hover {
+  background-color: unset;
+  color: hsla(0deg, 0%, 100%, 0.55);
+}
 
 .hr-range {
   width: 56px;
