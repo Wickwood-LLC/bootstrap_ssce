@@ -304,19 +304,22 @@ body.solarfundraisers-com {
 
 			> .wt-col-md-4 {
 				color: white;
-				display: block;
+				display: flex;
 				background-attachment: fixed;
 				background-color: #00000038;
 				background-blend-mode: overlay;
 				background-position: center;
 				background-size: cover;
 				border-radius: 12px;
-				font-size: 1.8em;
-				line-height: 48px;
-				font-weight: 500;
 				padding: 1.8rem 1.2rem;
 				text-align: center;
 				width: unset;
+
+				p {
+					font-size: 1.8em;
+					line-height: 48px;
+					font-weight: 500;
+				}
 			}
 
 			> .wt-col-1 {
