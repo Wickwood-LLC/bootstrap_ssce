@@ -415,6 +415,120 @@ body.solarfundraisers-com {
 		}
 	}
 
+	#testimonials-section {
+		background-color: #f4fcff;
+		background-image: unset;
+		padding-top: 4.2rem;
+		padding-bottom: 4.2rem;
+
+		.block-views-blocktestimonial-carousel-block-3 {
+			padding: 0;
+
+			.view-header {
+				position: static;
+				justify-content: center;
+				h2 {
+					margin-top: 0.667rem;
+					margin-bottom: 0.667rem;
+					color: #004b9b;
+					font-size: 1.8rem;
+					line-height: 3.4rem;
+					font-weight: 500;
+					text-align: center;
+					letter-spacing: 0;
+				}
+			}
+
+			.view-content {
+				margin: 0;
+			}
+
+			.view-footer {
+				margin-top: 3.75rem;
+				color: #c8c8cd;
+				font-size: 14px;
+				text-align: center;
+			}
+
+			.slick {
+				.slick-list {
+					padding: 0 !important;
+				}
+				.slick-track {
+					grid-gap: 1rem;
+					justify-content: center;
+				}
+				.slick__slide {
+					display: flex;
+					width: auto;
+					height: auto;
+					max-width: 552px;
+					min-height: 325px;
+					margin-right: 0;
+					margin-left: 0;
+					padding: 1.2rem;
+					flex-direction: column;
+					justify-content: space-between;
+					align-items: flex-start;
+					border: 1px solid #7cddfc;
+					border-radius: 12px;
+					background-color: #fff;
+					box-shadow: 0 12px 24px 0 rgb(27 76 150 / 12%);
+				}
+			}
+
+			.views-field-body {
+				color: #007dff;
+				font-size: 0.9rem;
+				line-height: 1.5rem;
+				font-weight: 500;
+				text-align: left;
+			}
+
+			.testimonial-byline {
+				display: flex;
+				width: 100%;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: flex-end;
+				align-self: flex-start;
+			}
+			.testimonial-info {
+				display: flex;
+				flex-direction: column;
+			}
+			.testimonial-person {
+				margin-bottom: 0;
+				color: #004b9b;
+				font-size: 0.9rem;
+				line-height: 1.5rem;
+				font-weight: 500;
+				text-align: left;
+				letter-spacing: 0.09px;
+				text-transform: none;
+			}
+			.testimonial-job {
+				margin-bottom: 0;
+				color: #646469;
+				font-size: 0.9rem;
+				line-height: 1.5rem;
+				font-weight: 500;
+				text-align: left;
+				letter-spacing: 0.09px;
+				text-transform: none;
+			}
+
+			.views-field-field-referee-image {
+				width: 100%;
+				img {
+					width: 120px;
+					height: 120px;
+					margin: 0;
+				}
+			}
+		}
+	}
+
 	#sign-up-save {
 		padding: 4.2rem 1.2rem 1.2rem;
 

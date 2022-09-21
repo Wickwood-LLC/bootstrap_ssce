@@ -8,5 +8,8 @@
   "repository": {},
   "dependencies": {
     "breakpoint-sass": "^2.7.1"
-  }
+  },
+  "browserslist": [
+    "> 5%, last 2 versions, Firefox ESR, not dead"
+  ]
 }
