@@ -453,6 +453,8 @@ body.solarfundraisers-com {
 			.slick {
 				.slick-list {
 					padding: 0 !important;
+					overflow-x: clip;
+					overflow-y: visible;
 				}
 				.slick-track {
 					grid-gap: 1rem;
@@ -473,7 +475,11 @@ body.solarfundraisers-com {
 					border: 1px solid #7cddfc;
 					border-radius: 12px;
 					background-color: #fff;
-					box-shadow: 0 12px 24px 0 rgb(27 76 150 / 12%);
+
+					&:hover {
+						box-shadow: 0 12px 24px 0 rgb(27 76 150 / 12%);
+						transform: translate(0, -5px);
+					}
 				}
 			}
 

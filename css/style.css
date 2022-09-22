@@ -9506,6 +9506,8 @@ body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-ca
 }
 body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .slick .slick-list {
   padding: 0 !important;
+  overflow-x: clip;
+  overflow-y: visible;
 }
 body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .slick .slick-track {
   grid-gap: 1rem;
@@ -9526,7 +9528,10 @@ body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-ca
   border: 1px solid #7cddfc;
   border-radius: 12px;
   background-color: #fff;
+}
+body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .slick .slick__slide:hover {
   box-shadow: 0 12px 24px 0 rgba(27, 76, 150, 0.12);
+  transform: translate(0, -5px);
 }
 body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .views-field-body {
   color: #007dff;
