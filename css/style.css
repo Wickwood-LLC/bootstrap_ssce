@@ -9478,10 +9478,11 @@ body.solarfundraisers-com #joining-solar .layout__region--content {
   margin: auto;
 }
 body.solarfundraisers-com #joining-solar .joining-solar-block .block-title {
+  text-transform: uppercase;
   text-align: center;
-  font-weight: 500;
-  font-size: 1.8em;
   color: #004b9b;
+  letter-spacing: 3.2px;
+  margin: 1em 0;
 }
 body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col {
   display: grid;
@@ -9505,6 +9506,7 @@ body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt
   font-size: 1.2em;
   font-weight: 500;
   color: #004b9b;
+  margin: 1em 0;
 }
 body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col .wt-col > p {
   color: #646469;
