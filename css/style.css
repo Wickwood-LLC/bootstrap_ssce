@@ -8320,7 +8320,7 @@ ul {
   margin-top: 45px;
   padding-top: 35px;
   padding-bottom: 36px;
-  border-top: 1px solid #E5E5E5;
+  border-top: 1px solid #e5e5e5;
 }
 
 p:last-child,
@@ -8926,14 +8926,19 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
 }
 
 .boxed {
-  border-color: #337AB7;
+  border-color: #337ab7;
   margin-top: 0.5em;
   margin-bottom: 1em;
   padding: 0.5em;
 }
 
 .boxed-columns > .layout__region {
-  border-color: #337AB7;
+  border-color: #337ab7;
+}
+
+.match-navbar-width {
+  max-width: 1200px;
+  margin: auto;
 }
 
 #community-solar-summary {
@@ -9181,6 +9186,9 @@ body.solarfundraisers-com .btn-yellow {
 }
 body.solarfundraisers-com .btn-yellow:hover {
   background-color: #979910;
+}
+body.solarfundraisers-com #how-it-works {
+  padding-bottom: 2.2rem;
 }
 body.solarfundraisers-com #how-it-works .field--name-title-html {
   color: #2379ff;
