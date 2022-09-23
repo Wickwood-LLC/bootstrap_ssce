@@ -9498,14 +9498,8 @@ body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt
   width: 100%;
   margin: 0;
 }
-body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col .wt-col .fontawesome-icon-inline {
-  font-size: 3.5em;
-}
-body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col .wt-col .fontawesome-icon-inline i:before {
-  color: blue;
-}
-body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col .wt-col .fontawesome-icon-inline i:after {
-  color: green;
+body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col .wt-col img {
+  max-width: 84px;
 }
 body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt-four-col .wt-col > h4 {
   font-size: 1.2em;

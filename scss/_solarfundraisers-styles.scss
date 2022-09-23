@@ -452,15 +452,8 @@ body.solarfundraisers-com {
 					width: 100%;
 					margin: 0;
 
-					.fontawesome-icon-inline {
-						font-size: 3.5em;
-
-						i:before {
-							color: blue;
-						}
-						i:after {
-							color: green;
-						}
+					img {
+						max-width: 84px;
 					}
 
 					> h4 {
