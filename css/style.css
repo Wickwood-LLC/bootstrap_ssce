@@ -9306,10 +9306,11 @@ body.solarfundraisers-com #about-the-program .about-the-program-block {
   padding: 1.5% 1em;
 }
 body.solarfundraisers-com #about-the-program .about-the-program-block .block-title {
+  text-transform: uppercase;
   text-align: center;
-  font-weight: 500;
   color: #004b9b;
-  margin: 2em 0;
+  letter-spacing: 3.2px;
+  margin: 1em 0;
 }
 body.solarfundraisers-com #about-the-program .about-the-program-block .block-content {
   text-align: left;
@@ -9337,6 +9338,12 @@ body.solarfundraisers-com #about-the-program .about-the-program-block .block-con
 body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox > .wt-col-md-6 {
   flex: 100%;
   padding: 0;
+}
+body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:first-child .wt-col-2 {
+  display: block;
+}
+body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:first-child .wt-col-2 iframe {
+  border-radius: 12px;
 }
 body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:first-child .wt-col-1, body.solarfundraisers-com #about-the-program .about-the-program-block .block-content .wt-flexbox:last-child .wt-col-1 {
   order: 1;
