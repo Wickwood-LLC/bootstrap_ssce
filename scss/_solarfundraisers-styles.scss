@@ -78,6 +78,18 @@ body.solarfundraisers-com {
 		}
 	}
 
+	#how-it-works {
+		.field--name-title-html {
+			color: #2379ff;
+			margin: 0;
+		}
+		.field--name-body {
+			p {
+				margin-bottom: 0.5em;
+			}
+		}
+	}
+
 	#support-clean-energy {
 		background: linear-gradient(
 			to bottom,

@@ -9182,6 +9182,13 @@ body.solarfundraisers-com .btn-yellow {
 body.solarfundraisers-com .btn-yellow:hover {
   background-color: #979910;
 }
+body.solarfundraisers-com #how-it-works .field--name-title-html {
+  color: #2379ff;
+  margin: 0;
+}
+body.solarfundraisers-com #how-it-works .field--name-body p {
+  margin-bottom: 0.5em;
+}
 body.solarfundraisers-com #support-clean-energy {
   background: linear-gradient(to bottom, rgb(2, 127, 255) 0%, rgb(80, 181, 251) 22%, rgb(144, 231, 248) 75%, rgb(108, 218, 231) 100%);
   background-size: cover;
