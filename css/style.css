@@ -9386,17 +9386,17 @@ body.solarfundraisers-com #sign-up-section .sign-up-block {
   margin: auto;
   width: 100%;
 }
-body.solarfundraisers-com #sign-up-section .sign-up-block p {
+body.solarfundraisers-com #sign-up-section .sign-up-block .block-content p {
   color: #d2ffdc;
   font-size: 48px;
   line-height: 76px;
   font-weight: 500;
 }
-body.solarfundraisers-com #sign-up-section .sign-up-block a {
+body.solarfundraisers-com #sign-up-section .sign-up-block .block-content a {
   color: #fff;
   text-decoration: underline;
 }
-body.solarfundraisers-com #sign-up-section .sign-up-block a:hover {
+body.solarfundraisers-com #sign-up-section .sign-up-block .block-content a:hover {
   color: hsla(0deg, 0%, 100%, 0.8);
 }
 body.solarfundraisers-com #stats-section {

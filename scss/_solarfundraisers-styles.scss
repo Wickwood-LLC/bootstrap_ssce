@@ -326,18 +326,20 @@ body.solarfundraisers-com {
 			max-width: 1200px;
 			margin: auto;
 			width: 100%;
-			p {
-				color: #d2ffdc;
-				font-size: 48px;
-				line-height: 76px;
-				font-weight: 500;
-			}
-			a {
-				color: #fff;
-				text-decoration: underline;
+			.block-content {
+				p {
+					color: #d2ffdc;
+					font-size: 48px;
+					line-height: 76px;
+					font-weight: 500;
+				}
+				a {
+					color: #fff;
+					text-decoration: underline;
 
-				&:hover {
-					color: hsla(0, 0%, 100%, 0.8);
+					&:hover {
+						color: hsla(0, 0%, 100%, 0.8);
+					}
 				}
 			}
 		}
