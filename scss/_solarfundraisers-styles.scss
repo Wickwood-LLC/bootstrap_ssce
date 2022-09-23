@@ -101,6 +101,8 @@ body.solarfundraisers-com {
 		background-color: white;
 		background-image: unset;
 		border-bottom: $brand-primary;
+		padding: 2.4rem 0;
+
 		.your-growing-impact-block {
 			max-width: 1200px;
 			box-sizing: content-box;
@@ -110,7 +112,7 @@ body.solarfundraisers-com {
 			.block-title {
 				text-align: center;
 				color: #a6dffc;
-				font-size: 1rem;
+				font-size: 0.8rem;
 				letter-spacing: 3.2px;
 			}
 			.block-content {
@@ -355,6 +357,7 @@ body.solarfundraisers-com {
 
 	#joining-solar {
 		background-color: #96e1ff;
+		background-image: unset;
 		padding: 2.2em 1em;
 		.layout__region--content {
 			max-width: 1200px;

@@ -9197,6 +9197,7 @@ body.solarfundraisers-com #your-growing-impact {
   background-color: white;
   background-image: unset;
   border-bottom: #337ab7;
+  padding: 2.4rem 0;
 }
 body.solarfundraisers-com #your-growing-impact .your-growing-impact-block {
   max-width: 1200px;
@@ -9208,7 +9209,7 @@ body.solarfundraisers-com #your-growing-impact .your-growing-impact-block {
 body.solarfundraisers-com #your-growing-impact .your-growing-impact-block .block-title {
   text-align: center;
   color: #a6dffc;
-  font-size: 1rem;
+  font-size: 0.8rem;
   letter-spacing: 3.2px;
 }
 body.solarfundraisers-com #your-growing-impact .your-growing-impact-block .block-content .wt-four-col {
@@ -9421,6 +9422,7 @@ body.solarfundraisers-com #stats-section .wt-three-col > .wt-col-3 {
 }
 body.solarfundraisers-com #joining-solar {
   background-color: #96e1ff;
+  background-image: unset;
   padding: 2.2em 1em;
 }
 body.solarfundraisers-com #joining-solar .layout__region--content {
