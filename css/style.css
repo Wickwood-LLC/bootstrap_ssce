@@ -9205,8 +9205,7 @@ body.solarfundraisers-com #support-clean-energy {
   background: linear-gradient(to bottom, rgb(2, 127, 255) 0%, rgb(80, 181, 251) 22%, rgb(144, 231, 248) 75%, rgb(108, 218, 231) 100%);
   background-size: cover;
   background-position: center;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding: 8rem 1rem;
 }
 body.solarfundraisers-com #support-clean-energy .layout__region--content {
   max-width: 1200px;
@@ -9383,7 +9382,7 @@ body.solarfundraisers-com #sign-up-section {
 }
 body.solarfundraisers-com #sign-up-section .layout__region--content {
   background-color: rgba(0, 0, 0, 0.3607843137);
-  padding: 7em 0;
+  padding: 7em 1rem;
 }
 body.solarfundraisers-com #sign-up-section .sign-up-block {
   max-width: 1200px;
