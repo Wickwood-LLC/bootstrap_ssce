@@ -9530,8 +9530,7 @@ body.solarfundraisers-com #joining-solar .joining-solar-block .block-content .wt
 body.solarfundraisers-com #testimonials-section {
   background-color: #f4fcff;
   background-image: unset;
-  padding-top: 4.2rem;
-  padding-bottom: 4.2rem;
+  padding: 4.2rem 1rem;
 }
 body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 {
   padding: 0;
@@ -9545,10 +9544,12 @@ body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-ca
   margin-bottom: 0.667rem;
   color: #004b9b;
   font-size: 1.2rem;
-  line-height: 3.4rem;
+  line-height: 1.6rem;
   font-weight: 500;
   text-align: left;
   letter-spacing: 0;
+  margin-bottom: 4.2rem;
+  padding: 0 1rem;
 }
 @media (min-width: 480px) {
   body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .view-header h2 {
@@ -9558,6 +9559,7 @@ body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-ca
 @media (min-width: 768px) {
   body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .view-header h2 {
     text-align: center;
+    line-height: 2.4rem;
   }
 }
 body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .view-content {
