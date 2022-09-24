@@ -9661,6 +9661,9 @@ body.solarfundraisers-com #sign-up-save .layout__region--content {
   background-size: cover;
   background-repeat: no-repeat;
 }
+body.solarfundraisers-com #sign-up-save .sign-up-save-block {
+  padding: 0 1rem;
+}
 body.solarfundraisers-com #sign-up-save .sign-up-save-block .block-title {
   text-transform: uppercase;
   text-align: center;
