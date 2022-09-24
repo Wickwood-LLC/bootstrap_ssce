@@ -111,25 +111,17 @@
      */
     Drupal.behaviors.disableAutoFocus = {
         attach: function(context, settings) {
-            const iframe = $('.layout:not(.layout-builder__layout) .field--name-field-iframe-link iframe');
-            let scrollInterval;
+            const iframe = $('.layout:not(.layout-builder__layout) .field--name-field-iframe-link iframe', context);
+            let noScrollTimeOut;
 
             // check if iframe exists
             if (iframe.length) {
-                // continuously scroll to top
-                scrollInterval = setInterval(function() {
-                    $(window).scrollTop(0);
-                    // console.log(`Scrolled to top. scrollInterval: ${scrollInterval}`);
-                }, 100);
+                $('body').addClass('no-scroll');
 
-                // check if iframe is loaded
-                iframe.on('load', () => {
-                    // disable autofocus
-                    iframe.contents().find('input[type="text"]').attr('autofocus', false);
-                    // clear interval
-                    clearInterval(scrollInterval);
-                    // console.log(`Cleared scrollInterval: ${scrollInterval}`);
-                });
+                noScrollTimeOut = setTimeout(function() {
+                    $('body').removeClass('no-scroll'); //  add class for styles that simulate no scrolling
+                }, 1000);
+                clearTimeout(noScrollTimeOut);
             }
         }
     };

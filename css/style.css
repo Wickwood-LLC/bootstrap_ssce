@@ -7795,6 +7795,10 @@ body.navbar-is-fixed-top {
   min-height: calc(100vh - 125px);
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 .dialog-off-canvas-main-canvas {
   display: flex;
   flex-flow: column nowrap;
