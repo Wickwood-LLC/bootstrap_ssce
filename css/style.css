@@ -9426,7 +9426,7 @@ body.solarfundraisers-com #stats-section .stats-intro {
 body.solarfundraisers-com #stats-section .wt-three-col {
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
 }
 body.solarfundraisers-com #stats-section .wt-three-col:before, body.solarfundraisers-com #stats-section .wt-three-col:after {
   display: none;
