@@ -9391,8 +9391,8 @@ body.solarfundraisers-com #sign-up-section .sign-up-block {
 }
 body.solarfundraisers-com #sign-up-section .sign-up-block .block-content p {
   color: #d2ffdc;
-  font-size: 2.4rem;
-  line-height: 76px;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
   font-weight: 500;
 }
 body.solarfundraisers-com #sign-up-section .sign-up-block .block-content a {
@@ -9401,6 +9401,12 @@ body.solarfundraisers-com #sign-up-section .sign-up-block .block-content a {
 }
 body.solarfundraisers-com #sign-up-section .sign-up-block .block-content a:hover {
   color: hsla(0deg, 0%, 100%, 0.8);
+}
+@media (min-width: 768px) {
+  body.solarfundraisers-com #sign-up-section .sign-up-block .block-content p {
+    font-size: 2.4rem;
+    line-height: 3.8rem;
+  }
 }
 body.solarfundraisers-com #stats-section {
   padding: 3em 1em;

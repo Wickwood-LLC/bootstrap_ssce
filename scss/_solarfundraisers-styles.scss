@@ -328,8 +328,8 @@ body.solarfundraisers-com {
 			.block-content {
 				p {
 					color: #d2ffdc;
-					font-size: 2.4rem;
-					line-height: 76px;
+					font-size: 1.2rem;
+					line-height: 1.9rem;
 					font-weight: 500;
 				}
 				a {
@@ -338,6 +338,13 @@ body.solarfundraisers-com {
 
 					&:hover {
 						color: hsla(0, 0%, 100%, 0.8);
+					}
+				}
+
+				@include breakpoint(768px) {
+					p {
+						font-size: 2.4rem;
+						line-height: 3.8rem;
 					}
 				}
 			}
