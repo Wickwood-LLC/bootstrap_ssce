@@ -9403,10 +9403,9 @@ body.solarfundraisers-com #sign-up-section .sign-up-block {
   margin: auto;
   width: 100%;
 }
-body.solarfundraisers-com #sign-up-section .sign-up-block .block-content p {
+body.solarfundraisers-com #sign-up-section .sign-up-block .block-content h1 {
   color: #d2ffdc;
-  font-size: 1.2rem;
-  line-height: 1.9rem;
+  line-height: normal;
   font-weight: 500;
 }
 body.solarfundraisers-com #sign-up-section .sign-up-block .block-content a {
