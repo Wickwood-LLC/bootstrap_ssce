@@ -9559,7 +9559,7 @@ body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-ca
   font-size: 1.2rem;
   line-height: 1.6rem;
   font-weight: 500;
-  text-align: left;
+  text-align: center;
   letter-spacing: 0;
   margin-bottom: 4.2rem;
   padding: 0 1rem;
@@ -9571,7 +9571,6 @@ body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-ca
 }
 @media (min-width: 768px) {
   body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .view-header h2 {
-    text-align: center;
     line-height: 2.4rem;
   }
 }
