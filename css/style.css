@@ -9147,11 +9147,16 @@ body.solarfundraisers-com .menu--main-menu-sf {
   text-align: center;
 }
 body.solarfundraisers-com .menu--main-menu-sf > li {
-  display: inline-block;
+  display: block;
   margin-bottom: 0.2em;
 }
+@media (min-width: 768px) {
+  body.solarfundraisers-com .menu--main-menu-sf > li {
+    display: inline-block;
+  }
+}
 body.solarfundraisers-com .menu--main-menu-sf > li > a {
-  padding: 0.25em 0.5em;
+  padding: 0.25em 0.4em;
   font-weight: bold;
   color: #000000;
 }

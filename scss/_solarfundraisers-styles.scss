@@ -22,11 +22,15 @@ body.solarfundraisers-com {
 		text-align: center;
 
 		> li {
-			display: inline-block;
+			display: block;
 			margin-bottom: 0.2em;
 
+			@include breakpoint(768px) {
+				display: inline-block;
+			}
+
 			> a {
-				padding: 0.25em 0.5em;
+				padding: 0.25em 0.4em;
 				font-weight: bold;
 				color: #000000;
 
