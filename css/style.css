@@ -8942,7 +8942,13 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
 
 .match-navbar-width {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 1em;
+  padding: 0;
+}
+@media (min-width: calc(1200px + 4em)) {
+  .match-navbar-width {
+    margin: auto;
+  }
 }
 
 #community-solar-summary {

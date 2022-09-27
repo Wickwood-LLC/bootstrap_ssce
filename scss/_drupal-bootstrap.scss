@@ -1044,7 +1044,12 @@ form#webform-submission-contact-node-160-add-form {
 
 .match-navbar-width {
 	max-width: 1200px;
-	margin: auto;
+	margin: 0 1em;
+	padding: 0;
+
+	@include breakpoint(calc(1200px + 4em)) {
+		margin: auto;
+	}
 }
 
 #community-solar-summary {
