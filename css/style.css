@@ -9138,6 +9138,9 @@ body.earnbysharingsolar-com .btn-yellow:hover {
     float: none;
   }
 }
+body.solarfundraisers-com #block-headerlinkssolarfundraiser {
+  text-align: center;
+}
 @media (min-width: 768px) {
   body.solarfundraisers-com #block-headerlinkssolarfundraiser {
     float: right;

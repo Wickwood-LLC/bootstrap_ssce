@@ -12,6 +12,7 @@ body.solarfundraisers-com {
 	}
 
 	#block-headerlinkssolarfundraiser {
+		text-align: center;
 		@include breakpoint(768px) {
 			float: right;
 		}
