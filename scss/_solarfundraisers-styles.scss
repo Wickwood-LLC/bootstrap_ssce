@@ -545,13 +545,12 @@ body.solarfundraisers-com {
 				}
 				.slick__slide {
 					display: flex;
-					width: auto;
-					height: auto;
+					width: 248px;
 					max-width: 552px;
-					min-height: 325px;
+					min-height: auto;
 					margin-right: 0;
 					margin-left: 0;
-					padding: 1.2rem;
+					padding: 0.9rem;
 					flex-direction: column;
 					justify-content: space-between;
 					align-items: flex-start;
@@ -563,15 +562,29 @@ body.solarfundraisers-com {
 						box-shadow: 0 12px 24px 0 rgb(27 76 150 / 12%);
 						transform: translate(0, -5px);
 					}
+
+					@include breakpoint(768px) {
+						width: auto;
+						height: auto;
+						min-height: 325px;
+						padding: 1.2rem;
+					}
 				}
 			}
 
 			.views-field-body {
 				color: #007dff;
-				font-size: 0.9rem;
 				line-height: 1.5rem;
 				font-weight: 500;
 				text-align: left;
+
+				p {
+					font-size: 0.8rem;
+
+					@include breakpoint(768px) {
+						font-size: 0.9rem;
+					}
+				}
 			}
 
 			.testimonial-byline {

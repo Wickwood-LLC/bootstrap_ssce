@@ -9594,13 +9594,12 @@ body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-ca
 }
 body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .slick .slick__slide {
   display: flex;
-  width: auto;
-  height: auto;
+  width: 248px;
   max-width: 552px;
-  min-height: 325px;
+  min-height: auto;
   margin-right: 0;
   margin-left: 0;
-  padding: 1.2rem;
+  padding: 0.9rem;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
@@ -9612,12 +9611,27 @@ body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-ca
   box-shadow: 0 12px 24px 0 rgba(27, 76, 150, 0.12);
   transform: translate(0, -5px);
 }
+@media (min-width: 768px) {
+  body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .slick .slick__slide {
+    width: auto;
+    height: auto;
+    min-height: 325px;
+    padding: 1.2rem;
+  }
+}
 body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .views-field-body {
   color: #007dff;
-  font-size: 0.9rem;
   line-height: 1.5rem;
   font-weight: 500;
   text-align: left;
+}
+body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .views-field-body p {
+  font-size: 0.8rem;
+}
+@media (min-width: 768px) {
+  body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .views-field-body p {
+    font-size: 0.9rem;
+  }
 }
 body.solarfundraisers-com #testimonials-section .block-views-blocktestimonial-carousel-block-3 .testimonial-byline {
   display: flex;
