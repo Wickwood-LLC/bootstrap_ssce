@@ -116,7 +116,8 @@
 
             // check if iframe exists
             if (iframe.length) {
-                const noScrollTimeOut = setTimeout(function() {
+                $('h1.page-title').focus();
+                setTimeout(function() {
                     $('body').removeClass('no-scroll'); //  add class for styles that simulate no scrolling
                 }, 1000);
             }
