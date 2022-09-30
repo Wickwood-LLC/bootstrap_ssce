@@ -111,12 +111,11 @@
      */
     Drupal.behaviors.disableAutoFocus = {
         attach: function(context, settings) {
-            const iframe = $('.layout:not(.layout-builder__layout) .field--name-field-iframe-link iframe', context);
+            $('body').addClass('no-scroll');
+            const iframe = $('.layout:not(.layout-builder__layout) .field--name-field-iframe-link iframe');
 
             // check if iframe exists
             if (iframe.length) {
-                $('body').addClass('no-scroll');
-
                 const noScrollTimeOut = setTimeout(function() {
                     $('body').removeClass('no-scroll'); //  add class for styles that simulate no scrolling
                 }, 1000);
