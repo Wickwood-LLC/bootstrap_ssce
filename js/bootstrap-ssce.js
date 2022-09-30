@@ -115,19 +115,12 @@
 
             // check if iframe exists
             if (iframe.length) {
-                // continuously scroll to top
-                const scrollInterval = setInterval(function() {
-                    $('h1.page-title').focus();
-                    // console.log(`Scrolled to top. scrollInterval: ${scrollInterval}`);
-                }, 100);
-
                 // check if iframe is loaded
                 iframe.on('load', () => {
                     // disable autofocus
-                    $(window).scrollTop(0);
                     iframe.contents().find('input[type="text"]').attr('autofocus', false);
-                    // clear interval
-                    clearInterval(scrollInterval);
+                    // reset window position
+                    $(window).scrollTop(0);
                     // console.log(`Cleared scrollInterval: ${scrollInterval}`);
                 });
             }
