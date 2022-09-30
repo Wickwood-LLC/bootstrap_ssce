@@ -111,16 +111,18 @@
      */
     Drupal.behaviors.disableAutoFocus = {
         attach: function(context, settings) {
-            $('body').addClass('no-scroll');
-            const iframe = $('.layout:not(.layout-builder__layout) .field--name-field-iframe-link iframe');
-
-            // check if iframe exists
-            if (iframe.length) {
+            $(document).ready(function() {
+                $('body').addClass('no-scroll');
                 $('h1.page-title').focus();
-                setTimeout(function() {
-                    $('body').removeClass('no-scroll'); //  add class for styles that simulate no scrolling
-                }, 1000);
-            }
+                const iframe = $('.layout:not(.layout-builder__layout) .field--name-field-iframe-link iframe');
+
+                // check if iframe exists
+                if (iframe.length) {
+                    setTimeout(function() {
+                        $('body').removeClass('no-scroll'); //  add class for styles that simulate no scrolling
+                    }, 1000);
+                }
+            });
         }
     };
 
